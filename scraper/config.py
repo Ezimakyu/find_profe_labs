@@ -12,10 +12,17 @@ class Settings:
     openai_api_key: str
     openai_model: str = "gpt-4o-mini"
     request_timeout_s: int = 20
-    request_retries: int = 3
+    request_retries: int = 4
     crawl_delay_s: float = 1.0
+    crawl_jitter_s: float = 0.75
+    cooldown_s: float = 20.0
+    cooldown_backoff: float = 1.8
+    max_cooldown_s: float = 120.0
     max_faculty_pages: int = 500
     max_enrich_pages: int = 30
+    enrich_max_depth: int = 2
+    max_personal_sites_per_faculty: int = 2
+    crawl_personal_sites: bool = True
     output_dir: Path = Path("output")
     use_playwright_fallback: bool = True
     user_agents: list[str] = field(
@@ -58,10 +65,17 @@ def load_settings() -> Settings:
         openai_api_key=api_key,
         openai_model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
         request_timeout_s=int(os.getenv("REQUEST_TIMEOUT_S", "20")),
-        request_retries=int(os.getenv("REQUEST_RETRIES", "3")),
+        request_retries=int(os.getenv("REQUEST_RETRIES", "4")),
         crawl_delay_s=float(os.getenv("CRAWL_DELAY_S", "1.0")),
+        crawl_jitter_s=float(os.getenv("CRAWL_JITTER_S", "0.75")),
+        cooldown_s=float(os.getenv("COOLDOWN_S", "20.0")),
+        cooldown_backoff=float(os.getenv("COOLDOWN_BACKOFF", "1.8")),
+        max_cooldown_s=float(os.getenv("MAX_COOLDOWN_S", "120.0")),
         max_faculty_pages=int(os.getenv("MAX_FACULTY_PAGES", "500")),
         max_enrich_pages=int(os.getenv("MAX_ENRICH_PAGES", "30")),
+        enrich_max_depth=int(os.getenv("ENRICH_MAX_DEPTH", "2")),
+        max_personal_sites_per_faculty=int(os.getenv("MAX_PERSONAL_SITES_PER_FACULTY", "2")),
+        crawl_personal_sites=_as_bool(os.getenv("CRAWL_PERSONAL_SITES"), True),
         output_dir=Path(os.getenv("OUTPUT_DIR", "output")),
         use_playwright_fallback=_as_bool(
             os.getenv("USE_PLAYWRIGHT_FALLBACK"),
