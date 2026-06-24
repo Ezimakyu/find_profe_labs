@@ -1,0 +1,9 @@
+beautifulsoup4
+lxml
+openai
+pydantic
+python-dotenv
+requests
+tenacity
+playwright
+
