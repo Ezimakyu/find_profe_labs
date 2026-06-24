@@ -1,0 +1,68 @@
+Collaborative Research Projects | Siebel School of Computing and Data Science | Illinois
+University of Illinois Urbana-Champaign
+Alumni
+Corporate
+People
+My.SiebelSchool
+The Grainger College of Engineering
+Siebel School of Computing and Data Science
+Search
+Menu
+Collaborative Research Projects
+Current Illinois-Insper Collaborative Research Projects
+Insper faculty are working with Siebel School for Computing and Data Science faculty and graduate students on cutting-edge research which expands the field and advances capabilities of both institutions. These exciting projects include research in
+artificial intelligence, exoplanet discovery, computer-based education, and virtual reality
+. Projects have been featured in
+peer-reviewed publications
+authored jointly by Illinois and Insper faculty, and some are first-authored by Insper students.
+Projects are selected and reviewed annually through a joint peer-review process. All projects, past and current, are given below:
+Adapting immediate feedback and frequent testing to project-based courses
+Rafael Ferrao (Insper)
+Igor Montagner (Insper)
+Mariana Silva (UIUC)
+, and
+Craig Zilles (UIUC)
+The proposed research collaboration brings together computing education research expertise from the University of Illinois with state-of-the-art curriculum/program design at INSPER for mutual benefit. The proposal seeks to extend our understanding of the principles of immediate feedback and frequent assessment with multiple attempts to improve student learning. Because INSPER’s educational context, which includes an intensive (32 hour/week) programming introduction and an emphasis on project-based work throughout the curriculum, is very different than that of Illinois, it presents a unique opportunity to generalize our understanding of these techniques. Through the proposed work, we intend to: create a sustainable research collabo- ration between INSPER and Illinois, develop a better fundamental understanding of student learning in CS, and deploy and evaluate interventions to improve learning at INSPER, including novel applications for project-based courses that could facilitate more project-based work in Illinois’s large enrollment courses.
+Parallel Exoplanet Detection using STAPL and Charm4Py
+Laximant Kale (UIUC)
+Lawrence Rauchwerger (UIUC)
+, and
+Luciano Silva (Insper)
+All of the planets in our solar system orbit around the Sun. Planets that orbit around other stars are called exoplanets. Exoplanets are very hard to see directly with telescopes. Instead, astronomers can observe indirectly measuring how the brightness of the star changes during a transit. This can help them figure out the size of the planet. The Box Least Squares (BLS) periodogram is a statistical tool used for detecting transiting exoplanets and eclipsing binaries in time series photometric data. The current implementation of the BLS algorithm is rather slow for the data sets we hope to process in the future. This is due to the lack of certain optimizing transformations, e.g., locality enhancing transformations (tiling) as well as use of appropriate resources. With that we mean that the existing code cannot be executed on a parallel computer system based using CPUs and/or GPUs. Transforming the current periodogram computing software (essentially the BLS algorithm) into a modern parallel code that can exploit all levels of (nested) parallelism and balance the execution for the imbalanced and input dependent cases. We propose to develop a parallel version of the BLS algorithm using the STAPL and Charm4Py parallel programming environments and then try to combine them into a single, better performing code.
+Meso-scale Structures in Large Graphs: Finding Communities with Substructure
+Fabio Ayres (Insper)
+George Chacko (UIUC)
+Charles Kirschbaum (Insper)
+, and
+Tandy Warnow (UIUC)
+This project proposes to address the interdisciplinary research question of detecting and characterizing communities in large graphs. Simultaneously, a second question will be studied, social organization in specialty groups. The team will examine (i) the dynamic structure of communities in the global research enterprise, and (ii) communities in jazz influenced by critical events in musical history.
+The project team previously developed new scalable graph clustering methods for identifying communities with core-periphery structure. These methods will be extended towards a deeper contextual understanding in our two application areas. The team will collaboratively iterate between method development, discovery, and evaluation. The team anticipates (i) new methods for community detection, (ii) new knowledge that informs research policy, science governance and jazz history, and (iii) reproducible results and reusable data. More generally, these methods are expected to have broader applicability to large networks and the results to stimulate further scholarship.
+Each member of this team has unique skills, yet has common interests in community structure, network growth, and methods development. The team envisions an extended collaboration developing from this project that will drive new scientific questions, methods, and discovery. Methods of implementation will be made freely available and course materials will be developed for use at both Insper and Illinois.
+Semantic Audio Content Generation using Structured Variational Models
+Fabio Ayres (Insper)
+Paris Smaragdis (UIUC)
+, and
+Tiago Fernandes Tavares (Insper)
+Generative modeling of media is at the forefront of artificial intelligence. Computers can now synthesize text, images, and video, at high quality, even generating curiously novel outputs at times. Models such as Open AI’s DALL·E 2 or Google Imagen have been prominent in the news today, and are producing fascinating digital artwork.
+However, one area that has not seen a significant advance is that of audio generation. This is not due to lack of interest: automatic generation of audio signals is a strongly sought-after technology in the entertainment industry, and generation of synthetic acoustic data is a crucial step in the development of technologies that range from speaker and mic design, to deep sea drilling monitoring and biomedical diagnostic modeling.
+This research project will tackle the necessary work to adapt modern generative models to time-series in general. This will primarily include enabling long-term temporal dependencies and addressing the ubiquitous problem of superposition.
+At a high level, patterns set by systems like DALL·E 2 will be followed. A generative model that is conditioned on text and audio will be developed, and would be able to generate audio data based on textual descriptions but also based on audio inputs themselves.
+Novel Object and Illumination Modeling Strategies for Extreme Simulation
+Fábio José Ayres (Insper)
+David A. Forsyth (UIUC)
+Luciano P. Soares (Insper)
+Shenlong Wang (UIUC)
+, and
+Yuxiong Wang (UIUC)
+This research will explore data-driven rendering -- where one makes realistic images and sequences of images by compositing real data assets in various ways. Recent work from the project team will be adapted to produce data-driven rendering systems that can be used in Virtual Reality or even Augmented Reality applications. This project aims to produce a scene representation pipeline that will allow a user to take a small number of pictures of a room, and make a model; then take a small number of images each of some objects to produce models of those objects; then insert the objects into the room. At each step, the user should just need to place and move objects within the room. The final model of room and objects should be small, fast to render, accurate under arbitrary change of viewpoint, and will admit stereo rendering.
+The goal is for the model to show what happens when a particular spotlight is turned on or off. The project team’s recent work on image based reshading and relighting will be expanded to make a composite model that is consistently shaded and is relightable, allowing the AR user to perceive a more realistic scene.
+Human Interaction in Planning Motion Planning & Virtual Reality
+Luciano Soares (Insper), Marco Morales (UIUC), Nancy Amato (UIUC)
+Human interaction in planning through the combination of Motion Planning and Virtual Reality holds significant synergy potential. Many challenges in motion planning can be effectively addressed by leveraging virtual and augmented reality techniques with high-quality graphics and instant user input. The prospect of highly immersive experiments for motion planning opens up new alternatives for solving problems
+that would otherwise be too complex. While the low precision real-time capability of virtual reality may not be suitable for certain professional problems, coupling it with sophisticated, high-precision planning solvers can lead to faster and more effective solutions. This potential can be further explored through augmented reality, allowing specialists to visualize motion plans in real places. Moreover, there is an opportunity to integrate these two domains with machine learning techniques like reinforcement learning, which is more feasible today due to the availability of high-performance GPUs. This integration enhances the adaptability and efficiency of motion planning processes, providing an efficient approach to addressing complex challenges.
+Levaraging Focal Depth for Gage-based Interaction in Extended Reality
+Andrew Kurauchi (Insper)
+, Luciano Soares
+(Insper)
+, Elahe Soltanaghai (UIUC), Eric Shaffer (UIUC)
+Gaze interaction presents a promising avenue in extended Reality (XR) due to its intuitive and efficient user experience. Yet, the depth control inherent in our visual system remains underutilized in current methods. In this proposal, we study and develop a hands-free interaction method that capitalizes on human visual depth perception within the 3D scenes of Extended Reality. We first develop a binocular visual depth detection algorithm to understand eye input characteristics. We then propose a layer-based user interface and introduce the concept of “Virtual Window” that offers an intuitive and robust gaze-depth XR interaction, despite the constraints of visual depth accuracy and precision spatially at further distances. We also design a learning procedure that uses different stages of visual cues and feedback to guide novice users in mastering depth control. Lastly, we run a large-scale user study at both UIUC and INSPER to demonstrate the usability of our proposed virtual window concept as a gaze-depth interaction method.

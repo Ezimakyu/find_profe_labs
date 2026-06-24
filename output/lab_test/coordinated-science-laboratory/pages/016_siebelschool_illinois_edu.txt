@@ -1,0 +1,101 @@
+M.S. Program | Siebel School of Computing and Data Science | Illinois
+University of Illinois Urbana-Champaign
+Alumni
+Corporate
+People
+My.SiebelSchool
+The Grainger College of Engineering
+Siebel School of Computing and Data Science
+Search
+Menu
+M.S. Program
+The Master of Science in computer science is a
+research-oriented degree
+that requires 28 credit hours of coursework and
+4 credit hours of thesis
+. The M.S. can be counted towards the
+Ph.D. in Computer Science
+Degree Requirements
+Requirements presented as a Table.
+Degree Planning Document
+[PDF].
+Breadth Requirement: 9-12 credit hours
+Must complete three different courses, each from a different area, from the following eleven core areas with a grade of B- or higher.
+Architecture, Compilers, Parallel Computing
+: CS 426, 431, 433, 483, 484, 526, 533, 534, 536
+Artificial Intelligence
+: CS 440, 441, 442, 443, 444, 445, 446, 447, 448, 540, 542, 543, 544, 545, 546, 588, 598 DL for Healthcare
+Bioinformatics and Computational Biology
+: CS 466, 581, 582
+Computers and Education:
+CS 500
+Database and Intelligent Systems
+: CS 410, 411, 412, 470, 510, 511, 512, 514
+Interactive Computing
+: CS 409, 415, 416, 417, 418, 419, 445, 465, 467, 469, 519, 565, 567, 568
+Programming Languages, Formal Methods, Software Engineering
+: CS 421, 422, 427, 428, 474, 475, 476, 477, 521, 522, 524, 527, 576, 584
+Scientific Computing
+: CS 450, 482, 554, 555, 556, 558
+Security and Privacy:
+CS 461, 463, 507, 539, 562, 563
+Systems and Networking (includes real-time systems and security)
+: CS 414, 423, 424, 425, 434, 435, 436, 437, 438, 439, 461, 463, 498 Cloud Computing Applications, 523, 525, 537, 538, 541, 563
+Theory and Algorithms
+: CS 473, 475, 507, 571, 573, 574, 579, 580, 583, 586
+Advanced coursework: 12 credit hours
+Courses must not have been completed in the breadth requirement and must have a grade of C or higher.
+An additional course at the 500-level must be completed in one of the three core areas the student has chosen, which means at least two courses are completed in one core area.
+Two additional 500-level courses must be completed, which may be chosen from any CS course numbered 500-590 or 598 (Note: CS 597 or 591 cannot be counted towards advanced coursework).
+CS 599 (thesis) may satisfy four credit hours of this requirement but does not count towards the need for two courses in one core area and is not counted towards the total 28 hours of coursework required for the degree.
+Note:
+Effective Spring 2026, CS 599 credit hours will not satisfy the advanced coursework requirement.
+Example of Breadth and Advanced Coursework Requirement
+Breadth Requirement
+: CS 433 (Architecture), CS 523 (Systems and Networking), and CS 450 (Scientific Computing)
+Advanced Coursework
+: CS 538 (2nd 500-level course in Systems and Network core area), CS 580, and CS 598
+Additional Requirements
+A master's thesis and registration in 4 credit hours of CS 599 associated with the thesis research. It is each student's responsibility to secure a M.S. thesis advisor and start work on their thesis no later than the beginning of their third semester in the program.
+At least 16 credit hours must be taken in computer science from the Urbana campus.
+Up to 4 credit hours of CS 591 and/or CS 491 may count toward the total credit hours required for the degree.
+Up to 12 semester credit hours of previous graduate course work that is approved by the School may be transferred and applied to the M.S. degree requirements.
+Only 500-level and 400-level (when offered for graduate credit) coursework will be counted toward degree requirements.
+Any course taken for letter grade must have a grade of C or higher.
+Additional Coursework: Graduate (400- and 500-level) coursework from Computer Science, other Grainger College of Engineering Departments, MATH, STAT, or PHYS are pre-approved as Additional Coursework. All other courses must receive prior approval from the CS Graduate Advising Office in order to satisfy degree requirements.
+All degree requirements must be completed within five consecutive semesters (
+only fall and spring semesters are counted
+Deposit of M.S. Thesis Process
+M.S. with Computational Science and Engineering (CSE) Option
+The Master of Science with a concentration in
+Computational Science and Engineering
+(CSE) is an interdisciplinary program focused on computationally oriented research. All M.S. degree requirements apply with the "Breadth Requirement" slightly modified by requiring students to take one of the following Scientific Computing Courses.
+CS 450 Intro to Numerical Analysis
+CS 455 Numerical Methods for PDEs
+CS 458 Numerical Linear Algebra
+CS 459 Numerical Approximation and ODEs
+M.S. Requirements Table
+Credit Hours
+Hours
+Total Credit for the Degree
+Thesis Research – CS 599 (minimum applied toward degree)
+Course Work
+Breadth Requirement: One course from each of three different (out of ten) core areas
+9-12
+Courses must not have been completed in the breadth requirement.
+An additional course at the 500-level must be completed in one of the three core areas the student has chosen, which means at least two courses are completed in one core area.
+Two additional 500-level courses must be completed, which may be chosen from any CS course numbered 500-590 or 598 (Note: CS 597, 599, or 591 cannot be counted towards advanced coursework).
+Elective courses (subject to Other Requirements and Conditions below)
+4-7
+Other Requirements and Conditions (may overlap):*
+A minimum of 16 CS credit hours must be taken from the University of Illinois at Urbana-Champaign campus.
+A minimum of 12 500-level credit hours overall.
+A maximum of 4 hours of CS 591 and CS 491 may be applied toward the degree.
+A grade of B- or higher is required for Breadth Requirement course work.
+The minimum program GPA is 3.0.
+At most, 12 semester credit hours of previous graduate course work may be transferred and applied to the M.S. degree requirements and 12 credit hours of non-degree graduate courses completed in the Siebel School of Computing and Data Science at the University of Illinois at Urbana-Champaign may be transferred and applied to the M.S. degree requirements.
+It is each student's responsibility to secure a M.S. thesis advisor and start thesis research no later than the beginning of the third semester in the program.
+All degree requirements must be completed within five consecutive semesters (only fall and spring semesters are counted).
+Graduate Advising
+The Graduate Academic Office, a guiding hand for graduate students, offers weekday assistance.
+Advising Contacts & Queue

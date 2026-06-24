@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Computer Vision and Machine Learning Group | University of Illinois Urbana-Champaign</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="description" content="Computer Vision and Machine Learning Group">
+  <meta name="keywords" content="Computer Vision and Machine Learning Group">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Computer Vision and Machine Learning Group | University of Illinois Urbana-Champaign">
+  <meta property="og:url" content="https://vision.ischool.illinois.edu/">
+  <meta property="og:site_name" content="Computer Vision and Machine Learning Group | University of Illinois Urbana-Champaign">
+  <meta property="og:description" content="The Computer Vision and Machine Learning Group conducts research at the intersection of computer vision and machine learning, with a focus on developing continual and data-efficient intelligent visual systems. Areas of expertise include continual learning, few-shot learning, semi-supervised learning, generative modeling, 3D geometric understanding, and medical imaging">
+  <meta property="og:locale" content="default">
+  <meta property="og:image" content="">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Computer Vision and Machine Learning Group | University of Illinois Urbana-Champaign">
+  <meta name="twitter:description" content="The Computer Vision and Machine Learning Group conducts research at the intersection of computer vision and machine learning, with a focus on developing continual and data-efficient intelligent visual systems. Areas of expertise include continual learning, few-shot learning, semi-supervised learning, generative modeling, 3D geometric understanding, and medical imaging">
+  <meta name="twitter:image" content="">
+
+  <link rel="canonical" href="https://vision.ischool.illinois.edu//"/>
+  <link rel="icon" href="./assets/Illinois/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/pub.css">
+
+  <link rel="stylesheet" href="https://cdn.brand.illinois.edu/illinois.css">
+  <link rel="stylesheet" href="https://cdn.brand.illinois.edu/components/il-header.css">
+  <script type="module" async src="https://cdn.brand.illinois.edu/components/il-header.mjs"></script>
+  <link rel="stylesheet" href="https://cdn.brand.illinois.edu/components/il-footer.css">
+  <script type="module" async src="https://cdn.brand.illinois.edu/components/il-footer.mjs"></script>
+
+  <script src="./assets/js/github-stars.js"></script>
+  <script type="text/javascript" src="./assets/js/jquery.js"></script>
+  <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+
+
+  <style>
+    /* ── Illinois-style page shell ─────────────────────────────── */
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+    /* Content card — white box with side shadows, centered, 1200px max */
+    .il-page-card {
+      background: #ffffff;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+      /* stretch between header and footer */
+      min-height: 60vh;
+    }
+
+    /* Inner section: reset the theme's default section sizing */
+    .il-page-card section {
+      float: none !important;
+      width: 100% !important;
+      padding: 0 !important;
+      border: none !important;
+      margin: 0 !important;
+    }
+
+    /* Footer note inside card */
+    .il-page-card .il-card-footer {
+      padding: 12px 48px 24px;
+      font: 12px/1.4 "Source Sans 3", serif;
+      color: #888;
+    }
+
+    /* Back-to-top button */
+    #back-to-top {
+      border: 1px solid #ccc;
+      border-radius: 0;
+      font-size: 15px;
+      width: 100px;
+      text-align: center;
+      line-height: 30px;
+      height: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Illinois Brand Header -->
+  <il-header>
+    <a slot="primary-unit" href="https://ischool.illinois.edu/">School of Information Sciences</a>
+    <a slot="site-name" href="/index.html">Computer Vision and Machine Learning Group</a>
+    <nav slot="links" aria-label="Utility">
+      <ul>
+        <li><a href="https://sites.google.com/illinois.edu/vision/">Internal</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+    <il-header-nav slot="navigation">
+      <ul>
+          <li><a href="../">Home</a></li>
+
+  <li><a href="../publications/">Publications</a></li>
+
+  <li><a href="../people/">People</a></li>
+
+  <li><a href="../teaching/">Teaching</a>
+
+  <li><a href="../openings/">Openings</a></li>
+      </ul>
+    </il-header-nav>
+  </il-header>
+
+  <!-- Main content card (white box with side shadows) -->
+  <div class="il-page-card">
+    <section>
+      <style>
+/* ── Illinois brand tokens ───────────────────────────────────── */
+:root {
+  --il-orange:  #FF552E;
+  --il-navy:    #13294B;
+  --il-light:   #f4f6f9;
+  --il-border:  #dde3ec;
+}
+
+/* ── Carousel ─────────────────────────────────────────────────── */
+.carousel {
+  margin-bottom: 0;
+  position: relative;
+  overflow: hidden;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 440px;
+}
+.carousel-inner::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 220px;
+  background: linear-gradient(to top, rgba(19,41,75,0.72) 0%, transparent 100%);
+  z-index: 2;
+  pointer-events: none;
+}
+.carousel-caption {
+  position: absolute;
+  bottom: 36px;
+  left: 48px;
+  z-index: 5;
+  color: #fff;
+  max-width: 640px;
+  pointer-events: none;
+}
+.carousel-caption h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  margin: 0 0 6px;
+  border: none;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+}
+.carousel-caption p {
+  font-size: 1rem;
+  margin: 0;
+  color: rgba(255,255,255,0.88);
+  text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+}
+.carousel-item {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1.4s ease;
+  z-index: 0;
+  overflow: hidden;
+}
+.carousel-item.active { opacity: 1; z-index: 1; }
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-origin: center center;
+  will-change: transform;
+}
+.carousel-item.active img { animation: kenburns 9s ease-in-out forwards; }
+@keyframes kenburns {
+  0%   { transform: scale(1.00) translate(0%, 0%); }
+  100% { transform: scale(1.09) translate(-1.2%, 0.8%); }
+}
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 44px; height: 44px;
+  background: rgba(255,255,255,0.18);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1.5px solid rgba(255,255,255,0.42);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.22s ease, transform 0.22s ease;
+}
+.carousel-control-prev { left: 16px; }
+.carousel-control-next { right: 16px; }
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: rgba(255,255,255,0.38);
+  transform: translateY(-50%) scale(1.12);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 18px; height: 18px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath d='M4.646 1.646a.5.5 0 0 0 0 .708L10.293 8l-5.647 5.646a.5.5 0 0 0 .708.708l6-6a.5.5 0 0 0 0-.708l-6-6a.5.5 0 0 0-.708 0z'/%3E%3C/svg%3E");
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 14px; right: 20px;
+  z-index: 10;
+  display: flex;
+  gap: 8px;
+  margin: 0; padding: 0;
+  list-style: none;
+}
+.carousel-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+.carousel-dot.active { background: var(--il-orange); transform: scale(1.35); }
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important; height: 1px !important;
+  padding: 0 !important; margin: -1px !important;
+  overflow: hidden !important; clip: rect(0,0,0,0) !important;
+  white-space: nowrap !important; border: 0 !important;
+}
+
+/* ── Orange accent bar ────────────────────────────────────────── */
+.il-orange-bar { height: 5px; background: var(--il-orange); }
+
+/* ── Mission strip ───────────────────────────────────────────── */
+.il-mission {
+  background: var(--il-navy);
+  padding: 28px 48px;
+}
+.il-mission p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.92);
+}
+.il-mission strong { color: #fff; }
+.il-mission a { color: var(--il-orange); text-decoration: none; }
+.il-mission a:hover { color: #ffaa88; text-decoration: underline; }
+
+/* ── Stats row ────────────────────────────────────────────────── */
+.il-stats {
+  background: var(--il-light);
+  border-top: 1px solid var(--il-border);
+  border-bottom: 1px solid var(--il-border);
+  padding: 28px 48px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.il-stat {
+  flex: 1 1 140px;
+  text-align: center;
+  padding: 10px 16px;
+  border-right: 1px solid var(--il-border);
+}
+.il-stat:last-child { border-right: none; }
+.il-stat-number {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--il-navy);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+.il-stat-label {
+  font-size: 0.82rem;
+  color: #5a6a80;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* ── Research areas ──────────────────────────────────────────── */
+.il-research {
+  background: #fff;
+  padding: 32px 48px;
+  border-bottom: 1px solid var(--il-border);
+}
+h2.il-section-heading {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--il-navy);
+  letter-spacing: -0.01em;
+  margin: 0 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--il-orange) !important;
+  display: inline-block;
+}
+.il-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
+}
+.il-tag {
+  display: inline-block;
+  padding: 6px 18px;
+  border-radius: 4px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--il-navy);
+  background: rgba(19,41,75,0.06);
+  border: 1.5px solid rgba(19,41,75,0.18);
+  letter-spacing: 0.01em;
+  transition: background 0.18s, color 0.18s, border-color 0.18s;
+}
+.il-tag:hover {
+  background: var(--il-navy);
+  color: #fff;
+  border-color: var(--il-navy);
+}
+
+/* ── News section ────────────────────────────────────────────── */
+.il-news {
+  background: #fff;
+  padding: 32px 48px 24px;
+}
+.il-news h2 {
+  border-bottom: 3px solid var(--il-orange) !important;
+  padding-bottom: 10px;
+  display: inline-block;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--il-navy);
+  letter-spacing: -0.01em;
+  margin: 0 0 22px;
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .carousel-inner { height: 280px; }
+  .carousel-caption { bottom: 24px; left: 20px; }
+  .carousel-caption h1 { font-size: 1.3rem; }
+  .il-mission,
+  .il-stats,
+  .il-research,
+  .il-news { padding-left: 20px; padding-right: 20px; }
+  .il-stat { flex: 1 1 40%; }
+  .il-stat:nth-child(2n) { border-right: none; }
+}
+@media (max-width: 480px) {
+  .carousel-caption { display: none; }
+  .il-stats { flex-direction: column; }
+  .il-stat { border-right: none; border-bottom: 1px solid var(--il-border); }
+  .il-stat:last-child { border-bottom: none; }
+}
+</style>
+
+<!-- ── Hero Carousel ───────────────────────────────────────────── -->
+<div id="carouselExample" class="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/images/slide1.jpg" alt="Main Quad" />
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/images/slide2.jpg" alt="Allerton" />
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/images/slide3.jpg" alt="Alma Mater" />
+    </div>
+  </div>
+  <div class="carousel-caption">
+    <h1></h1>
+    <p></p>
+  </div>
+  <ol class="carousel-indicators">
+    <li><button class="carousel-dot active" aria-label="Slide 1"></button></li>
+    <li><button class="carousel-dot" aria-label="Slide 2"></button></li>
+    <li><button class="carousel-dot" aria-label="Slide 3"></button></li>
+  </ol>
+  <button class="carousel-control-prev" type="button" aria-label="Previous">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" aria-label="Next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- ── Orange accent bar ──────────────────────────────────────── -->
+<div class="il-orange-bar"></div>
+
+<!-- ── Mission strip ─────────────────────────────────────────── -->
+<div class="il-mission">
+<p>
+  The Computer Vision and Machine Learning Group studies a wide range of problems in visual understanding, data-efficient learning, and intelligent perception. Our research addresses fundamental challenges in computer vision, machine learning, and multimodal learning, while also exploring real-world applications across domains such as healthcare and interactive systems. Based in the <a href="https://ischool.illinois.edu/">School of Information Sciences</a> at the <a href="https://www.illinois.edu/">University of Illinois Urbana-Champaign</a>, our group benefits from close collaborations with the the <a href="https://vision.cs.illinois.edu/">Computer Vision Group</a>,  the <a href="https://siebelschool.illinois.edu/">Siebel School of Computing and Data Science</a>, the <a href="https://ece.illinois.edu/">Department of Electrical and Computer Engineering</a>, the <a href="https://csl.illinois.edu/">Coordinated Science Laboratory</a>, and the <a href="https://www.ncsa.illinois.edu/">National Center for Supercomputing Applications</a>.
+</p>
+</div>
+
+<!-- ── Stats row ─────────────────────────────────────────────── -->
+<!--
+<div class="il-stats">
+  <div class="il-stat">
+    <span class="il-stat-number">60+</span>
+    <span class="il-stat-label">Publications</span>
+  </div>
+  <div class="il-stat">
+    <span class="il-stat-number">10+</span>
+    <span class="il-stat-label">PhD Students</span>
+  </div>
+  <div class="il-stat">
+    <span class="il-stat-number">5</span>
+    <span class="il-stat-label">Research Areas</span>
+  </div>
+  <div class="il-stat">
+    <span class="il-stat-number">#5</span>
+    <span class="il-stat-label">CS Graduate Program</span>
+  </div>
+</div>
+-->
+
+<!-- ── Research Areas ─────────────────────────────────────────── -->
+<div class="il-research">
+  <h2 class="il-section-heading">Research Areas</h2>
+  <p style="color:#4a5568; line-height:1.7; margin-bottom:18px;">
+    Our research lies at the intersection of <strong>computer vision</strong> and <strong>machine learning</strong> — with a special focus on building intelligent visual systems that are continual and data-efficient. Our research interests include <strong>continual learning</strong>, <strong>few-shot learning</strong>, <strong>semi-supervised learning</strong>, <strong>generative models</strong>, <strong>3D geometry models</strong> and <strong>medical image analysis</strong>. You may see details <a href="openings/index.html#research-areas">here</a>.
+  </p>
+</div>
+
+<!-- ── News ──────────────────────────────────────────────────── -->
+<div class="il-news">
+<style>
+#newsmore {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.45s ease, opacity 0.35s ease;
+}
+#newsmore.news-open {
+  max-height: 1200px;
+  opacity: 1;
+}
+.news-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12.5px;
+  color: #13294B;
+  font-weight: 500;
+  background: rgba(19,41,75,0.05);
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1.5px solid rgba(19,41,75,0.18);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+}
+.news-toggle-btn:hover {
+  background: #13294B;
+  color: #fff !important;
+  border-color: #13294B;
+  text-decoration: none;
+}
+</style>
+
+<h2 style="margin: 0 0 22px; font-size:1.35rem; font-weight:700; letter-spacing:-0.01em; color:#13294B; border-bottom:3px solid #FF552E !important; padding-bottom:10px; display:inline-block;">News</h2>
+
+<ul class="news-list">
+<li><span class="news-date">Jun. 2026</span> Three papers are accepted to <a href="https://eccv.ecva.net/">ECCV 2026</a>.</li>
+<li><span class="news-date">Jun. 2026</span> We are honored to receive the <a href="https://www.amd.com/en/corporate/university-program.html">AMD AI &amp; HPC Cluster Allocation Award</a>. Thank you, AMD!</li>
+<li><span class="news-date">Jun. 2026</span> Wei Cao receievd the Best Paper Award at <a href="https://generative-vision.github.io/workshop-CVPR-26/">CVPR 2026 Generative Models
+for Computer Vision Workshop</a>.</li>
+<li><span class="news-date">Jun. 2026</span> Yaoyao Liu will give an invited talk at <a href="https://videoworldmodel-workshop.github.io/">CVPR 2026 Video World Models Workshop</a>.</li>
+<li><span class="news-date">Jun. 2026</span> Yaoyao Liu will give an invited talk at <a href="https://bilibili.github.io/Index-anisora/cvpr_2026_workshop/">CVPR 2026 AI-assisted Long Video Creation Workshop</a>.</li>
+<li><span class="news-date">Jun. 2026</span> Yaoyao Liu will give an invited talk at <a href="https://sites.google.com/view/loveucvpr26/home">CVPR 2026 Long-form Video Understanding, Generation, and Action Workshop</a>.</li>
+<li><span class="news-date">Jun. 2026</span> Yaoyao Liu will give an invited talk at <a href="https://vidgen-bench-eval.github.io/">CVPR 2026 Video Generative Models Workshop</a>.</li>
+<li><span class="news-date">Jun. 2026</span> Yaoyao Liu is recognized as an <a href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf">Outstanding Area Chair</a> at <a href="https://cvpr.thecvf.com/">CVPR 2026</a>.</li>
+<li><span class="news-date">May 2026</span> We are honored to receive the <a href="https://lambda.ai/">Lambda's Research Grant</a>. Thank you, Lambda!</li>
+<li><span class="news-date">Apr. 2026</span> Yaoyao Liu received the <a href="https://isg.illinois.edu/teachinginsights">U of I Facilitating Learning Excellence Award</a>!</li>
+
+<li><span class="news-date">Mar. 2026</span> Our paper about <a href="https://freeorbit4d.vision.ischool.illinois.edu/">4D reconstrcution</a> is accepted to <a href="https://s2026.siggraph.org/">SIGGRAPH 2026</a>.</li>
+<li><span class="news-date">Mar. 2026</span> Our paper about <a href="https://Yaoyao Liuliu.web.illinois.edu/preprints/Motion2VecSets.pdf">4D diffusion models</a> is accepted to <a href="https://www.computer.org/csdl/journal/tp">TPAMI</a>.</li>
+<li><span class="news-date">Mar. 2026</span> We are honored to receive the <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant</a>. Thank you, NVIDIA!</li>
+<li><span class="news-date">Feb. 2026</span> Yaoyao Liu will give a talk on data-efficient learning at <a href="https://cse.ucsd.edu/">UC San Diego</a>.</li>
+
+<li class="news-showmore">
+  <a href="#" id="news-toggle-btn" class="news-toggle-btn" onclick="toggleNews(this); return false;">
+    Show more
+  </a>
+</li>
+
+<div id="newsmore">
+<li><span class="news-date">Nov. 2025</span> Yaoyao Liu is recognized as a <a href="https://nips.cc/Conferences/2025/ProgramCommittee#top-ac">Top Area Chair</a> at <a href="https://nips.cc/Conferences/2025/">NeurIPS 2025</a>.</li>
+<li><span class="news-date">Nov. 2025</span> Yaoyao Liu is selected for the <a href="https://aaai.org/conference/aaai/aaai-26/new-faculty-highlights-program/">AAAI-26 New Faculty Highlights Program</a>.</li>
+<li><span class="news-date">Oct. 2025</span> Yaoyao Liu will give a talk at the <a href="https://mclworkshop25.github.io/mcl-iccv2025/ICCV2025/">Workshop on Multimodal Continual Learning</a>, <a href="https://iccv.thecvf.com/Conferences/2025">ICCV 2025</a>.</li>
+<li><span class="news-date">Sep. 2025</span> Yaoyao Liu gave invited talks on continual learning and 3D at MSU and UIC.</li>
+<li><span class="news-date">Aug. 2025</span> Yaoyao Liu will serve as an Editorial Board Member of <a href="https://link.springer.com/journal/11263">IJCV</a>.</li>
+<li><span class="news-date">Jul. 2025</span> Our paper about <a href="https://yaoyaoliu.cs.illinois.edu/preprints/Prompt_Based_Exemplar_Super_Compresion_and_Regeneration_for_Class_Incremental_Learing.pdf">continual learning</a> is accepted to <a href="https://bmvc2025.bmva.org/">BMVC 2025</a>.</li>
+<li><span class="news-date">Feb. 2025</span> Our paper about <a href="./publications">meta-learning</a> is accepted to <a href="https://cvpr.thecvf.com/">CVPR 2025</a>.</li>
+<li><span class="news-date">Oct. 2024</span> Yaoyao Liu received the <a href="https://www.ecva.net/index.php#awards">ECVA PhD Award</a>!</li>
+<li><span class="news-date">Oct. 2024</span> Yaoyao Liu gave guest lectures on 3D at UMich and UC Santa Cruz.</li>
+<li><span class="news-date">Oct. 2024</span> Yaoyao Liu joined the <a href="https://www.illinois.edu">University of Illinois</a> as an assistant professor.</li>
+<li><span class="news-date">Sep. 2024</span> Two papers about <a href="./publications/">3D</a> are accepted to <a href="https://neurips.cc/Conferences/2024">NeurIPS 2024</a> and its D&amp;B track.</li>
+<li><span class="news-date">Jul. 2024</span> Our paper about <a href="https://www.cs.jhu.edu/~yyliu/preprints/iNeMo_Incremental_Neural_Mesh_Models_for_Robust_Class-Incremental_Learning.pdf">robust class-incremental learning</a> is accepted to <a href="https://eccv2024.ecva.net/">ECCV 2024</a>.</li>
+<li><span class="news-date">Jun. 2024</span> Yaoyao Liu gave a talk on 3D generative models at <a href="https://sites.google.com/view/cvpr24-ac-workshop/">CVPR 2024 Area Chair Workshop</a>.</li>
+<li><span class="news-date">Jan. 2024</span> Our paper about <a href="https://arxiv.org/pdf/2306.08103.pdf">diffusion models</a> is accepted to <a href="https://iclr.cc/Conferences/2024/">ICLR 2024</a>.</li>
+</div>
+
+</ul>
+
+<script>
+function toggleNews(btn) {
+  var panel = document.getElementById('newsmore');
+  var isOpen = panel.classList.contains('news-open');
+  if (isOpen) {
+    panel.classList.remove('news-open');
+    btn.classList.remove('open');
+    btn.textContent = 'Show more';
+  } else {
+    panel.classList.add('news-open');
+    btn.classList.add('open');
+    btn.textContent = 'Show less';
+  }
+}
+</script>
+
+</div>
+
+<script>
+(function () {
+  var el    = document.getElementById('carouselExample');
+  var items = el.querySelectorAll('.carousel-item');
+  var dots  = el.querySelectorAll('.carousel-dot');
+  var cur   = 0, timer;
+
+  function goTo(n) {
+    items[cur].classList.remove('active');
+    dots[cur].classList.remove('active');
+    cur = (n + items.length) % items.length;
+    items[cur].classList.add('active');
+    dots[cur].classList.add('active');
+    var img = items[cur].querySelector('img');
+    if (img) { img.style.animation = 'none'; img.offsetHeight; img.style.animation = ''; }
+  }
+
+  function start() { timer = setInterval(function () { goTo(cur + 1); }, 4800); }
+  function reset() { clearInterval(timer); start(); }
+
+  el.querySelector('.carousel-control-next').addEventListener('click', function () { goTo(cur + 1); reset(); });
+  el.querySelector('.carousel-control-prev').addEventListener('click', function () { goTo(cur - 1); reset(); });
+  dots.forEach(function (d, i) { d.addEventListener('click', function () { goTo(i); reset(); }); });
+
+  start();
+})();
+</script>
+
+
+    </section>
+
+    <div class="il-card-footer">
+      
+    </div>
+  </div>
+
+  <!-- Illinois Brand Footer -->
+  <il-footer>
+    <a slot="primary-unit" href="https://ischool.illinois.edu/">School of Information Sciences</a>
+    <a slot="site-name" href="/index.html">Computer Vision and Machine Learning Group</a>
+    <address slot="address">
+      <p>614 E. Daniel St. MC-314<br>
+        Champaign, IL 61820-7999</p>
+      <p>Phone: <a href="tel:+12173000910">(217) 300-0910</a></p>
+      <p>Email: <a href="mailto:vision@ischool.illinois.edu">vision@ischool.illinois.edu</a></p>
+    </address>
+  </il-footer>
+
+  <script src="/assets/js/scale.fix.js"></script>
+  <script src="../assets/js/vanilla-back-to-top.min.js"></script>
+  <script>addBackToTop({ backgroundColor: '#fff', innerHTML: 'Back to Top', textColor: '#333' });</script>
+
+  <p hidden><script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=IJI84vjL4AOe-IKWMSOJnR8srL5vv9jFgF2B474HhdU&cl=ffffff&w=a"></script></p>
+
+</body>
+</html>

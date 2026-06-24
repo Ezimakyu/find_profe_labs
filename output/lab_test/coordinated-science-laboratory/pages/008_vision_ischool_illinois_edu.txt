@@ -1,0 +1,325 @@
+Publications | Computer Vision and Machine Learning Group | University of Illinois Urbana-Champaign
+School of Information Sciences
+Computer Vision and Machine Learning Group
+Home
+Publications
+People
+Teaching
+Openings
+Publications
+Preprints
+Preprint
+Redirect4D-Bench: A Scalable Benchmark for Camera Redirection of Monocular Dynamic Videos with Pseudo-4D Ground Truth
+Wei Cao, Hao Zhang, Jiapeng Tang, Yulun Wu, Yingying Li, Ning Yu, Shenlong Wang,
+Yaoyao Liu
+PDF
+Code
+Project Page
+BibTex
+Publications
+2026
+ECCV
+Active View Selection with Perturbed Gaussian Ensemble for Tomographic Reconstruction
+Yulun Wu, Ruyi Zha, Wei Cao, Yingying Li, Yuanhao Cai,
+Yaoyao Liu
+European Conference on Computer Vision
+(ECCV)
+, 2026.
+PDF
+Code
+BibTex
+ECCV
+AC3S: Adaptive Conditioning for 3D-Aware Synthetic Data Generation
+Eric Ji, Qiran Hu, Wufei Ma, Sarthak Jain, Yingying Li, Minh N. Do,
+Yaoyao Liu
+European Conference on Computer Vision
+(ECCV)
+, 2026.
+BibTex
+ECCV
+How to Teach Large Multimodal Models New Skills
+Zhen Zhu, Yiming Gong, Yao Xiao,
+Yaoyao Liu
+, Derek Hoiem
+European Conference on Computer Vision
+(ECCV)
+, 2026.
+PDF
+Code
+BibTex
+Media Coverage by VentureBeat
+SIGGRAPH
+FreeOrbit4D: Training-Free Arbitrary Camera Redirection for Monocular Videos via Foreground-Complete 4D Reconstruction
+Wei Cao, Hao Zhang, Fengrui Tian, Yulun Wu, Yingying Li, Shenlong Wang, Ning Yu,
+Yaoyao Liu
+Special Interest Group on Computer Graphics and Interactive Techniques Conference
+(SIGGRAPH Conference Papers)
+, 2026.
+PDF
+Code
+Project Page
+BibTex
+Best Paper Award at CVPR 2026 GCV Workshop
+TPAMI
+Motion2VecSets: Non-Rigid Shape Reconstruction and Tracking with 4D Latent Set Diffusion
+Jiapeng Tang*, Wei Cao*, Biao Zhang*, Chang Luo*,
+Yaoyao Liu
+, Matthias Nießner
+IEEE Transactions on Pattern Analysis and Machine Intelligence
+(TPAMI)
+, 2026.
+PDF
+BibTex
+2025
+CVPR
+Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning
+Zichen Tian,
+Yaoyao Liu
+, Qianru Sun
+IEEE/CVF Conference on Computer Vision and Pattern Recognition
+(CVPR)
+, 2025.
+PDF
+Code
+Project Page
+BibTex
+Highlight
+BMVC
+Prompt-Based Exemplar Super-Compression and Regeneration for Class-Incremental Learning
+Ruxiao Duan, Jieneng Chen, Adam Kortylewski, Alan Yuille,
+Yaoyao Liu
+The British Machine Vision Conference
+(BMVC)
+, 2025.
+PDF
+Code
+Project Page
+BibTex
+2024
+NeurIPS
+ImageNet3D: Towards General-Purpose Object-Level 3D Understanding
+Wufei Ma, Guofeng Zhang, Qihao Liu, Guanning Zeng, Adam Kortylewski,
+Yaoyao Liu
+, Alan Yuille
+Neural Information Processing Systems Datasets and Benchmarks Track
+(NeurIPS D&B Track)
+, 2024.
+PDF
+Code
+Project Page
+Dataset
+BibTex
+NeurIPS
+HDR-GS: Efficient High Dynamic Range Novel View Synthesis at 1000x Speed via Gaussian Splatting
+Yuanhao Cai, Zihao Xiao, Yixun Liang, Minghan Qin, Yulun Zhang, Xiaokang Yang,
+Yaoyao Liu
+, Alan Yuille
+Neural Information Processing Systems
+(NeurIPS)
+, 2024.
+PDF
+Code
+BibTex
+ECCV
+iNeMo: Incremental Neural Mesh Models for Robust Class-Incremental Learning
+Tom Fischer,
+Yaoyao Liu
+, Artur Jesslen, Noor Ahmed, Prakhar Kaushik, Angtian Wang, Alan Yuille, Adam Kortylewski, Eddy Ilg
+European Conference on Computer Vision
+(ECCV)
+, 2024.
+PDF
+Code
+BibTex
+ICLR
+Generating Images with 3D Annotations Using Diffusion Models
+Wufei Ma*, Qihao Liu*, Jiahao Wang*, Angtian Wang, Xiaoding Yuan, Yi Zhang, Zihao Xiao, Guofeng Zhang, Beijia Lu, Ruxiao Duan, Yongrui Qi, Adam Kortylewski,
+Yaoyao Liu
+, Alan Yuille
+Corresponding author)
+International Conference on Learning Representations
+(ICLR)
+, 2024.
+PDF
+Code
+Project Page
+BibTex
+Spotlight
+WACV
+Wakening Past Concepts without Past Data: Class-Incremental Learning from Online Placebos
+Yaoyao Liu
+, Yingying Li, Bernt Schiele, and Qianru Sun
+IEEE/CVF Winter Conference on Applications of Computer Vision
+(WACV)
+, 2024.
+PDF
+Code
+BibTex
+2023 and Before
+MICCAI
+Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille,
+Yaoyao Liu
+, Zongwei Zhou
+Corresponding authors)
+International Conference on Medical Image Computing and Computer-Assisted Intervention
+(MICCAI)
+, 2023.
+PDF
+Code
+BibTex
+Early Accept
+CVPR
+Continual Detection Transformer for Incremental Object Detection
+Yaoyao Liu
+, Bernt Schiele, Andrea Vedaldi, Christian Rupprecht
+IEEE/CVF Conference on Computer Vision and Pattern Recognition
+(CVPR)
+, 2023.
+PDF
+Code
+Project Page
+BibTex
+CVPR
+Class-Incremental Exemplar Compression for Class-Incremental Learning
+Zilin Luo,
+Yaoyao Liu
+, Bernt Schiele, Qianru Sun
+IEEE/CVF Conference on Computer Vision and Pattern Recognition
+(CVPR)
+, 2023.
+PDF
+Code
+Project Page
+BibTex
+AAAI
+Online Hyperparameter Optimization for Class-Incremental Learning
+Yaoyao Liu
+, Yingying Li, Bernt Schiele, Qianru Sun
+AAAI Conference on Artificial Intelligence
+(AAAI)
+, 2023.
+PDF
+Code
+Project Page
+BibTex
+Oral Presentation
+TPAMI
+Meta-Transfer Learning through Hard Tasks
+Qianru Sun*,
+Yaoyao Liu*
+, Zhaozheng Chen, Tat-Seng Chua, Bernt Schiele
+(* Equal contribution)
+IEEE Transactions on Pattern Analysis and Machine Intelligence
+(TPAMI)
+, Volume 44, Number 3, 2022.
+PDF
+Code
+Project Page
+BibTex
+NeurIPS
+RMM: Reinforced Memory Management for Class-Incremental Learning
+Yaoyao Liu
+, Bernt Schiele, Qianru Sun
+Neural Information Processing Systems
+(NeurIPS)
+, 2021.
+PDF
+Code
+Project Page
+BibTex
+CVPR
+Adaptive Aggregation Networks for Class-Incremental Learning
+Yaoyao Liu
+, Bernt Schiele, Qianru Sun
+IEEE/CVF Conference on Computer Vision and Pattern Recognition
+(CVPR)
+, 2021.
+PDF
+Code
+Project Page
+BibTex
+GitHub Stars
+CVIU
+Learning to Teach and Learn for Semi-supervised Few-shot Image Classification
+Xinzhe Li, Jianqiang Huang,
+Yaoyao Liu
+, Qin Zhou, Shibao Zheng, Bernt Schiele, Qianru Sun
+Computer Vision and Image Understanding
+(CVIU)
+, Volume 212, 2021.
+PDF
+Code
+BibTex
+TNNLS
+Generating Face Images with Attributes for Free
+Yaoyao Liu
+, Qianru Sun, Xiangnan He, An-An Liu, Yuting Su, Tat-Seng Chua
+IEEE Transactions on Neural Networks and Learning Systems
+(TNNLS)
+, Volume 32, Number 6, 2021.
+PDF
+BibTex
+ECCV
+An Ensemble of Epoch-wise Empirical Bayes for Few-shot Learning
+Yaoyao Liu
+, Bernt Schiele, Qianru Sun
+European Conference on Computer Vision
+(ECCV)
+, 2020.
+PDF
+Code
+Project Page
+BibTex
+CVPR
+Mnemonics Training: Multi-Class Incremental Learning without Forgetting
+Yaoyao Liu
+, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+IEEE/CVF Conference on Computer Vision and Pattern Recognition
+(CVPR)
+, 2020.
+PDF
+Code
+Project Page
+BibTex
+Oral Presentation •
+400+
+Citations
+NeurIPS
+Learning to Self-Train for Semi-Supervised Few-Shot Classification
+Xinzhe Li, Qianru Sun,
+Yaoyao Liu
+, Shibao Zheng, Qin Zhou, Tat-Seng Chua, Bernt Schiele
+Neural Information Processing Systems
+(NeurIPS)
+, 2019.
+PDF
+Code
+Project Page
+BibTex
+CVPR
+Meta-Transfer Learning for Few-Shot Learning
+Qianru Sun*,
+Yaoyao Liu*
+, Tat-Seng Chua, Bernt Schiele
+(* Equal contribution)
+IEEE/CVF Conference on Computer Vision and Pattern Recognition
+(CVPR)
+, 2019.
+PDF
+Code
+Project Page
+BibTex
+1500+
+Citations •
+600+
+GitHub Stars
+Top 100 Most Cited CVPR Papers over the Last Five Years
+School of Information Sciences
+Computer Vision and Machine Learning Group
+614 E. Daniel St. MC-314
+Champaign, IL 61820-7999
+Phone:
+(217) 300-0910
+Email:
+vision@ischool.illinois.edu

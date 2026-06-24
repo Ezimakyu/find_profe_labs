@@ -1,0 +1,60 @@
+CS CARES Committee | Siebel School of Computing and Data Science | Illinois
+University of Illinois Urbana-Champaign
+Alumni
+Corporate
+People
+My.SiebelSchool
+The Grainger College of Engineering
+Siebel School of Computing and Data Science
+Search
+Menu
+CS CARES Committee
+Sarita Adve
+Richard T. Cheng Professor
+Adam Bates
+Associate Professor
+Brighten Godfrey
+Professor
+CJ Coleman
+Director of External Relations
+Jeff Erickson
+Sohaib and Sara Abbasi Professor
+Carl Evans
+Teaching Assistant Professor
+Yael Gertner
+Teaching Associate Professor
+Steve Herzog
+Senior Assistant Director of Undergraduate Programs
+Heng Ji
+Professor
+Robin Kravets
+Professor
+Mattox Beckman
+Teaching Associate Professor
+Ruta Mehta (Chair)
+Associate Professor
+Allison Mette (Administrative Support)
+Administrative Support
+Yongjoo Park
+Assistant Professor
+Talia Ringer
+Assistant Professor
+Sharifa Sultana
+Assistant Professor
+CS CARES Committee: Responsibilities
+Availability:
+CARES holds at least one in-person or zoom “walk-in” office hour each week day and provides an email account and phone number that is monitored frequently.
+Events:
+CARES aims to provide representatives to attend most large CS department events so that any concerns that may arise during such events can be brought to immediate attention. CARES representatives announce their presence at these events.
+Support:
+CARES supports community members in addressing concerns about violations of the Code in ways described in the “Purpose” section of this document, while respecting the ethics, confidentiality, and conflicts of interest rules described in the next section.
+Outreach:
+CARES conducts outreach to make the CS community aware of the Code and the role of CARES in enabling the community to uphold the Code.
+CARES committee members are expected to contribute equally to achieve the above goals for CARES.
+The initial CARES committees will also be responsible for evolution of various aspects of CARES operations. For example, mechanisms to archive confidential CARES records (in collaboration with IT staff) need to be developed.
+It is expected that the department, college, and/or university will make training materials available to CARES members in the future. CARES members are expected to complete all such training as these materials become available.
+CS CARES Committee: Ethics, Confidentiality, and Conflicts of Interest
+Committee members are held to the highest standards of conduct and discretion. They must abide by all pertinent rules of the University of Illinois and of Title IX.
+All concerns brought to CARES members are treated with utmost confidentiality outside of CARES, unless permitted by the person raising the concern. By default, all concerns are conveyed to the CARES chair and the vice-chair, who use their discretion and determination of conflicts of interest (see below) to determine a subset of the committee with whom to share the concern. The community member raising the concern may explicitly request that it not be shared with certain members of the CARES committee.
+If a violation of the Code is reported against a committee member, the member is recused from CARES activities until a decision on the credibility of the report can be made. An official investigation that finds such a report to be credible results in removal of the member from CARES.
+If a CARES committee member has a conflict of interest with the person against whom a concern is reported to them (e.g., advisor/advisee, collaborator, close colleague, etc.), the committee member will immediately refer the reporter to another committee member. A committee member with a conflict of interest on a concern cannot participate in any discussion related to the concern.

@@ -1,0 +1,57 @@
+Rainer Engelken
+| Siebel School of Computing and Data Science | Illinois
+University of Illinois Urbana-Champaign
+Alumni
+Corporate
+People
+My.SiebelSchool
+The Grainger College of Engineering
+Siebel School of Computing and Data Science
+Search
+Menu
+Rainer Engelken
+Rainer Engelken
+Assistant Professor, Electrical and Computer Engineering
+engelken@illinois.edu
+314 Coordinated Science Laboratory
+For More Information
+Website for Rainer Engelken with Information for PhD openings
+Education
+Ph.D. (Dr. rer. nat.), Physics, University of Goettingen, 2017. Research conducted at the Max Planck Institute for Dynamics and Self-Organization.
+Diploma (Physics, M.Sc. equivalent), University of Tuebingen, 2011
+Certificate of Advanced Study (Part III) (MA equivalent), University of Cambridge (UK), 2009
+Academic Positions
+Assistant Professor, Department of Electrical and Computer Engineering
+Assistant Professor (Affiliate), Department of Computer Science
+Assistant Professor (Affiliate), Coordinated Science Laboratory
+Research Interests
+Neural Data Analysis
+Dynamical Systems Theory
+Machine Learning and Artificial Intelligence
+Computational Neuroscience
+Theoretical Neuroscience
+Research Areas
+Artificial Intelligence
+Bioinformatics and Computational Biology
+Theory and Algorithms
+Selected Articles in Journals
+Engelken R., Wolf F., Abbott L. F. Lyapunov spectra of chaotic recurrent neural networks. Phys. Rev. Research 5:043044, 2023
+Palmigiano A., Engelken R., Wolf F. Boosting of neural circuit chaos at the onset of collective oscillations. eLife, 2023
+Engelken R., Ingrosso A., Khajeh R., Goedeke S., Abbott L. F. Input correlations impede suppression of chaos and learning in balanced rate networks. PLOS Computational Biology 18(12):e1010590, 2022
+Engelken R., Farkhooi F., van Vreeswijk C., Hansel D., Wolf F. A reanalysis of â€œTwo types of asynchronous activity in networks of excitatory and inhibitory spiking neuronsâ€. F1000Research 5:2043, 2016
+Wolf F., Engelken R., Touzel M., Florez J., Neef A. Dynamical models of cortical circuits. Current Opinion in Neurobiology 25:228-236, 2014
+Articles in Conference Proceedings
+Engelken R., Abbott L. F. Analyzing and Improving Surrogate Gradient Training in Binary Neural Networks Using Dynamical Systems Theory. ICML Workshop 'Differentiable Almost Everything', 2024
+Engelken R., Abbott L. F. Understanding and Optimizing Temporal Credit Assignment in Biological and Artificial Neural Networks using Dynamical Systems Theory. Proceedings of Cognitive Computational Neuroscience (CCN), 2024
+Engelken R. Gradient Flossing: Improving Gradient Descent through Dynamic Control of Jacobians. NeurIPS, 2023.
+Engelken R. SparseProp: Efficient Event-Based Simulation and Training of Sparse Recurrent Spiking Neural Networks. NeurIPS, 2023
+Engelken R., Goedeke S. A time-resolved theory of information encoding in recurrent neural networks. NeurIPS, 2022
+Pending Articles
+Engelken R., Monteforte M., Wolf F. Sparse chaos in neural circuits. arXiv 2412.21188, 2024
+Recent Courses Taught
+ECE 210 - Analog Signal Processing
+ECE 211 - Analog Circuits & Systems
+ECE 598 RE - Dynamical Syst & Neural Netwrk
+Related News
+ECE welcomes three new faculty
+News Notes

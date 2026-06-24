@@ -1,0 +1,199 @@
+Ruta Mehta
+| Siebel School of Computing and Data Science | Illinois
+University of Illinois Urbana-Champaign
+Alumni
+Corporate
+People
+My.SiebelSchool
+The Grainger College of Engineering
+Siebel School of Computing and Data Science
+Search
+Menu
+Ruta Mehta
+Ruta Mehta
+Associate Professor
+(217) 300-4650
+rutameht@illinois.edu
+3218 Thomas M. Siebel Center for Computer Science
+For More Information
+Ruta Mehta's DBLP page
+Ruta Mehta's Homepage
+Education
+Doctor of Philosophy, Computer Science and Engineering, Indian Institute of Technology (IIT), Bombay, 2012
+Masters of Technology, Computer Science and Engineering, Indian Institute of Technology (IIT), Bombay, 2005
+Bachelor of Engineering, Computer Engineering, Maharaja Saiyajirao University (MSU) Baroda, 2003
+Biography
+Ruta Mehta is an Associate Professor of Computer Science, an affiliate of Coordinated Science Laboratory, and a founding member of AImpact Center at the University of Illinois at Urbana-Champaign. Prior to joining UIUC, she was a postdoctoral fellow at Simons Institute, UC Berkeley, and at College of Computing, Georgia Tech. She received her Ph.D. from the Indian Institute of Technology Bombay, India. Her research is at the intersection of theoretical computer science, economics, games theory, and machine learning. She on the editorial board of Math. of Operations Research (MOR) and Algorithmica, and has served as chair for flagship conferences and events. For her research, she has received the NSF CAREER Award, the Simons-Berkeley Research Fellowship, and the Best Postdoctoral Award (given by CoC@GT). Her Ph.D. thesis won the ACM India Doctoral Dissertation Award and the IIT-Bombay Excellence in Ph.D. Thesis Award.
+Academic Positions
+Affiliate Associate Professor, Coordinate Science Laboratory, University of Illinois Urbana-Champaign, 2023-Present
+Associate Professor, Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign, 2023-Present
+Assistant Professor, Department of Computer Science, University of Illinois Urbana-Champaign, 2016-2023
+Postdoctoral Fellow, Host: Prof. Allistair Sinclair, Simons Institute for Theory of Computing, University of California at Berkeley, July 2015-Dec. 2015
+Postdoctoral Fellow, Host: Prof. Vijay V. Vazirani, College of Computing, Georgia Institute of Technology, Sept. 2012-July 2015
+Other Professional Employment
+Software Engineer and Developer, Sybase India, Aug. 2005-July 2007
+Major Consulting Activities
+Founding Member, AImpact Center, University of Illinois Urbana-Champaign, 2024-Present
+Professional Highlights
+Founding Member of the AImpact Center, Illinois
+Co-founder of the EC (AGT) Mentoring Workshop, co-located with the ACM Economics and Computation Conference.
+Area Chair, 22nd ACM Conference on Economics and Computation (EC), 2021.
+Program Co-Chair, The 16th Conference on Web and Internet Economics (WINE), 2020.
+Associate Editor, Mathematics of Operations Research (MOR), INFORMS, since 2020.
+Course Development
+CS 580: Topics on Algorithmic Game Theory
+Research Statement
+My research is primarily in theoretical computer science. It looks at the fundamental solution concepts from economics, game theory, and social choice from the computational lens. I am also interested in understanding questions related to fairness in society, and evolution in nature.
+My main research interests lie in the areas of algorithmic game theory, mathematical economics, and in design efficient and trustwothy systems. More recently, I am interested in exploring trustworthy machine learning systems, emerging economies based on data and AI agents, and online+stochastic fair division. This being said, I never stop exploring the fundamental computational questions at the intersection of NP and co-NP.
+Research Interests
+Algorithmic Game Theory: Equilibrium Computation and Complexity, Learning in Games, Strategic and Dynamic Aspects
+Interdisciplinary: Trustworthy Machine Learning, Data Economies, Fair & Efficient Multi-Agent Systems
+Research Areas
+Theory and Algorithms
+Selected Articles in Journals
+Adsul, Bharat, Ch Sobhan Babu, Jugal Garg, Ruta Mehta, and Milind Sohoni. "A simplex-like algorithm for linear Fisher markets."
+Current Science
+, 103(9),1033-1042, 2012.
+Jugal Garg, Ruta Mehta, Milind Sohoni, and Vijay V. Vazirani. "A complementary pivot algorithm for market equilibrium under separable, piecewise-linear concave utilities."
+SIAM Journal on Computing
+, 44(6), 1820-1847, 2015.
+Jugal Garg, Ruta Mehta, and Vijay V. Vazirani. "Dichotomies in Equilibrium Computation and Membership of PLC Markets in FIXP."
+Theory of Computing
+, 12(1), 1-25, 2016.
+Ruta Mehta. "Constant Rank Two-Player Games are PPAD-hard."
+SIAM
+Journal on Computing
+, 47(5):1858-1887, 2018.
+Jugal Garg, Ruta Mehta, Vijay Vazirani, and Sadra Yazdanbod. "ETR-Completeness for Decision Versions of Multi-Player (Symmetric) Nash Equilibria."
+ACM Transactions on Economics and Computation
+, 6(1):1:1–1:23, 2018.
+Jugal Garg, Ruta Mehta, and Vijay Vazirani. "Substitution with Satiation: A New Class of Utility Functions and a Complementary Pivot Algorithm."
+Mathematics of Operations Research
+, 43(3):996-1024, 2018.
+Articles in Conference Proceedings
+Bhaskar Ray Chaudhury, Christian Kroer, Ruta Mehta, and Tianlong Nan. "Atonement Dynamics for Fisher Markets with Chores." Accepted to ACM Symposium on Theory of Computation (STOC),
+page numbers pending
+, 2026. (Acceptance Rate: Pending)
+Eleni Batziou, John Fearnley,
+Spencer Gordon
+, Ruta Mehta, and Rahul Savani. "Monotone Contractions." In Proceedings of the 57th Annual ACM Symposium on Theory of Computing (STOC),
+page numbers pending
+, 2025. Assocation for Computing Machinery (ACM). (Acceptance Rate: ~ 29.8%)
+Pooja Kulkarni
+, Ruta Mehta, and Parnian Shahkar. "Online Fair Division: Towards Ex-Post Constant MMS Guarantees." In Proceedings of ACM Conference on Economics and Computation (EC), 26th Edition,
+page numbers pending,
+2025. (Acceptance Rate: ~24%)
+Vasilis Livanos
+and Ruta Mehta. "A Unified and Distribution-Optimal Analysis of the Max and Min IID Prophet Inequality." In Proceedings of ACM Conference on Economics and Computation (EC),
+pp. 1157-1179
+, 2025. Association for Computing Machinery (ACM). (Acceptance Rate: ~24%)
+Jinghan A Zeng and Ruta Mehta. "On the Structure of Envy-Free Orientations on Graphs." In Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS), arXiv: 2404.13527, 2025. International Foundation for Autonomous Agents and Multiagent Systems (IFAAMAS). (Acceptance Rate: ~24.5% full-paper; ~40% overall)
+Jiaxin Song, Parnian Shahkar, Bhaskar Ray Chaudhury, and Ruta Mehta. "You Get What You Give: Reciprocal Fair Federated Learning."
+In Proceedings of the 42nd International Conference on Machine Learning (ICML), PLMR, Vol. 258, 2025. (Acceptance Rate: ~26.9%)
+Maya Viswanathan
+and Ruta Mehta. "On the existence of EFX under picky or non-differentiative agents." In Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems (AAMAS), pp. 2534-2536, 2024. International Foundation for Autonomous Agents and Multiagent Systems (IFAAMAS). (Extended Abstract) (Acceptance Rate: ~20% full papers)
+Bhaskar Ray Chaudhury, Linyi Li, Mintong Kang, Bo Li, and Ruta Mehta. "Fairness in Federated Learning via Core-Stability." In Advances in Neural Information Processing Systems 35 (NeurIPS), pp. 5738-5750, 2022. Neural Information Processing Systems Foundation. (Spotlight Presentation). (Acceptance Rate: ~25% overall; ~5-10% spotlight)
+Bhaskar Ray Chaudhury, Jugal Garg, Ruta Mehta, and Peter McGlaughlin. "Competitive Equilibrium with Chores: Combinatorial Algorithm and Hardness." In Proceedings of the 23rd ACM Conference on Economics and Computation (EC), pp. 1106-1107, 2022. Association for Computing Machinery (ACM). (Extended Abstract) (Acceptance Rate: 27%)
+Bhaskar Ray Chaudhury, Jugal Garg, Peter McGlaughlin, Ruta Mehta. "On the Existence of Competitive Equilibrium with Chores." In Proceedings of the 13th Innovations in Theoretical Computer Science (ITCS), LIPIcs, Vol. 215, Article 41, pp. 41:1-41:13, 2022. Schloss Dagstuhl - Leibniz-Zentrum für Informatik. (Acceptance Rate: Not Available)
+Shant Boodaghians
+, Bhaskar Ray Chaudhury, Ruta Mehta. "Polynomial Time Algorithms to Find an Approximate Competitive Equilibrium for Chores." In Proceedings of the 33rd Annual ACM-SIAM Symposium on Discrete Algorithms (SODA), pp. 2285-2302, 2022. Society for Industrial and Applied Mathematics (SIAM). (Acceptance Rate: 30%)
+Rucha Kulkarni
+, Ruta Mehta, and Setareh Taki. "Indivisible Mixed Manna: On the Computability of MMS + PO Allocations." In Proceedings of the 22nd ACM Conference on Economics and Computation
+(EC), pp. 683-684, 2021. Association for Computing Machinery (ACM). (Extended Abstract) (Acceptance Rate: 26%)
+Bhaskar Ray Chaudhury, Jugal Garg, Kurt Mehlhorn, Ruta Mehta, and Pranabendu Misra. "Improving EFX Guarantees through Rainbow Cycle Number." In Proceedings of the 22nd ACM Conference on
+Economics and Computation (EC), pp. 310-311, 2021. Association for Computing Machinery (ACM). (Short Paper) (Acceptance Rate: 26%)
+Bhaskar Ray Chaudhury, Jugal Garg, Peter McGlaughlin, and Ruta Mehta. "Competitive Allocation of a Mixed Manna." In Proceedings of the 32nd Annual ACM-SIAM Symposium on Discrete Algorithms (SODA), pp. 1405-1424, 2021. Society for Industrial and Applied Mathematics (SIAM). (Acceptance Rate: 28%)
+Aniket Murhekar
+and Ruta Mehta. "Approximate Nash Equilibria of Imitation Games: Algorithms and Complexity." In Proceedings of 19th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS), pp. 887-894, 2020. International Foundation for Autonomous Agents and Multiagent Systems (IFAAMAS). (Acceptance Rate: 23%)
+Shant Boodaghians, Rucha Kulkarni
+, and Ruta Mehta. "Smoothed Efficient Algorithms and Reductions for Network Coordination Games." In Proceedings of 11th Innovations in Theoretical Computer Science (ITCS), LIPIcs, Vol. 151, Article 73, pp. 73:1-73:15, 2020. Schloss Dagstuhl - Leibniz-Zentrum fÃ¼r Informatik. (Acceptance Rate: 42%)
+Gaurush Hiranandani,
+Shant Boodaghians
+, Ruta Mehta, and Oluwasanmi Koyejo. "Multiclass Performance Metric Elicitation." In Advances Neural Information Processing Systems (NeurIPS), Vol. 32, pp. 1042-1052, 2019. Curran Associates, Inc. (Acceptance Rate: 21%)
+John Fearnley,
+Spencer Gordon
+, Ruta Mehta, and Rahul Savani. "Unique End of Potential Line." In Proceedings of 46th International Colloquium on Automata, Languages and Programming (ICALP), LIPIcs, Vol. 132, Article 56, pp. 56:1-56:15, 2019. Schloss Dagstuhl - Leibniz-Zentrum für Informatik. (Acceptance Rate: 29%)
+Simina Branzei, Ruta Mehta, and Noam Nisan. "Universal Growth in Production Economies." Advances in Neural Information Processing Systems (NeurIPS), Vol. 31, pp. 1973-1983, 2018. Curran Associates, Inc. (Acceptance Rate: 21%)
+Shivam Gupta
+and Ruta Mehta. "Nash Equilibrium Computation in Resource Allocation Game." (Short Paper) In Proceedings of the 17th International Conference on Autonomous Agents and Multiagent Systems (AAMAS), pp. 1953-1955, 2018. ACM. (Acceptance Rate: 18%)
+Pravesh Kothari and Ruta Mehta. "Sum-of-Squares Meets Nash: Lower Bounds for Finding Any Equilibrium." In Proceedings of the 50th Annual Symposium on the Theory of Computation (STOC), pp. 1241-1248, 2018. ACM. (Acceptance Rate: 26.6%)
+Nikhil Devanur, Jugal Garg, Ruta Mehta, Vijay V. Vazirani, and Sadra Yazdanbod. "A New Class of Combinatorial Markets with Covering Constraints: Algorithms and Applications." In Proceedings of the 29th Annual ACM-SIAM Symposium on Discrete Algorithms (SODA), pp. 2311-2325, 2018. SIAM. (Acceptance Rate: 33%)
+Jugal Garg, Ruta Mehta, Vijay V. Vazirani and Sadra Yazdanbod. "Settling the Complexity of Leontief and PLC Exchange Markets under Exact and Approximate Equilibria." In Proceedings of the 49th Annual ACM SIGACT Symposium on Theory of Computing (STOC), pp. 890-901, 2017. ACM. (Acceptance Rate: 24%)
+Ruta Mehta, Ioannis Panageas, Georgios Piliouras, Prasad Tetali, and Vijay V. Vazirani. "Mutation, Sexual Reproduction and Survival in Dynamic Environments." In Proceedings of the 8th Innovations in Theoretical Computer Science Conference (ITCS), LIPIcs, Vol. 67, Article 24, pp. 24:1-24:19, 2017. Schloss Dagstuhl - Leibniz-Zentrum für Informatik. (Acceptance Rate: 35%)
+Simina Branzei, Ruta Mehta, and Vasilis Gkatzelis. "Nash Social Welfare Approximation for Strategic Agents." In Proceedings of the ACM Conference on Economics and Computation (EC), pp. 611-628, 2017. ACM. (Acceptance Rate: 29%)
+Ruta Mehta, Ioannis Panageas, and Georgios Piliouras. "Natural Selection as an Inhibitor of Genetic Diversity: Multiplicative Weights Updates Algorithm and a Conjecture of Haploid Genetics (Working Paper Abstract)." In the Proceedings of the Conference on Innovations in Theoretical Computer Science (ITCS), pp. 73, 2015. ACM Press. (Acceptance Rate: 28%)
+Ruta Mehta. "Constant Rank Bimatrix Games are PPAD-hard." In Proceedings of the 46th Annual ACM Symposium on Theory of Computing (STOC), pp. 545-554, 2014. ACM Press. (Acceptance Rate: 29%)
+Jugal Garg, Ruta Mehta, and Vijay V. Vazirani. "Dichotomies in equilibrium computation, and complementary pivot algorithms for a new class of non-separable utility functions." In Proceedings of the 46th Annual ACM Symposium on Theory of Computing (STOC), pp. 525-534, 2014. ACM Press. (Acceptance Rate: 29%)
+Jugal Garg, Ruta Mehta, Milind Sohoni and Nisheeth Vishnoi. "Towards Polynomial Simplex-Like Algorithms for Market Equilibria." In Proceedings of the 24th Annual ACM-SIAM Symposium on Discrete Algorithms (SODA), pp. 1226-1242, 2013. SIAM. (Acceptance Rate: 29%)
+Jugal Garg, Ruta Mehta, Milind Sohoni and Vijay V. Vazirani. "A Complementary Pivot Algorithm for Market Equilibrium under Separable, Piecewise-Linear Concave Utilities." In Proceedings of the 44th Annual ACM Symposium on Theory of Computing (STOC), pp. 525-534, 2012. ACM Press. (Acceptance Rate: 29%)
+Bharat Adsul, Jugal Garg, Ruta Mehta, and Milind Sohoni. "Rank-1 Bimatrix Games: A Homeomorphism and a Polynomial Time Algorithm." In Proceedings of the 43rd Annual ACM Symposium on Theory of Computing (STOC), pp. 195-204, 2011. ACM. (Acceptance Rate: 28%)
+Patents
+Kuntal Dey, Ruta Mehta, Natwar Modani, Seema Nagar, Amit Anil Nanavati. Systems and methods for federating open social networks for analyses. US 20120124134 A1, 2012.
+Kuntal Dey, Ruta Mehta, Natwar Modani, Seema Nagar, Amit Anil Nanavati. Federating open social networks for analyses. US 20120324014 A1, 2012.
+Conferences Organized or Chaired
+Co-organizer: New Perspectives on Algorithmic Game Theory, Stonybrook Game Theory Conference, 2026
+Co-organizer: Foundations of Data Economics Workshop, ACM Conference on Economics and Computation, 2026
+Co-organizer: AImpact Workshop, AImpact Center, Illinois, 2026
+Program Committee Chair: Track A, 45th IARCS Annual Conference on Foundations of Software Technology and Theoretical Computer Science (FSTTCS), 2025
+Program Committee Track Chair: ACM Conference on Economics and Computation (EC), 2025
+Co-organizer: Dagstuhl Workshop on Fair Division: Algorithms, Solution Concepts, and Applications, 2024
+Area Chair: 24th ACM Conference on Economics and Computation (EC), 2023
+Co-organizer:
+Equilibrium Computation@EC Workshop, ACM Conference on Economics and Computation (EC), 2023
+Co-organizer: Mini-Symposium on Algorithmic Game Theory, CanaDAM, 2023
+Co-organizer: EC Mentoring Workshop, ACM Conference on Economics and Computation (EC), 2022
+Area Chair: 22nd ACM Conference on Economics and Computation (EC), 2021
+Program Committee Co-Chair: 16th Conference on Web and Internet Economics (WINE), 2020
+Co-organizer: Rising Stars in EECS Workshop, 2019
+Founder and Organizer: EC Algorithmic Game Theory Mentoring Workshop, ACM Conference on Economics and Computation (EC), 2018
+Co-organizer: Session on Career Advice for Graduate Students, ACM Conference on Economics and Computation (EC), 2017
+Tutorial Chair: 13th Conference on Web and Internet Economics (WINE), 2017
+Co-organizer: Game Theory Workshop, Hausdorff Center for Mathematics, Universitat at Bonn, 2015
+Co-organizer: 31st Conference on the Foundations of Software Technology and Theoretical Computer Science (FSTTCS), 2011
+Professional Societies
+Member: Association of Computing Machinery (ACM), 2017
+Service on Department Committees
+Chair: CS CARES Committee, SSCDS, Illinois, 2025 - Present
+Vice Chair: CS CARES Committee, CS, Illinois, 2023 - 2025
+Member: Advisory Committee, CS, Illinois, 2023 - 2024
+Member: At-Large Secondary Committee, Faculty Recruiting, CS, Illinois, 2021 - 2023
+Member: CS CARES Committee, CS, Illinois, 2020 - 2023
+Member: Graduate Study Committee, CS, Illinois, 2019 - 2020
+Member: Diversity Committee, CS, Illinois, 2018 - 2019
+Member: Outreach Committee, CS, Illinois, 2017 - 2019
+Member: Undergraduate Study Committee, CS, Illinois, 2016 - 2019
+Panelist: Women in Computing Visit, CS, Illinois, 2016 - 2017
+Service on College Committees
+Member: Council for Community, Opportunity, and Engagement (CCOE), Grainger College of Engineering, Illinois, 2025 - Present
+Service on Campus Committees
+Founding Member: AImpact Center and Seminar Series, Illinois, 2025-Present
+Service to Federal and State Government
+Panelist: European Research Council (ERC)
+Reviewer: United States-Israel Binational Science Foundation
+Other Outside Service
+Panelist: Tech Pulse 2030-The Reliable Agent Challenge: Building AI You Can Trust, Chicago, 2026
+Invited Participant: Theoretical Computer Science (TCS) Visioning Workshop, 2020
+Panelist: Job Market, EC Mentoring Workshop, 22nd ACM Conference on Economics and Computation (EC), 2021
+Honors
+Dean's Award for Excellence in Research, Associate Professor, 2026 (2026)
+Campus Award for Excellence in Guiding Undergraduate Research, University of Illinois Urbana-Champaign, 2025 (2025)
+College Award for Sustained Excellence in Diversity, Equity, and Inclusion, SSCDS, Illinois, 2025 (2025)
+Invited Speaker, 21st Max Planck Advanced Course on the Foundations of Computer Science (ADFOCS), 2020 (2020)
+NSF CAREER Award, 2018 (2018)
+Simons-Berkeley Research Fellow, 2015 (2015)
+Outstanding Post-Doctoral Researcher Award, College of Computing, Georgia Tech, 2014 (2014)
+ACM India Doctoral Dissertation Award, 2012 (2012)
+Recent Courses Taught
+CS 374 AL1 (CS 374 AYA, CS 374 AYB, CS 374 AYC, CS 374 AYD, CS 374 AYE, CS 374 AYF, CS 374 AYG, CS 374 AYH, CS 374 AYJ, CS 374 AYK, ECE 374 AL1, ECE 374 AYA, ECE 374 AYB, ECE 374 AYC, ECE 374 AYD, ECE 374 AYE, ECE 374 AYF, ECE 374 AYG, ECE 374 AYH, ECE 374 AYJ, ECE 374 AYK) - Intro to Algs & Models of Comp
+CS 473 (CSE 414, MATH 473) - Algorithms
+CS 580 - Topics in Algrthmc Game Theory
+CS 598 RM - Algorithmic Game Theory
+CS 598 TH1 - Recent Advances in TCS
+Related News
+2026 CS faculty, staff and students recognized by campus and college for teaching, research, advising and engagement
+CS CARES Coffee Social
+2025 CS faculty, students and staff recognized by campus and college for teaching, research, advising and engagement
+CS and Math student Annie Zeng receives 2025 Goldwater Scholarship
+CS professor Ruta Mehta receives Campus Award for Excellence in Guiding Undergraduate Research
+2025 Campus Awards for Excellence in Instruction
+News Notes

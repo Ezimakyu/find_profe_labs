@@ -1,0 +1,112 @@
+Ph.D. Requirements | Siebel School of Computing and Data Science | Illinois
+University of Illinois Urbana-Champaign
+Alumni
+Corporate
+People
+My.SiebelSchool
+The Grainger College of Engineering
+Siebel School of Computing and Data Science
+Search
+Menu
+Ph.D. Requirements
+The doctoral degree in computer science is the
+highest academic degree in the field
+. The Ph.D. (Doctor of Philosophy) requires original research, specialization, and a thesis.
+Review Ph.D. requirements table
+Breakdown of Credit Hours
+Total number of hours required for a Ph.D.: 96 (64 with an approved CS M.S.)
+Must complete a minimum of 48 credit hours of coursework (16 with an approved M.S.), of which 20 credit hours must be CS coursework (12 with an approved M.S.).
+Must complete a minimum of 16 credit hours of 500-level coursework, of which 12 credit hours must be CS 500-level coursework. Students who first enrolled Spring 2022 or earlier must complete a minimum of 24 credit hours of 500-level coursework (16 with an approved M.S.), of which 12 credit hours must be CS 500-level coursework. Courses in computer science numbered CS 500-CS 590 or CS 598 are considered advanced coursework.
+Must complete a minimum of 32 credit hours of Thesis Research (CS 599).
+Note: CS 597 (Independent Study) and CS 591/491 (Seminar) may be applied towards bullet 2 above, but cannot be applied to bullet 3 above. Independent study coursework completed at other departments will be treated similar to CS 597 hours. A maximum of 16 credit hours of independent study coursework can be applied toward the degree.
+Advanced Coursework
+Courses in computer science numbered CS 500 - CS 590 or CS 598 are considered Advanced Coursework. Students must complete 24 credit hours (16 with an approved M.S.) of advanced coursework. In addition, 12 hours of the advanced coursework must be computer science courses.
+Program of Study (Core Requirements)
+The Program of Study is designed to allow students some flexibility to develop their curriculum in accordance with the Ph.D. graduation requirements outlined above and with the expectations of their advising/thesis committee. The Academic Office assigns students three committee members within the first month of starting the Ph.D. program. Students setup a time with their Program of Study committee to discuss their area of interests and determine what required courses must be completed and develop a strategy for meeting educational and career goals as well as the Ph.D. coursework requirements. For more detailed information, visit
+Program of Study
+Ph.D. Thesis Advisor
+Students must have a fully approved Ph.D. advisor agreement form on file electronically with the Academic Office before the start of their second year in the Ph.D. program. Students must first discuss the advising agreement with their potential advisor prior to submitting the electronic form. The Thesis Advisor Form is located at
+https://my.siebelschool.illinois.edu/gradadv
+Ph.D. students must have a thesis advisor who is either a core SSCDS or affiliate faculty with graduate advising privileges. Note that non-affiliate faculty and individuals from outside of UIUC cannot serve as Ph.D. advisors in SSCDS, and De Jure advisors are not allowed for such cases.
+Thesis Hours
+A minimum of 32 hours of Thesis Research (CS 599) is required. Students may register for the advisor's section of CS 599 after they successfully complete their qualifying examination. The CS 599 Thesis Advisor Agreement form must be on file prior to enrolling for thesis hours and prior to taking the qualifying exam. (
+Effective Fall 2022, registration in CS 599 hours during the term of the Qualifying Examination will not be approved. Students can register for CS 597 Individual Study credits until they pass the qualifying examination.
+Additional Requirements
+CS 591 section PHD must be taken in the first semester. A maximum of 4 credit hours of CS 591 can be applied toward the Ph.D. degree for students who started their program prior to Fall 2022. Students who started their program Fall 2022 or later can apply a maximum of 8 credit hours of CS 591 toward the Ph.D. degree .
+The minimum program GPA is 3.0.
+A teaching assistantship for an entire term by the end of the 5th year, with a satisfactory performance evaluation by the department.
+(This is a requirement for all Ph.D. students who enter the program Fall 2011 or later.).
+The TA training seminar must also be taken prior to or concurrent with holding the teaching assistantship.
+Effective Spring 2022, CS TA appointments which meet the following criteria will fulfill the PhD TA requirement : A 50% teaching assistantship or a 25% solo teaching assistantship for an entire term completed by the end of the 5th year, with a satisfactory performance evaluation by the department. TAships for any CS 591 course will not count towards the TA requirement.
+Ph.D. with Computational Science and Engineering (CSE) Option
+The Ph.D. with a concentration in
+Computational Science and Engineering
+(CSE) is an interdisciplinary program which focuses on computationally oriented research. All Ph.D. degree requirements apply PLUS the following additional requirements.
+Students must take 12 credit hours of coursework relevant to their CSE research areas, selected with the approval of their advisor, from one or more departments outside the Siebel School of Computing and Data Science.
+CSE 500-level courses may be used to satisfy the advanced coursework (500-level) requirement.
+The Ph.D. thesis must address some aspect of CSE.
+The doctoral committee should include a faculty member from outside computer science whose interests are relevant to the student's research.
+Ph.D. Requirements Table
+A) PhD Students Admitted for Fall 2022 (or later)
+Requirements
+Entering with approved M.S. degree in CS
+Entering with other approved graduate degree
+Entering with B.S. degree
+Thesis Research – CS 599 (minimum applied toward degree)
+500-level CS course work (minimum applied toward degree)
+Does not include CS 597 nor CS 591.
+Additional 500-level course work
+Does not include independent study nor seminar hours.
+Supplementary CS Graduate-level 400- or 500-level course work (Minimum applied toward degree.)
+Does not include CS 597 nor CS 591.
+Additional graduate-level 400- or 500-level course work
+CS 597 Limited to a total of 16 hours.
+CS 491/CS 591 Limited to 8 hours combined.
+Does not include non-CS individual study nor seminar hours.
+Remaining thesis research credit or graduate-level course work (Minimum applied toward degree. 400- or 500-level)
+Thesis research hours must be CS 599.
+Individual study hours must be CS 597, seminar hours must be CS 491/CS 591.
+Not to exceed 16 hours of CS 597 and 8 hours of CS 491/CS 591 combined towards degree.
+Not to exceed 12 hours of CS 597 per semester.
+Includes CS 591 PHD, taken in the first semester.
+Includes CS 591 TA taken prior to/concurrently with first TAship.
+Total Hours
+Other Requirements and Conditions (may overlap):
+A teaching assistantship for an entire term, with a satisfactory performance evaluation by the department, is required by the end of the 5th year.
+Ph.D. exam and dissertation requirements:
+International Students must show demonstration of English proficiency (equivalent to that necessary to be a TA-see Financial Aid) before taking the Qualifying Exam.
+Qualifying exam
+Preliminary exam
+Final exam or dissertation defense
+Dissertation deposit
+Minimum GPA: 3.0
+PhD Students Admitted Fall 2021 or Prior
+Requirements
+Entering with approved M.S. degree
+Entering with B.S. degree
+Credit hours:
+Hours
+Hours
+Total Credit for the Degree
+Thesis Research – CS 599 (minimum applied toward degree)
+Course Work
+500-level course work
+16 (12 must be CS courses)
+24 (12 must be CS courses)
+400- or 500-level course work
+Additional graduate-level course work or thesis research credit (subject to Other Requirements and Conditions below)
+Other Requirements and Conditions (may overlap):*
+Minimum hours of CS course work
+CS 597 (Independent Study) and CS 591 (Seminar) may not be applied to the 500-level course work requirement.
+CS 591 section PHD must be taken in the first semester. A maximum of 4 credit hours of CS 591 can be applied toward the Ph.D. degree.
+The minimum program GPA is 3.0.
+A teaching assistantship for an entire term, with a satisfactory performance evaluation by the department, is required by the end of the 5th year.
+Ph.D. exam and dissertation requirements:
+Qualifying exam
+Preliminary exam
+Final exam or dissertation defense
+Dissertation deposit
+[Note: International Students must show demonstration of English proficiency (equivalent to that necessary to be a TA - see Financial Aid) before taking the Qualifying Exam.]
+Graduate Advising
+The Graduate Academic Office, a guiding hand for graduate students, offers weekday assistance.
+Advising Contacts & Queue

@@ -1,0 +1,248 @@
+PhD in Informatics - Informatics Programs
+School of Information Sciences
+Informatics Programs
+Search
+Academics
+Informatics
+PhD in Informatics
+PhD in Informatics
+The
+INFORMATICS PhD
+program is a unique research degree defined by innovative application and invention of computational methods to advance existing or newly created fields of inquiry. Research and education in informatics has a strong interdisciplinary focus bringing together information and computation foundations with application areas. The Informatics PhD program at the University of Illinois supports the interdisciplinary education needed to promote the creation of new fields of research enabled by the development and application of new technologies.
+Is a PhD in Informatics right for you?
+Individually tailored, student-centric study
+— with the help of an advisory committee, each student will craft his or her own program of study.
+Renowned faculty
+from the entire campus and wide disciplinary spectrum, representing more than seven Schools and Colleges across the Urbana-Champaign campus.
+World-class computing resources.
+Fellowships and assistantships
+for the most qualified applicants.
+“That’s the key to new and good ideas; they come from having a very broad and multidisciplinary range of interests.”
+Robin Chase, Founder of Zipcar
+Individually tailored student-centric study
+students
+Faculty
+Courses
+PhD Focus Areas
+ART & CULTURAL INFORMATICS
+BIOINFORMATICS
+COGNITIVE SCIENCE & LANGUAGE PROCESSING
+DATA ANALYTICS & INFORMATION VISUALIZATION
+DESIGN, TECHNOLOGY, & SOCIETY
+HEALTH & MEDICAL INFORMATICS
+SPATIAL INFORMATICS
+ART & CULTURAL INFORMATICS
+ART & CULTURAL
+Informatics is an area of informatics dealing with information as medium and content for art production, experience, and dissemination. The Art and Cultural PhD addresses these needs explicitly in its design; it makes technological knowledge (theoretical and practical) an intrinsic part of the curriculum.
+Research Themes
+Human behavior and Design
+Machine Learning
+Scientific
+Visualization
+Performance
+Psychology
+Bioinformation
+Analysis of Movement
+Community
+BIOINFORMATICS
+BIOINFORMATICS
+encompasses a wide range of research efforts that aim at gaining insights into biological processes through the development and implementation of repositories and tools, and the computational and statistical analysis of biological information. Computational, informatics, statistical, and mathematical resources and technologies are integrated to organize, analyze, and visualize biological data at multiple levels of organization, from molecules and phenotypes to populations and ecosystems.
+Research Themes
+Phylogenetics
+Molecular Evolution
+Evolutionary Genomics
+Statistical Genetics
+Statistical Genomics
+Systems and Network Biology
+Quantitative Genetics
+Structural Biology
+Bio-text Mining
+E-science
+COGNITIVE SCIENCE & LANGUAGE PROCESSING
+COGNITIVE SCIENCE and LANGUAGE PROCESSING
+is a multidisciplinary program for students with an interest in computational approaches to intelligence. Cognitive science is the study of mind and intelligence, embracing philosophy, psychology, artificial intelligence, neuroscience, and linguistics. The central hypothesis of cognitive science assumes that the mind has mental representations analogous to computer data structures, and computational procedures similar to computer algorithms. Cognitive theorists have proposed that the mind contains such mental representations as logical propositions, rules, concepts, images, and analogies, and that it uses mental procedures such as deduction, search, matching, rotating, and retrieval.
+Research Themes
+Machine Learning
+Language Processing
+Sentiment Analysis
+Knowledge Engineering
+Cyber Infrastructure
+Computational Biology
+Network Analysis
+DATA ANALYTICS & INFORMATION VISUALIZATION
+ANALYTICS and VISUALIZATION
+encompass data management, information retrieval, knowledge analysis, and conceptual understanding in the context of large-scale organizational systems. This Area supports technology-driven applications-oriented students in data mining, information retrieval, machine learning, information visualization, human-computer interaction, intelligent discovery environments, intelligent analysis systems, computational statistics, business analytics, and social and behavioral analytics.
+Research Themes
+Human-Computer Relationships
+Network Analysis
+Machine Learning
+Augmented Reality
+Data-Mining
+Artificial Intelligence
+DESIGN, TECHNOLOGY, & SOCIETY
+The
+DESIGN, TECHNOLOGY, & SOCIETY
+program area investigates the interrelationship between information technology and social, political, and cultural processes and values. This includes both the analysis of the larger consequences of informatics systems and the criticism, design, and re-design of systems to address public needs and problems. Research may involve design processes, human communication and interaction, the larger contexts of these systems (such as the legal, economic, cultural, educational, or other contexts) and the repercussions of any of these topics.
+Research Themes
+Collaborative Learning
+Social Behavior
+Digital Environments
+Sustainability
+Public Policy
+Social Networks
+Human Trust
+Augmentation
+HEALTH & MEDICAL INFORMATICS
+Health and Medical Informatics
+is concerned with all aspects of understanding and promoting the effective organization, analysis, management, and use of information in health care. The emphasis in the informatics program is on health information technology.
+Research Themes
+Healthcare Infrastructure
+Public Health
+Population Management of infectious disease epidemiology
+Population Management of chronic infections
+Management of care in homes
+SPATIAL INFORMATICS
+SPATIAL INFORMATICS
+represents an overarching umbrella for studying theories, methods, and applications of spatial analysis/modeling; and spatial data handling, management, and visualization. Spatial Informatics research and education are becoming increasingly important as data-intensive, large-scale, and/or multi-scale problems that involve the use and development of GIS (Geographic Information Systems) and spatial analysis/modeling are becoming ubiquitous in scientific discovery and decision-making in many fields.
+Research Themes
+Methods and software in GIScience (Geographic Information Science)
+Policy and user issues of GIS, geospatial data accessibility
+Spatial decision support systems
+Geospatial problem solving environments, and novel applications of GIS such as in Business
+Earth sciences
+Environmental Science and Engineering
+Epidemiology
+Geography and Regional Science
+Natural Resource Management
+Urban and Regional Planning
+Admission to the program
+Starting in January 2020, all applicants (including current or former UIUC Masters students) for the Informatics PHD Program must apply through the Graduate College Online Application.
+Applications are accepted for fall admission only
+. Applications will open in early August, and the deadline is December 1st for the following Fall admission.
+It is highly recommended you do not wait until the deadline to submit your application or letters of recommendation. Plan to have all your application materials in one month prior to the deadline.
+NOTE:
+The Informatics PhD program is completely separate and distinct from the
+PhD in Information Sciences
+in the
+School of Information Sciences (iSchool)
+, with its own admission policies, curriculum and expectations. If you are interested in applying to both programs, you will need to submit separate applications.
+For more information, please email
+info-phd@illinois.edu
+Requirements for the PhD
+Advisory and Dissertation Committees
+Applications and Foundations
+First and Second Years of the program
+Area Qualifying Examination
+Third and Fourth Years of the Program
+Preliminary Examination
+Final Defense
+Course Load and GPA
+Required Courses and hours
+Advisory and Dissertation Committees
+The Chair of the Governing Committee will appoint a Supervising Committee to approve each student’s program of study, which will be called the
+Advisory Committee
+(first half of studies) and then the
+Dissertation Committee
+(second half of studies).
+This Committee must contain faculty with expertise in both the
+Applications
+area and the
+Foundations
+area chosen by the student, including at least four faculty members of the Informatics Program.
+The
+Advisory Committee
+supervises the student during the first half of studies and approves their program of study. They will also preside over the Qualifying Exam.
+As per Graduate College Rules the
+Dissertation Committee
+must include a minimum of four voting members, at least three of whom are members of the Graduate faculty, and at least 2 of whom are tenured (at the Univ. of Illinois, Urbana campus). All members of the committee must either be Informatics faculty affiliates, or, in the case of an off-campus committee member, must have an Informatics research focus. The four must cover all aspects of the dissertation, including both the Applications and Foundations areas. Due to the applied nature of informatics, a fifth member external to the University is highly encouraged, such as an industrial researcher. The membership may overlap with the Advisory Committee. The membership of these committees should remain constant for each half of the student’s studies, except in unusual circumstances, but may change when it is constituted for the dissertation. Changes to the supervising committees must be approved by the Governing Committee. The student is apprised of progress after each year.
+Applications and Foundations
+The signature for interdisciplinary informatics is to require courses in both
+Applications
+(the subject matter courses for a particular Area) and
+Foundations
+(the particular information technology methods, such as programming, databases, etc., that are appropriate for a particular Area.)
+Courses below the 500 level cannot be used to fulfill these basic requirements, although they can be counted as part of the total course load required.
+Each student can choose the standard Applications and Foundations of an established Area, or with approval of their Advisory Committee, choose custom Applications and Foundations courses across Areas.
+Because students may establish new areas of research, courses outside those listed are also permitted, with approval of the student’s Advisory Committee. These four courses will form the heart of their studies and are intended to provide the basic discipline knowledge. Typically, these would be taken as soon as possible but at least by the end of Year 2 (for a student entering in Stage II of the PhD), with any prerequisite 400-level courses taken in Year 1. The timing depends on prior preparation. As soon as they have sufficient preparation, students must also take two Research Practicums.
+The required courses will usually be taken by the end of Year 2 but may be taken later if the student needs further preparatory work before being prepared for 500-level courses. After completing the required courses, a student must take an
+Area Qualification Exam
+to demonstrate breadth of knowledge in their chosen area, whether standard or custom. After passing the Area Qualifier, students must form a Dissertation Committee.
+First and Second Years of the program
+All students are expected to meet professional informatics levels of knowledge in programming/databases and in mathematics/statistics, or other technical field, as relevant to their area. The level is judged by their Advisory Committee and will vary depending on the Area chosen. Some students may already be at an adequate level, while others may require remediation. Their committee will develop a plan for achieving an adequate level, including research experiences and additional coursework, and will monitor students’ progress within the remediation plan.
+In the first semester of study, students must take the Orientation Seminar (first for 0 credits, and then in a later semester for 1 credit).
+During the first two years students must take four courses, determined in consultation with their Advisory Committee: two in
+Applications
+and two in
+Foundations
+. When ready, they must pass the
+Area Qualifying Examination
+Area Qualifying Examination
+The purpose of the Informatics Area Qualifying Exam is to test the student on the foundation and application coursework that they have taken, to make sure that they are adequately prepared to move on to the dissertation stage. If the student’s principal advisor thinks he or she is ready for a Qualifying Exam and their advisory committee is satisfied with their course work, then they may take the Qualifying Exam, provided they have completed the following:
+INFO 500 Orientation Seminar (both for 0 and 1 credit)
+Two 500-level Foundations courses
+Two 500-level Applications courses
+Two semesters of INFO 510 Research Practicum
+The Qualifying Exam has two portions: a open-book/computer written exam, and an oral exam with the full Advisory Committee, approximately one week later. The questions for the written exam will be devised by the student’s Advisory Committee, including the Principal Advisor/Chair. The questions will likely be drawn from a set of readings or other material that is assigned by the committee and advisor in advance of the exam. These questions will test knowledge and understanding of the student’s Applications and Foundations areas. Committee members will provide their questions to the advisor, who will assemble them into one document, and then provide them to the student at the pre-arranged time. The time length for the written exam is flexible and should be negotiated between the student and their committee, but must be agreed to prior to the start of the exam. For example the student might be given a 4 hour block of time, or a 24 hour block of time, or a weekend (i.e. Friday 5 pm to Monday 8 am) to complete the written portion of the exam. At the end of the allotted time the student sends the written answers back to the entire committee.
+This is followed approximately one week later by an oral exam lasting up to two hours. During this oral exam, the full Advisory Committee, including the chair, ask follow-up questions and questions from related areas. At the end of this session the committee needs to decide whether the results are Pass, Pass with Conditions, Fail, or Deferred. A result of deferred means student will be given additional readings/courses and is required to retake the exam within six months. Student may receive a deferred exam only once; thereafter options are either pass or fail.
+Responsibilities of Student:
+It is the student’s responsibility to schedule both the written and oral portion of the qualifying exams, based on when the advisor and committee members are available. The committee must consist of 4 Informatics faculty affiliates that adequately cover the application and foundation areas of interest. The student must also notify the Informatics Education Coordinator at least three weeks in advance of the qualifying exam, and provide the dates/times/locations of the exam.
+Responsibilities of Advisor:
+It is the advisor’s responsibility to collect the questions from the committee members, and to get those to the student at the appropriate time. They also will chair the oral follow-up meeting and send the final signed Qualifying Exam Results Form back to the Informatics Education Coordinator.
+Third and Fourth Years of the Program
+The second half of the program is devoted to the dissertation research, which students typically carry out during Years 3 and 4. When ready, they must pass the
+Preliminary Examination
+(essentially a proposal defense).
+When finished, students must present an acceptable Dissertation and then pass the Final Examination to graduate from the Informatics PhD program. A well-prepared student should pass the Preliminary Examination in Year 3 and the Final Examination in Year 4 to earn a PhD within four years of entering the program.
+Preliminary Examination
+The Preliminary Examination is an oral defense of the student’s dissertation proposal. Writing a good proposal is an important part of being a successful researcher, and the preliminary exam is an important milestone that helps students develop the skill of writing a good proposal. Students write a proposal that is submitted to their committee at least 2 weeks (14 days) ahead of the exam. During the exam the student presents the proposed research and the committee evaluates the research goals and progress of the student.
+Thus, the two main purposes of the preliminary exam are to develop proposal writing skills and to obtain feedback on the research plan from the committee. The proposal must be approved by the student’s Dissertation Committee PRIOR to the bulk of the dissertation research being performed, and therefore most students will probably schedule their Preliminary Exams one or two semesters after passing the qualifying exam.
+The format of the dissertation proposal is flexible due to the breadth of research areas encompassed in the Informatics PhD program. At a minimum it should include a definition or statement of the problem to be addressed, a comprehensive review of the literature, an outline of the methodology to be used, and a discussion of any preliminary results to date. Though there are no explicit page limits, the proposal should be between 15 and 25 pages in length, excluding the bibliographic references. The dissertation proposal should NOT be a preliminary draft (or select chapters) of the dissertation, an existing publication or a survey of the student’s research field.
+Since the Dissertation Committee must be convened and approved by the Graduate College in advance of the Preliminary Examination, it is imperative that the student contact the Informatics Education Coordinator 3-6 weeks ahead of the proposed exam date (6 weeks if there is an external voting member on the committee). The student needs to email the Education Coordinator and confirm the committee members, provide their netID’s, along with the date/time and location of the exam. Once the Dissertation Committee is approved by the Graduate College, the exam must be taken within 180 days. It is the student’s responsibility to schedule the Preliminary exam (including finding a suitable location) based on the availability of the committee members. The dissertation proposal must be distributed to the Dissertation Committee members (copying the Informatics Education Coordinator) at least 2 weeks (14 days) in advance of the exam date.
+The Advisor will chair the Exam, and is responsible for obtaining the committee’s signatures on the form at the end of the exam. As with the Qualifying Exam, the results are either Pass, Fail, or Deferred (in which a student must retake the exam within 180 days, with the same committee members). As per the Graduate College rules, students must be registered during the semester that they take the Preliminary exam. Please note that the Preliminary exam and final Dissertation Defense may not be taken during the same semester.
+Final Defense
+Students must also be registered during the semester that they have their Final Defense (though they do not need to be registered during the semester they deposit their dissertation).
+Similar to the Preliminary Exam, the Dissertation Committee must be convened in advance of the Final Defense, so students should contact the Informatics Education Coordinator 3-6 weeks ahead of the proposed date (6 weeks if there is an external voting member on the committee). Once the Dissertation Committee is approved by the Graduate College, the Final Defense must occur within 180 days.
+It is the student’s responsibility to schedule the Final Defense (including finding a suitable location) based on the availability of the committee members. The dissertation must be distributed to the Dissertation Committee members (copying the Informatics Education Coordinator) at least 2 weeks (14 days) in advance of the defense date.
+The Advisor will chair the Exam, and is responsible for obtaining the committee’s signatures on the forms at the end of the exam. Students are required to present a public seminar on their dissertation research prior to the defense. Most students typically reserve a room for 2.5 -3 hours, and the seminar occurs during the first hour (approximately 45 minutes long, with 10-15 minutes for questions from the public). After the question and answer period is over, members of the public leave the room, and the committee asks further questions prior to rendering their final decision.
+Course Load and GPA
+The minimum course load for full-time graduate students is 12 hours. If you have a 50% assistantship (not fellowship), then the minimum is 8 hours.
+A minimum GPA is required by the Graduate College. See
+https://grad.illinois.edu/academics/handbook-policies
+for more information.
+Required Courses and hours
+The total number of hours required for a PhD is 96 (or 64 with an approved MS):
+• 32 hours for MS courses (400 or 500-level)
+• 32 for PhD courses (400 or 500-level, as noted below)
+• 32 for dissertation credits
+Students entering with a suitable MS can skip the first part and graduate in 4 years, with the first half being courses and the second half being dissertation. Students entering without a suitable MS will take 5 – 6 years.
+The Informatics Program requires the following courses:
+• The INFO 500 Orientation seminar
+• Two Research Practicums (lab rotations). This course is INFO 510 and requires an approval form.
+• Two Applications courses (500-level)
+• Two Foundations courses (500-level), all for some coherent plan of X-informatics.
+This will supply 25 of the required 32 PhD course hours. The student will also take at least two specialty courses (at either the 400 or 500-level) for the remaining required course hours.
+Application Checklist
+Important Notes
+Application Checklist
+Application submitted online.
+Application fee paid online with credit card.
+Area of Interest specified online.
+Submit three new letters of recommendation online.
+Three faculty members you might be interested in working with suggested, listed online on the Application Information page.
+Scores from the Test of English as a Foreign Language (TOEFL or IELTS) online.
+Note:
+Copies are acceptable pending official scores.
+Important Notes
+When entering in your previous degree history, the name of the institution must be entered as it appears on the official transcript.
+Please do not send additional materials (e.g. publications, photographs, videos, CDs, or portfolios). These items are not reviewed during the admissions process.
+Please note that all admissions decisions will be communicated via email to the email address provided in your application. If your email address changes between the time you submit your application and March 15, email your updated email address to info-phd@illinois.edu. Include your old email address, your new email address, your first and last name, and your Application identification number in the email message.
+Apply Now
+Informatics Programs
+614 E. Daniel St., 4th Floor
+MC-387
+Champaign, IL 61820
+217-333-4930
+Email:
+informatics@illinois.edu
+School of Information Sciences
+Log In

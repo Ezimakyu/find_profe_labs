@@ -1,0 +1,94 @@
+Openings | Computer Vision and Machine Learning Group | University of Illinois Urbana-Champaign
+School of Information Sciences
+Computer Vision and Machine Learning Group
+Home
+Publications
+People
+Teaching
+Openings
+For Prospective Students
+Thanks for your interest in joining our research group. We are actively seeking students with a strong background in computer vision, machine learning, or artificial intelligence.
+Our email address is
+cvml-application@lists.illinois.edu
+. Please feel free to contact us. Due to the large number of emails we receive, we may not be able to answer every query. We appreciate your understanding. If you do not get a reply from us, please feel free to follow up.
+Research Areas
+3D Generative Models
+Developing 3D-aware generative models to better understand the underlying 3D structures in 2D images.
+Ma et al., 2023
+Fischer et al., 2024
+Ma et al., 2024
+Cao et al., 2026
+Continual / Few-Shot Learning
+Learning models efficiently on limited labeled data and continual data streams.
+Sun et al., 2019
+Liu et al., 2020
+Liu et al., 2021
+Liu et al., 2023
+Fischer et al., 2024
+Zhu et al., 2025
+Medical Image Analysis
+Enhancing AI models' reliability and generalizability for medical images such as CT scans.
+Zhang et al., 2023
+Wu et al., 2026
+Positions
+PhD in Information Sciences (Fall 2027)
+We are actively seeking highly motivated graduate students to join our research group. This year, we have openings for:
+PhD in Information Sciences
+, School of Information Sciences
+Deadline: Dec 1, 2026
+The PhD position includes a five-year funding guarantee for TA/RA. International
+applicants need to fufill the University of Illinois
+TA English proficiency
+requirements
+. Specifically, applicants must meet one of the following speaking
+score requirements:
+TOEFL iBT speaking subscore of 24 (for tests dated prior to 1/21/2026)
+TOEFL iBT speaking subscore of 5.0 (for tests dated after 1/20/2026)
+IELTS Academic speaking subscore of 8.0
+If you are interested, please send an email to
+cvml-application@lists.illinois.edu
+with your
+and
+transcripts
+. Please remember to submit your formal application through the
+Graduate College application system
+as well.
+Master of Science in Computer Science (MSCS, Fall 2027)
+We also have mutilple openings for:
+Master of Science in Computer Science (MSCS)
+, Siebel School of Computing and Data Science
+Deadline: Dec 15, 2026
+The MSCS is a research-oriented degree that requires 28 credit hours of coursework and 4 credit hours of thesis. The MS can be counted towards the PhD in Computer Science. The MSCS program does not offer guaranteed funding. Students who are
+eligible for Teaching Assistant (TA) appointments
+are welcome to apply for available TA positions through the department. If you are interested in joining our group, please submit your application through the
+Graduate College application system
+and indicate my name in your application. If you have any questions, please feel free to contact us via email.
+Other PhD Programs
+We will also consider strong applicants for the following programs. However, we are not actively recruiting students through these programs for the Fall 2027 admission cycle.
+PhD in Computer Science
+, Siebel School of Computing and Data Science
+PhD in Electrical & Computer Engineering
+, Department of Electrical & Computer Engineering
+PhD in Informatics
+, Illinois Informatics Programs
+Independent Studies
+IS389/589
+CS397/597
+ECE397/597
+We welcome undergraduate and graduate students in the
+School of Information Sciences
+, the
+Siebel School of Computing and Data Science
+, and the
+Department of Electrical & Computer Engineering
+at the University of Illinois to apply for independent studies. Please feel free to contact us via email.
+Postdocs, Research Assistants, and Visiting Students
+Currently, we do not have openings for postdocs and research assistants, or visiting students.
+School of Information Sciences
+Computer Vision and Machine Learning Group
+614 E. Daniel St. MC-314
+Champaign, IL 61820-7999
+Phone:
+(217) 300-0910
+Email:
+vision@ischool.illinois.edu
