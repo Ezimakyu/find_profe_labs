@@ -91,12 +91,34 @@ def _research_score(url: str, anchor_text: str = "") -> int:
     return sum(1 for hint in RESEARCH_PATH_HINTS if hint.strip("/") in blob)
 
 
+# Multi-tenant hosting suffixes where each tenant is a distinct site, so the
+# registrable domain must include the tenant label (e.g. user.github.io).
+MULTI_TENANT_SUFFIXES = (
+    "github.io",
+    "gitlab.io",
+    "netlify.app",
+    "vercel.app",
+    "pages.dev",
+    "web.app",
+    "firebaseapp.com",
+    "wordpress.com",
+    "weebly.com",
+    "wixsite.com",
+    "squarespace.com",
+)
+
+
 def _normalize(url: str) -> str:
     """Drop fragments and trailing slashes so we de-duplicate consistently."""
     parsed = urlparse(url)
     path = parsed.path.rstrip("/") or "/"
     normalized = parsed._replace(fragment="", path=path)
     return normalized.geturl()
+
+
+# Public alias for callers outside this module (e.g. crawl seeds).
+def normalize_url(url: str) -> str:
+    return _normalize(url)
 
 
 def _is_http(url: str) -> bool:
@@ -109,11 +131,20 @@ def _has_non_html_suffix(url: str) -> bool:
 
 
 def registrable_host(url: str) -> str:
-    """Last two labels of the host (best-effort, no PSL)."""
+    """Best-effort registrable domain of the host (no PSL).
+
+    Returns the last two labels, except for known multi-tenant hosting suffixes
+    (``github.io`` etc.) where the tenant label is included so different tenants
+    are treated as separate sites.
+    """
     host = urlparse(url).netloc.lower().split(":")[0]
     parts = host.split(".")
     if len(parts) <= 2:
         return host
+    for suffix in MULTI_TENANT_SUFFIXES:
+        if host == suffix or host.endswith("." + suffix):
+            labels = suffix.count(".") + 2
+            return ".".join(parts[-labels:])
     return ".".join(parts[-2:])
 
 

@@ -150,14 +150,13 @@ class Fetcher:
         for pattern in BLOCK_PATTERNS:
             if re.search(pattern, lowered):
                 return f"body_match:{pattern}"
-        # Avoid false positives: many legitimate sites mention Cloudflare scripts.
+        # Cloudflare challenge phrases ("just a moment", "attention required") also
+        # appear on legitimate 200 pages, so only treat them as a block on the
+        # error statuses Cloudflare actually uses for challenges.
         if status_code in {503, 520, 521, 522, 523, 524}:
             for pattern in CLOUDFLARE_CHALLENGE_PATTERNS:
                 if re.search(pattern, lowered):
                     return f"body_match:{pattern}"
-        for pattern in CLOUDFLARE_CHALLENGE_PATTERNS:
-            if re.search(pattern, lowered):
-                return f"body_match:{pattern}"
         # Some JS-heavy pages may return almost no content.
         if len(lowered.strip()) < 200:
             return "body_too_short"

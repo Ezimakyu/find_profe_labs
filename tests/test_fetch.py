@@ -36,6 +36,15 @@ def test_blocked_reason_detects_status_and_body():
     assert fetcher._blocked_reason(200, "y" * 500) is None
 
 
+def test_blocked_reason_cloudflare_phrases_only_on_error_status():
+    fetcher = Fetcher(_fast_settings())
+    page = "Just a moment... attention required" + "y" * 400
+    # A legit 200 page that happens to contain these phrases is NOT a block.
+    assert fetcher._blocked_reason(200, page) is None
+    # But the same phrases on a 503 Cloudflare challenge are flagged.
+    assert fetcher._blocked_reason(503, page).startswith("body_match")
+
+
 def test_connection_error_retries_then_recovers(monkeypatch):
     fetcher = Fetcher(_fast_settings(request_retries=3))
     calls = {"n": 0}

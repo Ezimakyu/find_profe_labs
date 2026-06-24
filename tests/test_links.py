@@ -2,6 +2,7 @@ from scraper.links import (
     extract_candidate_links,
     extract_internal_links,
     is_probably_personal_site,
+    normalize_url,
     registrable_host,
 )
 
@@ -45,7 +46,16 @@ def test_is_probably_personal_site_excludes_directory_and_social():
 
 def test_registrable_host():
     assert registrable_host("https://prof.cs.illinois.edu/page") == "illinois.edu"
-    assert registrable_host("https://example-lab.github.io/x") == "github.io"
+    # Multi-tenant hosts include the tenant label so tenants are distinct sites.
+    assert registrable_host("https://example-lab.github.io/x") == "example-lab.github.io"
+    assert registrable_host("https://other-lab.github.io/y") == "other-lab.github.io"
+    assert registrable_host("https://mysite.netlify.app/") == "mysite.netlify.app"
+
+
+def test_normalize_url_strips_trailing_slash_and_fragment():
+    assert normalize_url("https://lab.illinois.edu/research/") == "https://lab.illinois.edu/research"
+    assert normalize_url("https://lab.illinois.edu/research#sec") == "https://lab.illinois.edu/research"
+    assert normalize_url("https://lab.illinois.edu/") == "https://lab.illinois.edu/"
 
 
 def test_extract_internal_links_skips_boilerplate_and_prioritizes_research():

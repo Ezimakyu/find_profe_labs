@@ -69,6 +69,22 @@ def test_recursive_crawl_follows_internal_links(tmp_path):
     assert len(list(pages_dir.glob("*.txt"))) == len(saved)
 
 
+def test_recursive_crawl_normalizes_seeds_no_duplicate_fetch(tmp_path):
+    # Seed has a trailing slash; an on-page link points to the un-slashed form.
+    home = "https://cool-lab.illinois.edu/research/"
+    pages = {
+        "https://cool-lab.illinois.edu/research": '<a href="/research/">Research</a>' + "x" * 400,
+    }
+    pages_dir = tmp_path / "pages"
+    raw_dir = tmp_path / "raw"
+    pages_dir.mkdir()
+    raw_dir.mkdir()
+    saved, _ = _recursive_crawl(_fast_settings(), FakeFetcher(pages), [home], pages_dir, raw_dir)
+    # The page must be captured exactly once despite the slash mismatch.
+    assert len(saved) == 1
+    assert len(list(pages_dir.glob("*.txt"))) == 1
+
+
 def test_recursive_crawl_respects_max_depth(tmp_path):
     home = "https://cool-lab.illinois.edu/"
     pages = {

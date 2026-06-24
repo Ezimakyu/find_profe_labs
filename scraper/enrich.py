@@ -9,7 +9,7 @@ from pydantic import BaseModel, Field, field_validator
 
 from scraper.config import Settings
 from scraper.fetch import Fetcher
-from scraper.links import extract_internal_links, registrable_host
+from scraper.links import extract_internal_links, normalize_url, registrable_host
 from scraper.llm_client import LLMClient
 from scraper.models import FacultyExtraction, LabCandidate, coerce_optional_str, coerce_str_list
 from scraper.preprocess import clean_html_to_text
@@ -93,8 +93,11 @@ def _recursive_crawl(
     ``enrich_max_depth`` and ``max_enrich_pages`` to capture the lab's actual
     research content (projects/people/publications) rather than a single page.
     """
-    seed_domains = {registrable_host(url) for url in seeds}
-    queue: deque[tuple[str, int]] = deque((url, 0) for url in seeds)
+    # Normalize seeds the same way discovered links are normalized, so a seed and
+    # an on-page link to the same page de-duplicate instead of being fetched twice.
+    norm_seeds = list(dict.fromkeys(normalize_url(url) for url in seeds))
+    seed_domains = {registrable_host(url) for url in norm_seeds}
+    queue: deque[tuple[str, int]] = deque((url, 0) for url in norm_seeds)
     visited: set[str] = set()
     saved_pages: list[dict] = []
     blocked_urls: list[dict] = []
