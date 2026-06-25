@@ -4,8 +4,77 @@ from typing import List, Optional, Union
 
 from pydantic import BaseModel, Field, HttpUrl, field_validator
 
+from scraper.config import Settings
 from scraper.llm_client import LLMClient
 from scraper.models import Evidence, FacultyExtraction, coerce_optional_str, coerce_str_list
+from scraper.retrieve import EmbeddingRetriever, build_research_corpus
+
+
+class HomepageSelectionEnvelope(BaseModel):
+    homepage_urls: List[str] = Field(default_factory=list)
+
+    @field_validator("homepage_urls", mode="before")
+    @classmethod
+    def _coerce(cls, v):
+        return coerce_str_list(v)
+
+
+HOMEPAGE_SELECT_SYSTEM_PROMPT = """You identify a professor's own website from candidate links.
+
+Choose ONLY URLs that are the professor's personal/academic homepage or their
+research-group/lab website. INCLUDE personal domains and university subdomains
+such as <netid>.cs.illinois.edu or publish.illinois.edu/<name>.
+
+EXCLUDE:
+- the university directory profile page (cs.illinois.edu / ece.illinois.edu /
+  siebelschool.illinois.edu /about/people/... or /about/directory/...)
+- social media, Google Scholar, DBLP, ORCID, ResearchGate, Academia.edu
+- publisher/paper pages (IEEE, ACM, Springer, arXiv, hal.science, etc.)
+- news articles, award/biography pages, Wikipedia, seminar announcements
+- co-authors' or other people's sites
+
+Return JSON {\"homepage_urls\": [...]} containing the chosen URLs exactly as given
+(usually 0-2). If none qualify, return an empty list.
+"""
+
+
+def select_homepages(
+    llm: LLMClient,
+    professor_name: str,
+    candidates: list[dict[str, str]],
+) -> list[str]:
+    """Ask the LLM which candidate links are the professor's own site.
+
+    ``candidates`` is ``[{"url", "text"}]`` gathered from the profile's outbound
+    links and/or a web search. Returns the subset judged to be personal/lab
+    sites, preserving only URLs that were actually offered.
+    """
+    if not professor_name or not candidates:
+        return []
+    offered = {item["url"] for item in candidates}
+    listing = "\n".join(f"- {item['url']} | {item.get('text', '')}" for item in candidates)
+    user_prompt = f"""Professor: {professor_name}
+
+Candidate links:
+{listing}
+
+Return JSON with key homepage_urls (array of chosen URLs from the list above).
+"""
+    try:
+        payload = llm.json_response(
+            system_prompt=HOMEPAGE_SELECT_SYSTEM_PROMPT,
+            user_prompt=user_prompt,
+            schema=HomepageSelectionEnvelope,
+            max_output_tokens=400,
+        )
+    except Exception:
+        return []
+    chosen: list[str] = []
+    for url in payload.homepage_urls:
+        url = url.strip()
+        if url in offered and url not in chosen:
+            chosen.append(url)
+    return chosen
 
 
 class FacultyExtractionEnvelope(BaseModel):
@@ -100,15 +169,22 @@ def extract_faculty_info(
     professor_url: str,
     sources: list[tuple[str, str]],
     candidate_links: list[dict[str, str]] | None = None,
+    settings: Settings | None = None,
+    retriever: EmbeddingRetriever | None = None,
 ) -> FacultyExtraction:
     """Extract structured research info from one or more source pages.
 
     ``sources`` is a list of ``(url, cleaned_text)`` for the professor's profile
     page plus any crawled personal/lab pages. ``candidate_links`` are anchors
-    pulled from the profile so the LLM can pick personal-site URLs.
+    pulled from the profile so the LLM can pick personal-site URLs. When
+    ``settings`` is given, source text is reduced to the most research-relevant
+    chunks via embedding retrieval before being sent to the LLM.
     """
     candidate_links = candidate_links or []
-    sources_text = _format_sources(sources)
+    if settings is not None:
+        sources_text = build_research_corpus(settings, retriever, sources)
+    else:
+        sources_text = _format_sources(sources)
     user_prompt = f"""
 Primary profile URL: {professor_url}
 
@@ -133,7 +209,7 @@ Return JSON with keys:
         system_prompt=FACULTY_EXTRACT_SYSTEM_PROMPT,
         user_prompt=user_prompt,
         schema=FacultyExtractionEnvelope,
-        max_output_tokens=3500,
+        max_output_tokens=1500,
     )
     return FacultyExtraction(
         professor_name=payload.professor_name,

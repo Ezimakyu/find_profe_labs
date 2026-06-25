@@ -6,4 +6,7 @@ python-dotenv
 requests
 tenacity
 playwright
+ddgs
+# Optional: only needed when USE_EMBEDDING_RETRIEVAL=1 (local semantic ranking).
+fastembed
 

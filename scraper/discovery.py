@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
@@ -7,6 +8,37 @@ from bs4 import BeautifulSoup
 from scraper.config import Settings
 from scraper.fetch import Fetcher
 from scraper.models import FacultyRecord
+
+_NAME_PREFIX_RE = re.compile(r"^(dr|prof|professor)\.?\s+", re.IGNORECASE)
+_NAME_WS_RE = re.compile(r"\s+")
+
+
+def _normalize_name(name: str | None) -> str:
+    if not name:
+        return ""
+    cleaned = _NAME_PREFIX_RE.sub("", name.strip())
+    return _NAME_WS_RE.sub(" ", cleaned).lower()
+
+
+def _dedupe_by_name(records: list[FacultyRecord]) -> list[FacultyRecord]:
+    """Collapse the same person listed under multiple directories.
+
+    CS and ECE cross-list affiliate/joint faculty, so the same professor shows
+    up with two different profile URLs (~15% of rows). Processing both wastes a
+    full web-search + crawl + LLM pass and yields inconsistent duplicate rows,
+    so we keep the first occurrence per normalized name. Records with no name
+    are always kept (we can't tell them apart).
+    """
+    out: list[FacultyRecord] = []
+    seen: set[str] = set()
+    for rec in records:
+        key = _normalize_name(rec.name)
+        if key and key in seen:
+            continue
+        if key:
+            seen.add(key)
+        out.append(rec)
+    return out
 
 
 def _department_from_url(url: str) -> str:
@@ -99,5 +131,5 @@ def discover_faculty(settings: Settings, fetcher: Fetcher) -> tuple[list[Faculty
             if len(found) >= settings.max_faculty_pages:
                 break
 
-    return list(found.values()), blocked
+    return _dedupe_by_name(list(found.values())), blocked
 
