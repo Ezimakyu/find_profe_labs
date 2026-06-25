@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import random
 import re
+import threading
 import time
 from dataclasses import dataclass
 
@@ -46,28 +47,50 @@ class Fetcher:
     def __init__(self, settings: Settings) -> None:
         self.settings = settings
         self.session = requests.Session()
-        # Adaptive throttle state shared across requests in a run.
+        # requests' default connection pool caps at 10 sockets, so with many
+        # worker threads hitting the same host (every profile is on illinois.edu)
+        # most threads block waiting for a free connection. Size the pool to the
+        # worker count so concurrency isn't silently serialized at the socket
+        # layer.
+        pool = max(10, settings.max_workers + 4)
+        adapter = requests.adapters.HTTPAdapter(pool_connections=pool, pool_maxsize=pool)
+        self.session.mount("http://", adapter)
+        self.session.mount("https://", adapter)
+        # Adaptive throttle state shared across requests/threads in a run.
         self._cooldown_until = 0.0
         self._current_cooldown = settings.cooldown_s
+        self._lock = threading.Lock()
+        # Playwright's sync API is not safe to run from several threads at once,
+        # and launching many headless browsers concurrently exhausts the box and
+        # stalls the whole pool. Serialize the fallback so it stays a safety net.
+        self._playwright_lock = threading.Lock()
 
     def _polite_sleep(self) -> None:
-        """Base crawl delay plus jitter, and honor any active cooldown window."""
+        """Base crawl delay plus jitter, and honor any active cooldown window.
+
+        The cooldown deadline is shared across worker threads, so when one
+        thread trips a site's rate limiter every thread waits out the same
+        global window — which is what actually gets a burst unblocked.
+        """
         delay = self.settings.crawl_delay_s + random.uniform(0.0, self.settings.crawl_jitter_s)
         time.sleep(delay)
-        remaining = self._cooldown_until - time.monotonic()
+        with self._lock:
+            remaining = self._cooldown_until - time.monotonic()
         if remaining > 0:
             time.sleep(remaining)
 
     def _enter_cooldown(self) -> None:
         """Back off globally after a throttling signal, growing each time."""
-        self._cooldown_until = time.monotonic() + self._current_cooldown
-        self._current_cooldown = min(
-            self._current_cooldown * self.settings.cooldown_backoff,
-            self.settings.max_cooldown_s,
-        )
+        with self._lock:
+            self._cooldown_until = time.monotonic() + self._current_cooldown
+            self._current_cooldown = min(
+                self._current_cooldown * self.settings.cooldown_backoff,
+                self.settings.max_cooldown_s,
+            )
 
     def _reset_cooldown(self) -> None:
-        self._current_cooldown = self.settings.cooldown_s
+        with self._lock:
+            self._current_cooldown = self.settings.cooldown_s
 
     def _request(self, url: str) -> requests.Response:
         headers = {
@@ -75,7 +98,39 @@ class Fetcher:
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "en-US,en;q=0.9",
         }
-        return self.session.get(url, headers=headers, timeout=self.settings.request_timeout_s)
+        response = self.session.get(
+            url,
+            headers=headers,
+            timeout=self.settings.request_timeout_s,
+            stream=True,
+        )
+        try:
+            content_type = response.headers.get("Content-Type", "").lower()
+            # Skip binary/non-HTML payloads (PDFs, datasets, media) that would
+            # waste memory and never yield useful text under many workers.
+            if content_type and not any(
+                t in content_type for t in ("html", "xml", "text/plain", "application/json")
+            ):
+                response._content = b""
+                return response
+            cap = self.settings.max_response_bytes
+            # requests' timeout is per-read, so a server that trickles one byte
+            # at a time can hold a worker open indefinitely. Enforce a total
+            # wall-clock budget for the body so one tarpit can't stall the pool.
+            deadline = time.monotonic() + self.settings.request_timeout_s
+            chunks: list[bytes] = []
+            total = 0
+            for chunk in response.iter_content(chunk_size=65536):
+                if not chunk:
+                    continue
+                chunks.append(chunk)
+                total += len(chunk)
+                if total >= cap or time.monotonic() > deadline:
+                    break
+            response._content = b"".join(chunks)
+        finally:
+            response.close()
+        return response
 
     def fetch_html(self, url: str) -> FetchResult:
         """Fetch a URL with retry + adaptive cooldown to survive bot-blocking.
@@ -115,7 +170,12 @@ class Fetcher:
                         return fallback
                 continue
 
-            if blocked_reason and self.settings.use_playwright_fallback:
+            # A thin page is usually just thin, not bot-blocked. Spinning up the
+            # serialized Playwright fallback for every short page is what made the
+            # run crawl, so reserve the browser for real block signals
+            # (captcha/Cloudflare challenge pages) and 4xx/429 statuses above.
+            hard_block = blocked_reason is not None and blocked_reason != "body_too_short"
+            if hard_block and self.settings.use_playwright_fallback:
                 fallback = self._fetch_with_playwright(url)
                 if fallback is not None and fallback.ok:
                     self._reset_cooldown()
@@ -169,6 +229,10 @@ class Fetcher:
         except Exception:
             return None
 
+        with self._playwright_lock:
+            return self._run_playwright(url, sync_playwright, PlaywrightTimeoutError)
+
+    def _run_playwright(self, url: str, sync_playwright, PlaywrightTimeoutError) -> FetchResult | None:
         try:
             with sync_playwright() as p:
                 browser = p.chromium.launch(headless=True)

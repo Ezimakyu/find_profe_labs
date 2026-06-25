@@ -3,6 +3,7 @@ from scraper.links import (
     extract_internal_links,
     is_probably_personal_site,
     normalize_url,
+    path_prefix_for,
     registrable_host,
 )
 
@@ -89,3 +90,31 @@ def test_extract_internal_links_same_domain_only():
     assert "https://lab.illinois.edu/research" in links
     assert "https://lab.illinois.edu/people" in links
     assert all("other.com" not in u for u in links)
+
+
+def test_path_prefix_for_tilde_user():
+    assert path_prefix_for("http://luthuli.cs.uiuc.edu/~daf/") == "/~daf/"
+    assert path_prefix_for("http://luthuli.cs.uiuc.edu/~daf/tracking.html") == "/~daf/"
+    # Ordinary sites get no path constraint.
+    assert path_prefix_for("https://prof.example.com/research") == ""
+
+
+def test_extract_internal_links_same_host_and_path_prefix():
+    html = """
+    <a href="tracking.html">Tracking</a>
+    <a href="/~someoneelse/">Other person</a>
+    <a href="https://prof.cs.illinois.edu/x">Different host</a>
+    """
+    base = "http://luthuli.cs.uiuc.edu/~daf/"
+    links = extract_internal_links(
+        html,
+        base,
+        same_registrable_domain=False,
+        same_host=True,
+        path_prefix="/~daf/",
+    )
+    assert "http://luthuli.cs.uiuc.edu/~daf/tracking.html" in links
+    # A co-tenant on the same host (different /~user/) is excluded by path prefix.
+    assert all("someoneelse" not in u for u in links)
+    # A different host on the same registrable domain is excluded by same_host.
+    assert all("prof.cs.illinois.edu" not in u for u in links)

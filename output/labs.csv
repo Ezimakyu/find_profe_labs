@@ -1,118 +1,336 @@
 lab_name,canonical_url,source_faculty_count,professors,departments,llm_evidence_count
-Coordinated Science Laboratory,,5,Ivan Thomas Abraham|Minh N Do|Rainer Engelken|Ruta Mehta|Yaoyao Liu,cs|ece,16
-Artificial Intelligence Lab,,3,Ge Liu|Jiawei Han|Liangyan Gui,cs,7
-Computer Vision Lab,,3,Margaret M. Fleck|Saurabh Gupta|Svetlana Lazebnik,cs,9
-School of Information Sciences,,3,Jingrui He|Masooda N Bashir|Yun Huang,cs,10
-Siebel School of Computing and Data Science,,3,Daniel Kang|Kaiyu Guan|Yichun He,cs,7
-Algorithms and Theory Lab,,2,Chandra Chekuri|Sariel Har-Peled,cs,6
-Computer Security Lab,,2,Nikita Borisov|Varun Chandrasekaran,cs,6
-Department of Computer Science,,2,Maria Jesus Garzaran|Rainer Engelken,cs,7
-Department of Electrical and Computer Engineering,,2,Mohammed El-Kebir|Rainer Engelken,cs,10
-Human-Computer Interaction Lab,,2,Dominic Kao|Tal August,cs,3
-National Center for Supercomputing Applications,,2,Bill Kramer|Mohammed El-Kebir,cs,7
-Natural Language Processing Lab,,2,Julia Hockenmaier|Suma Bhat,cs,4
-Security and Privacy Lab,,2,Camille Cobb|Daniel Alabi,cs,7
-ADAPT Group,,1,Charith Mendis,cs,2
-Advanced Controls Research Laboratory,,1,Naira Hovakimyan,cs,3
-Aerospace Engineering,,1,Timothy Bretl,cs,2
-Agroecosystem Sustainability Center,,1,Kaiyu Guan,cs,3
-AI Research Group,,1,Margaret M. Fleck,cs,2
+Coordinated Science Laboratory,,15,Behrouz Touri|Bin Hu|Ivan Abraham|Ivan Dokmanic|Minh N. Do|Mohamed Ali Belabbas|Narendra Ahuja|Ruta Mehta|S.R. Etesami|Steve Lumetta|Suma Bhat|Yaoyao Liu|Yingying Li|Yunzong Xu|Zhizhen Jane Zhao,cs|ece,46
+Siebel School of Computing and Data Science,,13,Aishwarya Ganesan|Daniel Alabi|Daniel Gonzalez Cedre|David M Dalpiaz|Emily Kyle Fox|Huan Zhang|Ilan Shomorony|Jiaxuan You|Makrand Sinha|Pablo D Robles Granda|Reza Farivar|Yael Gertner|Yaoyao Liu,cs,45
+Department of Electrical and Computer Engineering,,9,Bob Horst|Eren Kizildag|Huan Zhang|Jingbo Liu|Juan Alvarez|Ning Luo|Philip Hillmer|Yingying Li|Yun-Sheng Chen,cs|ece,23
+Computer Vision Lab,,4,Alexander Schwing|Derek Hoiem|Liangyan Gui|Saurabh Gupta,cs,10
+Interactive Computing,,4,Brian Bailey|Eshwar Chandrasekharan|Michael Twidale|Sharifa Sultana,cs,9
+School of Information Sciences,,4,Jingrui He|JooYoung Seo|Masooda N Bashir|Yaoyao Liu,cs,13
+Beckman Institute for Advanced Science and Technology,,3,Minh N. Do|Yun-Sheng Chen|Zhi-Pei Liang,cs|ece,8
+Computational Biology Lab,,3,Matthias El-Kebir|Tandy Warnow|Tiffani L. Williams,cs,11
+Department of Statistics,,3,Eren Kizildag|Georgios Fellouris|Jingbo Liu,ece,8
+Electrical and Computer Engineering Department,,3,Daniel Alabi|George Gross|Maxim Raginsky,cs|ece,9
+Human-Computer Interaction Lab,,3,Dominic Kao|Koustuv Saha|Tal August,cs,8
+Laboratory for Optical Physics and Engineering,,3,Andrey Mironov|J. Gary Eden|Sung-Jin Park,ece,11
+Biomedical Imaging Lab,,2,Fan Lam|Haohua Tu,ece,8
+Computer Architecture Lab,,2,Dong Kai Wang|Saksham Agarwal,cs|ece,6
+Computer Science Education Lab,,2,Ruby Tahboub|Tiffani L. Williams,cs,5
+Control Systems Lab,,2,C. L. Beck|Melkior Ornik,cs|ece,6
+Coordinated Science Lab,,2,Daniel Alabi|Rayadurgam Srikant,cs,7
+Cyber-Physical Systems Lab,,2,Klara Nahrstedt|Roy Dong,cs|ece,6
+Department of Bioengineering,,2,Minh N. Do|Zhi-Pei Liang,cs|ece,6
+Department of Electrical & Computer Engineering,,2,Ivan Abraham|Yaoyao Liu,cs|ece,6
+Electrical and Computer Engineering,https://ece.illinois.edu/,2,John K. Schuh|W. C. Chew,ece,6
+Electromagnetic Compatibility Lab,,2,Gabriele Gradoni|Yang Shao,ece,6
+Formal Methods Lab,,2,Jose Meseguer|Talia Ringer,cs,8
+Industrial and Enterprise Systems Engineering,,2,Jugal Garg|Yunzong Xu,cs,6
+Interactive Computing Lab,,2,Ranjitha Kumar|Yang Wang,cs,6
+Machine Learning Lab,,2,Alexander Schwing|Tong Zhang,cs,5
+National Center for Supercomputing Applications,,2,Bill Kramer|Zhizhen Jane Zhao,cs|ece,5
+Natural Language Processing Lab,,2,Hao Peng|Tal August,cs,4
+Quantum Information Processing Lab,,2,Eric Chitambar|Ju Gao,cs|ece,4
+Siebel School of Computing and Data Science,https://cs.illinois.edu/,2,Max Fowler|Yun Huang,cs,7
+Software Engineering Lab,,2,Reyhaneh Jabbarvand|Sasa Misailovic,cs,6
+Accessibility and Educational Technology Lab,,1,Rachel F. Adler,cs,6
+ADAPT group,,1,Charith Mendis,cs,2
+Advanced Controls Research Laboratory (ACRL),,1,Ravi K. Iyer,cs,2
+Advanced Digital Sciences Center,,1,David M. Nicol,cs,3
+Advanced Semiconductor Device and Integration Group,,1,John M. Dallesasse,ece,3
+Agroecosystem Modeling Lab,,1,Kaiyu Guan,cs,4
+AI and Machine Learning Lab,,1,Han Zhao,cs,3
+AI and Robotics Group,,1,Derek Hoiem,cs,3
+AI for Science Lab,,1,Hao Peng,cs,3
+AI Research Group,,1,Jiaxuan You,cs,4
+AIFARMS Institute,,1,Vikram S. Adve,cs,4
 AImpact Center,,1,Ruta Mehta,cs,4
-Alawini Lab,https://alawini.web.illinois.edu,1,Abdussalam Alawini,cs,4
-Algebraic Complexity Theory Group,,1,Michael A. Forbes,cs,2
-Algorithms Group,,1,Karthekeyan Chandrasekaran,cs,3
-Amazon-Illinois Center on AI for Interactive Conversational Experiences (AICE),,1,Heng Ji,cs,3
-Arindam Banerjee Research Group,,1,Arindam Banerjee,cs,3
-Audio Research Lab,,1,Minje Kim,cs,2
-AVIATE Center,,1,Naira Hovakimyan,cs,3
-Beckman Institute for Advanced Science and Technology,,1,Minh N Do,cs,2
-Bed Time Research Institute,,1,Sheldon H. Jacobson,cs,4
-Bioinformatics Research Group,,1,Ge Liu,cs,2
+Alchemy Technology Foundry,,1,Sanjay J. Patel,cs,3
+Algorithm and Complexity Theory Lab,,1,Sariel Har-Peled,cs,2
+Algorithmic Game Theory Lab,,1,Bhaskar Ray Chaudhury,cs,3
+Algorithms Group,,1,Karthekeyan Chandrasekaran,cs,4
+Algorithms Lab,,1,Jeff Erickson,cs,3
+Algorithms Research Group,,1,Sanjeev Chekuri,cs,3
+Allen's Research Group,,1,Jont Allen,ece,4
+Amazon-Illinois Center on AI for Interactive Conversational Experiences,,1,Heng Ji,cs,4
+ATLAS Collaboration,,1,Mark Neubauer,ece,3
+Atmospheric and Space Remote Sensing Laboratory,,1,Gary R Swenson,ece,3
+Autonomous Systems Lab,,1,Melkior Ornik,cs,4
+Bahl Research Group,,1,Gaurav Bahl,ece,3
+"Baker Lab, Institute for Protein Design",,1,Ge Liu,cs,3
+Banerjee Lab,,1,Arindam Banerjee,cs,5
+Beckman Institute,,1,Jean-Pierre Leburton,ece,3
+Beckman Institute for Science and Technology,,1,Cunjiang Yu,ece,5
+Bed Time Research Institute,,1,Sheldon H. Jacobson,cs,5
+Behavioral Economics,,1,Michel Regenwetter,ece,3
+Bioacoustics Research Laboratory,,1,Aiguo Han,ece,2
+Bioacoustics Research Laboratory,https://www.brl.uiuc.edu,1,Michael L. Oelze,ece,4
+Bioengineering and Imaging Lab,,1,Yves Bresler,ece,4
+Bioinformatics and Computational Biology Lab,,1,Hongye Liu,cs,4
+Biomedical Imaging Center,,1,Brad Sutton,ece,2
+Biomedical Ultrasound Research Group,,1,Ping Song,ece,3
+BioMEMS and Nanoengineering Lab,,1,Rashid Bashir,ece,2
+Biophotonics Imaging Laboratory,,1,S. A. Boppart,ece,4
+BioSensors Lab,,1,Viktor Gruev,ece,3
+Bresler Lab,,1,Yves Bresler,ece,4
+Bretl Robotics Lab,,1,Timothy Bretl,cs,2
+C3SR,,1,Humphrey Shi,ece,3
+Can Bayram's Research Group,,1,Can Bayram,ece,4
+Cao Research Group,,1,Qing Cao,ece,2
+Carl R. Woese Institute for Genomic Biology,,1,Sihai Dave Zhao,cs,4
+Center for Advanced Electronics through Machine Learning (CAEML),,1,Xu Chen,ece,2
+Center for Advanced Electronics through Machine Learning (CAEML),https://caeml.illinois.edu,1,Elyse Rosenbaum,ece,4
+Center for Advanced Studies,https://ceme.ece.illinois.edu/people/,1,Arijit Banerjee,ece,2
 Center for Artificial Intelligence and Modeling (CAIM),,1,Olgica Milenkovic,cs,4
-Center for Innovation in Teaching and Learning,,1,Wade Fagen-Ulmschneider,cs,4
-Center for People and Infrastructures,,1,Karrie Karahalios,cs,4
-Center for Simulation of Advanced Rockets,,1,Michael T Heath,cs,3
-Chekuri Research Group,,1,Chandra Chekuri,cs,4
-Chen Lab,,1,Deming Chen,cs,2
-Cloud Computing Applications Lab,,1,Reza Farivar,cs,3
-Cloud Computing Laboratory,,1,Brighten Godfrey,cs,4
-Computational Genomics Lab,,1,Steven Lumetta,cs,4
-Computational Geometry Lab,,1,Jeff Erickson,cs,3
-Computational Intelligence for Engineering Lab (CIEL),,1,Hadi Meidani,cs,3
-Computational Law,,1,Sarah Lawsky,cs,1
-Computational Science and Engineering Program,,1,Michael T Heath,cs,3
-Computer Architecture Group,,1,Saksham Agarwal,cs,2
-Computer Architecture Lab,,1,Rakesh Kumar,cs,3
-Computer Science Education Lab,,1,Colleen M. Lewis,cs,2
-Computer Vision and Machine Learning Group,,1,Yaoyao Liu,cs,2
-Computing Systems Research Group,,1,Nam Sung Kim,cs,4
-Control and Machine Learning Lab,,1,Bin Hu,cs,3
-Conversational AI Lab,,1,Dilek Hakkani-Tur,cs,4
-Cryptography and Security Lab,,1,Andrew Miller,cs,3
-CS 598: Computational Scientometrics,,1,George Chacko,cs,3
-Cyber-Physical System Security Lab,,1,Kirill Levchenko,cs,3
-Cybersecurity Lab,,1,Carl Gunter,cs,3
-Cybersecurity Research Lab,,1,Xiaojing Liao,cs,1
-DASLAB,,1,Girish Chowdhary,cs,4
-Data and Information Systems Lab,,1,Bertram Ludaescher,cs,2
-Data Mining Lab,,1,Jiawei Han,cs,2
-Data Science Research Collaborative,,1,Wade Fagen-Ulmschneider,cs,4
-Data-centric computing lab,,1,Saugata Ghose,cs,2
-Department of Electrical & Computer Engineering,,1,Ivan Thomas Abraham,ece,3
-Department of Natural Resources and Environmental Sciences,,1,Kaiyu Guan,cs,3
-DEPEND Group,,1,Ravishankar K Iyer,cs,2
-Discovery Partners Institute,,1,Ivan Thomas Abraham,ece,3
-Distributed Protocols Research Group,http://dprg.cs.uiuc.edu/,1,Indranil Gupta,cs,3
-Distributed Systems,,1,Nikita Borisov,cs,3
-Distributed Systems Group,,1,Ram Alagappan,cs,3
-Formal Methods and Cryptography,,1,Ning Luo,cs,2
-Formal Methods Lab,,1,Jose Meseguer,cs,3
-FORWARD Data Lab,,1,Kevin Chenchuan Chang,cs,4
-Human-AI Interaction Lab,,1,Suma Bhat,cs,2
-Illinois/Mayo NSF Center for Computational Biotechnology and Genomic Medicine,,1,Ravishankar K Iyer,cs,2
-IMMERSE: Center for Immersive Computing,,1,Sarita V Adve,cs,4
-Industrial and Enterprise Systems Engineering,,1,Karthekeyan Chandrasekaran,cs,3
-Information Sciences,,1,Yue Guo,cs,2
-Institute for Genomic Biology,,1,Minh N Do,cs,2
-Institute of Genomic Biology,,1,Mohammed El-Kebir,cs,5
+Center for Artificial Intelligence Innovation,,1,Volodymyr Kindratenko,ece,3
+Center for Autonomous Construction and Manufacturing at Scale (CACMS),,1,R.S. Sreenivas,ece,3
+Center for Behavioral Intervention Technologies (CBITs),,1,Mashfiqui Rabbi,cs,3
+Center for Computational Electromagnetics,,1,Jianming Jin,ece,3
+Center for Digital Agriculture,,1,Vikram S. Adve,cs,4
+Center for Innovation in Teaching and Learning,,1,Wade Fagen-Ulmschneider,cs,5
+Center for mRNA Delivery and Cancer Immunotherapy,,1,Shuming Nie,ece,3
+Center For Power Optimization of Electro-Thermal Systems,https://robotics.illinois.edu/people/,1,Arijit Banerjee,ece,2
+"Center for Scientific Review, National Institutes of Health",,1,George Chacko,cs,3
+Center for Simulation of Advanced Rockets,,1,Michael T. Heath,cs,4
+Chandrasekaran Research Group,https://chandrasekaran-group.github.io/,1,Varun Chandrasekaran,cs,3
+Chen Lab,,1,Deming Chen,cs,3
+Chu Laboratory,https://publish.illinois.edu/chulab/,1,Rongming Chu,ece,3
+Combinatorial Optimization Lab,,1,Karthekeyan Chandrasekaran,cs,4
+Compiler Construction and Optimization,,1,Craig Zilles,cs,3
+Compiler Research Group,,1,William S. Moses,cs,4
+Compilers and Architecture Lab,,1,Maria Jesus Garzaran,cs,2
+Computational Electromagnetics Group,,1,Gabriele Gradoni,ece,3
+Computational Electronics Group,,1,Jean-Pierre Leburton,ece,3
+Computational Geometry Group,,1,Jeff Erickson,cs,3
+Computational Intelligence for Engineering Lab (CIEL),,1,Hadi Meidani,cs,2
+Computational Law Research Lab,,1,Sarah Lawsky,cs,2
+Computational Mathematics Group,,1,Andreas Klöckner,cs,5
+Computational Neuroscience Lab,,1,Rainer Engelken,cs,4
+Computational Science and Engineering Program,,1,Michael T. Heath,cs,4
+Computational Social Science Group,,1,Koustuv Saha,cs,3
+Computer Architecture and Systems Lab,,1,Jian Huang,cs,4
+Computer Architecture Research Group,,1,Rakesh Kumar,cs,4
+Computer Graphics and Data Visualization Lab,,1,John C. Hart,cs,4
+Computer Graphics Lab,,1,Shuang Zhao,cs,4
+Computer Science Theory Group,,1,Michael A. Forbes,cs,3
+Computer Vision and Machine Learning lab,,1,Yuxiong Wang,cs,3
+Computer Vision and Robotics Lab,,1,Shenlong Wang,cs,3
+Computer-based Simulation Lab,,1,Umberto Ravaioli,ece,3
+Computer-Based Testing Facility,,1,Craig Zilles,cs,3
+Computers and Education Research,,1,Katie Cunningham,cs,2
+Computing Education Research Lab,,1,Geoffrey Herman,cs,3
+Construction Engineering Group,,1,Mani Golparvar-Fard,cs,4
+Controlled Interacting Particle Systems Lab,,1,Prashant G. Mehta,ece,4
+ConvAI Lab,https://uiuc-conversational-ai-lab.github.io/,1,Gokhan Tur,cs,4
+Critical Infrastructure Resilience Institute,,1,David M. Nicol,cs,3
+Crowd Dynamics Lab,,1,Hari Sundaram,cs,5
+CS Education Research,,1,Colleen M. Lewis,cs,3
+Cunningham Lab,,1,B. T. Cunningham,ece,3
+CyberGIS Center for Advanced Digital and Spatial Studies,,1,Shaowen Wang,cs,3
+Cyberphysical Systems Lab,,1,V.V. Veeravalli,ece,3
+Cybersecurity and Cryptography Lab,,1,Yupeng Zhang,cs,1
+CyPhy Group,https://abdelzaher.cs.illinois.edu/,1,Tarek Abdelzaher,cs,5
+DAIS Laboratory,,1,Marianne Winslett,cs,4
+Data Analytics Lab,,1,Aditya Parameswaran,cs,4
+Data and Information Systems (DAIS) Research Lab,,1,Yongjoo Park,cs,5
+Data and Information Systems Laboratories,,1,Kevin Chen-Chuan Chang,cs,3
+Data and Information Systems Laboratory,,1,Marianne Winslett,cs,4
+Data Economics Group,,1,Bhaskar Ray Chaudhury,cs,3
+Data Foundations of AI Lab,,1,Jiaqi Ma,cs,2
+Data Mining Lab,,1,Jiawei Han,cs,4
+Data Science and Machine Learning Lab,,1,V.V. Veeravalli,ece,3
+Data Science Research Collaborative,,1,Wade Fagen-Ulmschneider,cs,5
+David Forsyth's research group,,1,David Forsyth,cs,3
+Decentralized Systems Lab,https://decentralize.ece.illinois.edu/,1,Andrew Miller,cs,4
+Department of Computer Science,,1,Minh N. Do,cs,3
+Department of Mechanical Science and Engineering,,1,Yingying Li,ece,4
+Department of Philosophy,,1,Philip Hillmer,ece,2
+Department of Physics,,1,Paul Selvin,ece,3
+Distributed And Storage Systems Laboratory (DASSL),,1,Ram Alagappan,cs,2
+Distributed Control Systems Lab,,1,Chris Hadjicostis,ece,3
+Distributed Protocols Research Group,http://dprg.cs.uiuc.edu/,1,Indranil Gupta,cs,5
+Electric Transportation Lab,,1,Chushan Li,ece,1
+Electrical & Computer Engineering Lab,,1,Subhonmesh Bose,ece,2
+Electrical and Computer Engineering,,1,Behrouz Touri,ece,4
+Electrical and Computer Engineering (ECE),,1,Ilan Shomorony,cs,3
+Electro-Optic Systems Laboratory,,1,Chet Gardner,ece,4
+Electromagnetics Lab,,1,Andreas Cangellaris,ece,3
+Electromagnetics Laboratory,,1,Jianming Jin,ece,3
+Engineering Education Research Lab,,1,Geoffrey Herman,cs,3
+Fang Research Group,,1,Kejie Fang,ece,2
+Field Robotics Lab,,1,Girish Chowdhary,cs,4
+Fluid Reality,,1,Craig Shultz,cs,4
+FOcal Lab,https://ggndpsngh.github.io/,1,Gagandeep Singh,cs,3
+Formal Methods and Verification Lab,,1,Elsa L. Gunter,cs,4
+Formal Systems Laboratory,https://fsl.cs.illinois.edu/,1,Grigore Rosu,cs,3
+FORWARD Data Lab,,1,Kevin Chen-Chuan Chang,cs,3
+Game Theory Research Group,,1,Roy Dong,ece,3
+Gene Networks in Neural & Developmental Plasticity (GNDP),,1,Sihai Dave Zhao,cs,4
+Gene Robinson's research group,,1,Gene Robinson,cs,2
+Generative AI Lab,,1,Tong Zhang,cs,2
+Ghose Research Group,,1,Saugata Ghose,cs,4
+Goldschmidt Research Group,,1,Elizabeth Goldschmidt,ece,4
+Golparvar Research Group,,1,Mani Golparvar-Fard,cs,4
+Grainger Center for Electric Machinery and Electromechanics,,1,Kiruba Haran,ece,3
+Grainger Center for Electric Machinery and Electromechanics,http://ceme.ece.illinois.edu,1,P. T. Krein,ece,3
+Grainger College of Engineering,,1,George Chacko,cs,3
+Health Care Engineering Systems Center,,1,James M. Rehg,cs,5
+Health Innovation Faculty,,1,Catherine Lesley Blake,cs,3
+High Speed Device and Integrated Circuits (HSIC) group,,1,Mark Feng,ece,4
+High-Speed Systems Lab,,1,José E. Schutt-Ainé,ece,2
+HMNTL,,1,Minjoo Lawrence Lee,ece,3
+Hockenmaier Lab,https://hmr-lab.github.io/,1,Julia Hockenmaier,cs,2
+Hoffmann Research Group,,1,Axel Hoffmann,ece,3
+Holonyak Lab,,1,Wenjuan Zhu,ece,3
+Holonyak Micro and Nanotechnology Lab,,1,Catherine P. Anderson,ece,3
+Holonyak Micro and Nanotechnology Laboratory,,1,Cunjiang Yu,ece,5
+Human Computer Interaction Lab,,1,Rachel F. Adler,cs,6
+Human Factors in Sociotechnical Systems Laboratory,,1,Abigail Wooldridge,cs,3
+Human-Centered Robotics Lab,,1,Katie Driggs-Campbell,cs,3
+Hyungsoo Choi's Research Group,,1,Hyungsoo Choi,ece,3
+Hyunseok Kim Research Group,,1,Hyunseok Kim,ece,4
+IBM-Illinois Center for Cognitive Computing Systems Research,,1,Sanjay J. Patel,cs,3
+IDEA Lab,,1,Hanghang Tong,cs,3
+ILEARN group,,1,Suma Bhat,cs,3
+Illinois Center for Internet of Things,,1,Elahe Soltanaghai,cs,5
+Illinois Robotics Group,,1,Arijit Banerjee,ece,2
+Illinois Security Lab,,1,Carl Gunter,cs,3
+Image and Video Processing Lab,,1,Pierre Moulin,ece,2
+Image Formation and Processing Group,,1,Humphrey Shi,ece,3
+IMMERSE Center for Immersive Computing,,1,Sarita V. Adve,cs,6
+Information and Intelligence Group,,1,Lav Varshney,cs,2
+Information Trust Institute,,1,David M. Nicol,cs,3
+Institute for Genomic Biology,,1,Paul Selvin,ece,3
+Integrated Circuits and Systems Group,,1,Pavan Kumar Hanumolu,ece,3
+Integrated Neurotechnology Lab,,1,Yurii Vlasov,cs,3
+Integrated RF micro-systems Research Group,,1,Songbin Gong,ece,4
 Intelligent Motion Lab,,1,Kris Hauser,cs,3
-Interactive Computing,,1,Eshwar Chandrasekharan,cs,3
-Interactive Computing Lab,,1,Camille Cobb,cs,3
-LLVM Compiler Infrastructure,,1,Vikram Adve,cs,6
-Machine Learning Lab,,1,Minje Kim,cs,2
-Machine Learning Systems Lab,,1,Fan Lai,cs,4
-Microsoft Research,,1,Aishwarya Ganesan,cs,4
-Motion Strategy Library,,1,Steven M. LaValle,cs,3
-NASA Acres Consortium,,1,Kaiyu Guan,cs,3
-Natural Language Processing (NLP) research group,,1,Heng Ji,cs,3
-Networked Systems Lab,,1,Fan Lai,cs,4
-Networked Systems Laboratory,,1,Brighten Godfrey,cs,4
-Networking Research Group,,1,Saksham Agarwal,cs,2
-Parasol Lab,,1,Nancy M. Amato,cs,6
-Perception and LANguage (PLAN) Group,,1,Ismini Lourentzou,cs,2
-PlatformX (Systems Platform and Intelligence Lab),,1,Jian Huang,cs,3
-Programming Languages and Formal Methods,,1,Darko Marinov,cs,2
-Programming Languages Lab,,1,Jose Meseguer,cs,3
-Quantum Information and Communication Lab,,1,Eric Chitambar,cs,3
-Real-time and Automated Monitoring and Control (RAAMAC) lab,,1,Mani Golparvar-Fard,cs,3
-Reinforcement Learning Lab,,1,Nan Jiang,cs,3
-Robotics,,1,Timothy Bretl,cs,2
-Robotics and Human-Centered AI Lab,,1,Katie Driggs-Campbell,cs,4
-Robotics Lab,,1,Saurabh Gupta,cs,3
-Scientific Computing Lab,,1,Andreas Paul Eberhard Kloeckner,cs,1
-Secure & Transparent Systems Laboratory,,1,Adam Bates,cs,4
-Siebel School of Computing and Data Science,https://cs.illinois.edu/,1,Daniel Dig,cs,2
-Simulation and Optimization Laboratory,,1,Sheldon H. Jacobson,cs,4
-Software Engineering Lab,,1,Reyhaneh Jabbarvand,cs,2
-Software Engineering Research Group,,1,Darko Marinov,cs,2
+Interactive Display Lab,,1,Craig Shultz,cs,4
+Ionospheric Radar Laboratory,,1,Erhan Kudeki,ece,6
+iSchool,,1,Haohan Wang,cs,2
+JLESC Joint-Laboratory on Extreme Scale Computing,,1,Franck Cappello,cs,3
+Kale Research Group,,1,Laxmikant V Kale,cs,4
+Kamalabadi Research Group,,1,Farzad Kamalabadi,ece,3
+Kinetic Intelligent Machine LAB,,1,Joohyung Kim,ece,3
+Laboratory for Cyber-Physical System Security,,1,Kirill Levchenko,cs,3
+Laboratory for Parallel Numerical Algorithms (LPNA),,1,Edgar Solomonik,cs,3
+Landes Research Group,,1,Christy Landes,ece,3
+Learning Analytics,,1,Craig Zilles,cs,3
+Lee Group,,1,Minjoo Lawrence Lee,ece,3
+Listening Technology Lab,,1,Ryan Corey,ece,2
+LOOME,http://loomecsweb.web.engr.illinois.edu/,1,Samuel N Kamin,cs,6
+Lorenz Research Group,,1,Virginia O. Lorenz,ece,3
+Luyi Xing's Lab,,1,Luyi Xing,cs,1
+Machine Learning and Audio Processing Lab,,1,Minje Kim,cs,3
+Machine Learning and Systems Lab,,1,Fan Lai,cs,0
+Machine Learning Group,,1,Liangyan Gui,cs,2
+Magnetic Resonance Functional Imaging Lab,,1,Brad Sutton,ece,2
+Makela Research Group,,1,Jonathan Makela,ece,3
+Materials Research Lab,,1,Catherine P. Anderson,ece,3
+Materials Research Laboratory,,1,Cunjiang Yu,ece,5
+Mathematical Language Processing Group,,1,Nickvash Kani,ece,3
+Mathematics and Computer Science Division at Argonne National Laboratory,,1,Franck Cappello,cs,3
+MEMS Research Group,,1,Andreas Cangellaris,ece,3
+Minjia Zhang's Research Group,,1,Minjia Zhang,cs,2
+Mitra Research Group,,1,Ravi K. Iyer,cs,2
+Mobile Systems Research Group,,1,Geoffrey Challen,cs,4
+Multimedia Systems Lab,,1,Klara Nahrstedt,cs,3
+MUSE,https://museresearch.github.io/,1,Yee Man (Margaret) Ng,cs,3
+Music Technology Lab,,1,Lippold Haken,ece,4
+NanoBIO Lab,,1,Umberto Ravaioli,ece,3
+Nanoengineering Laboratory,,1,Bill King,ece,3
+Nanotechnology Research Group,,1,Lyding,ece,4
+National Center for Supercomputing Applications (NCSA),,1,Bill Gropp,cs,3
+Network Security Research Group,,1,Chris Hadjicostis,ece,3
+Network Systems Group,,1,C. L. Beck,ece,2
+Networked Systems Lab,,1,Francis Y. Yan,cs,4
+Networking and Systems Lab,,1,Radhika Mittal,cs,5
+Networking Systems Lab,,1,Saksham Agarwal,cs,3
+Neubauer Group,,1,Mark Neubauer,ece,3
+Neural Data Analysis Lab,,1,Rainer Engelken,cs,4
+NSF Institute for Geospatial Understanding through an Integrative Discovery Environment (I-GUIDE),,1,Shaowen Wang,cs,3
+OATS Lab,https://tiffanygewang.com/lab,1,Ge 'Tiffany' Wang,cs,5
+Optical Fiber Laboratory,,1,P. Dragic,ece,3
+Parallel Computing Lab,,1,Wen-mei Hwu,ece,4
+Parallel Computing Research Group,,1,Maria Jesus Garzaran,cs,2
+Parasol Lab,,1,Nancy M. Amato,cs,5
+Parasol Lab,https://parasollab.web.illinois.edu/,1,Lawrence Rauchwerger,cs,3
+Peng Research Group,,1,Zhen Peng,ece,7
+Photonic Device Research Group,https://ece.illinois.edu/about/directory/faculty/choquett,1,Kent D. Choquette,ece,3
+Photonic Systems Laboratory,,1,L. L. Goddard,ece,3
+Phylogenetics and Network Science Lab,,1,Tandy Warnow,cs,4
+PLAN Lab,,1,Ismini Lourentzou,cs,4
+Planning Algorithms Lab,,1,Steven M. LaValle,cs,2
+POETS Engineering Research Center,,1,Kiruba Haran,ece,3
+Polaris Research Group,,1,David Padua,cs,4
+Power and Energy Systems Area,,1,Richard Y. Zhang,ece,3
+Power Electronics Lab,,1,Chushan Li,ece,1
+Privacy and Security Research Group,,1,Yang Wang,cs,2
+Probabilistic Programming Lab,,1,Sasa Misailovic,cs,4
+"Process, Interaction, and Creativity Lab (PICL)",,1,Sarah Gimbert Sterman,cs,5
+Programming Languages Lab,,1,Talia Ringer,cs,5
+Psychology,,1,Michel Regenwetter,ece,3
+Quantum Computing & Cryptography Lab,,1,Dakshita Khurana,cs,4
+Quantum Network Group,,1,Virginia O. Lorenz,ece,3
+Quantum Optics Lab,,1,Paul G. Kwiat,ece,5
+Quantum Transport Theory Group,https://ece.illinois.edu/about/directory/faculty/matthewg,1,Matthew Gilbert,ece,3
+Real-Time and Embedded Systems Laboratory,https://rtsl.cps.mw.tum.de/,1,Marco Caccamo,cs,4
+Rehg Lab,,1,James M. Rehg,cs,5
+Reinforcement Learning Lab,,1,Nan Jiang,cs,4
+Remote Sensing Lab,,1,Lara Waldrop,ece,3
+RF Sensing and Networking Lab,,1,Deepak Vasisht,cs,3
+Robotics Lab,,1,Saurabh Gupta,cs,2
+RoboTouch Lab,https://cs.illinois.edu/about/people/all-faculty/yuanwz,1,Wenzhen Yuan,cs,2
+Rogers Research Group,,1,John A Rogers,ece,2
+Satellite Networks Lab,,1,Deepak Vasisht,cs,3
+Sayan Mitra Lab,,1,Sayan Mitra,cs,4
+scienceNLP lab,https://kilicogluh.github.io/lab,1,Halil Kilicoglu,cs,3
+Scientific Computing Group,,1,Andreas Klöckner,cs,5
+Scientific Computing Lab,,1,Shuang Zhao,cs,4
+Secure & Transparent Systems Laboratory,,1,Adam Bates,cs,3
+Security and Privacy Lab,,1,Ling Ren,cs,3
+Sensing Infrastructure Research Group,https://sinrg.csl.illinois.edu/,1,Romit Roy Choudhury,cs,3
+Sensing Systems Lab,,1,Haitham Hassanieh,ece,2
+Shuming Nie Lab,,1,Shuming Nie,ece,3
+Simulation and Optimization Laboratory,,1,Sheldon H. Jacobson,cs,5
+SLICE,,1,Samuel N Kamin,cs,6
+Social Computing Lab,,1,Koustuv Saha,cs,3
+Social Sensing & Intelligence Lab,,1,Dong Wang,cs,3
+Software Engineering and AI Research,,1,Lingming Zhang,cs,3
+Software Engineering and Artificial Intelligence,,1,Yiling Lou,cs,4
+Software Testing and Analysis Lab,https://mir.cs.illinois.edu/marinov/,1,Darko Marinov,cs,5
+Software Verification Lab,,1,P. Madhusudan,cs,4
+Space Physics Group,,1,Lara Waldrop,ece,3
+Space Weather Prediction Lab,,1,Raluca Ilie,ece,3
+SPLICE,,1,Carl Gunter,cs,3
+Statistical Signal Processing Group,,1,Pierre Moulin,ece,2
 Statistical Speech Technology Group,,1,Mark Hasegawa-Johnson,cs,4
-Storage Systems Lab,,1,Ram Alagappan,cs,3
-System-Level Design Automation Group,,1,Rakesh Kumar,cs,3
+Stillwell Power Group,https://stillwell.ece.illinois.edu/,1,Andrew R. Stillwell,ece,3
+Stillwell Research Group,https://stillwell.cee.illinois.edu/,1,Dr. Ashlynn S. Stillwell,ece,4
+Systems and Networking Lab,,1,Matthew Caesar,cs,4
+Systems Research Group,,1,Tianyin Xu,cs,4
+Systems Security Research Group,,1,Sibin Mohan,cs,3
+The Grainger Center for Electric Machinery and Electromechanics,https://poets-erc.org/,1,Arijit Banerjee,ece,2
+The Laboratory for Interactive Artificial Intelligence,,1,"Charles L. Isbell, Jr.",cs,4
 The Mobius Group,,1,Robin Kravets,cs,2
-Theory and Algorithms Lab,,1,Daniel Alabi,cs,4
-Thomas M. Siebel Center for Computer Science,,1,Laxmikant V Kale,cs,4
-Trustworthy Machine Learning Lab,,1,Bo Li,cs,4
-Universal Design for Learning (UDL) and Accessibility Research Group,,1,Lawrence Angrave,cs,5
-Universal Design for Learning (UDL) and Accessibility Research Lab,,1,Hongye Liu,cs,3
-Visual Computing Lab,,1,Derek Hoiem,cs,2
-VMware Research Group,,1,Aishwarya Ganesan,cs,4
+Thin Film and Charged Particle Research Lab,,1,Kevin Kim,ece,3
+Thomas Moon's Research Group,,1,Thomas Moon,ece,3
+TIMANDAS,,1,ChengXiang Zhai,cs,3
+Torrellas Research Group,,1,Josep Torrellas,cs,2
+Ubiquitous Health Intelligence Lab,,1,Yiwen Dong,ece,4
+Ultrasonic Bioengineering and Biophysics Lab,,1,"Bill O'Brien, Jr.",ece,2
+Ultrasound Imaging Lab,,1,Ping Song,ece,3
+Universal Design for Learning (UDL) and Accessibility Research Group,,1,Lawrence Angrave,cs,3
+Universal Design for Learning Lab,,1,Hongye Liu,cs,4
+Unmanned Aerial Systems Lab,,1,Girish Chowdhary,cs,4
+Visualization and Mixed Reality Lab,,1,Eric Shaffer,cs,3
+VLSI Design Automation Lab,,1,Janak H Patel,ece,4
+VLSI Testing and Testability Lab,,1,Janak H Patel,ece,4
+WaggleNet,http://wagglenet.org,1,Christopher Schmitz,ece,2
+WINLAB,,1,Hubertus Franke,ece,2
+Wireless Communication and Antenna Research Group,,1,Jennifer Bernhard,ece,3
+Wireless Communication Networks,,1,Pramod Viswanath,ece,4
+Wireless Communications Lab,,1,V.V. Veeravalli,ece,3
+Wireless Networks Lab,,1,Haitham Hassanieh,ece,2
+Wireless Sensor Networks Lab,,1,Geoffrey Challen,cs,4
+"Wireless, Sensing and Embedded Networked Systems (iSENS)",,1,Elahe Soltanaghai,cs,5
+Xiuling Li's research group,,1,Xiuling Li,ece,4
+Yang Zhao Research Group,,1,Yang Zhao,ece,4
+ZJU-UIUC Institute,,1,Chao Qian,ece,2

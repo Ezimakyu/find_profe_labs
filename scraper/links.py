@@ -4,12 +4,15 @@ from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 
-# Hosts that are part of the official directory structure, not a personal site.
+# Apex hosts that serve the official directory, not a personal site. Note these
+# are matched exactly: personal homepages live on *subdomains* (e.g.
+# slazebni.cs.illinois.edu) which must still count as personal sites.
 DIRECTORY_HOSTS = (
     "cs.illinois.edu",
     "ece.illinois.edu",
     "engineering.illinois.edu",
     "grainger.illinois.edu",
+    "siebelschool.illinois.edu",
 )
 
 # File extensions we never want to crawl.
@@ -78,6 +81,11 @@ RESEARCH_PATH_HINTS = (
     "topic",
     "paper",
     "about",
+    "interest",
+    "/cv",
+    "vita",
+    "resume",
+    "bio",
 )
 
 
@@ -203,6 +211,27 @@ def is_probably_personal_site(url: str) -> bool:
     return True
 
 
+def host_of(url: str) -> str:
+    return urlparse(url).netloc.lower().split(":")[0]
+
+
+def path_prefix_for(url: str) -> str:
+    """Confining prefix for a personal site crawl.
+
+    Shared faculty servers host many people under ``/~netid/`` paths
+    (e.g. ``luthuli.cs.uiuc.edu/~daf/``); we constrain the crawl to that
+    directory so we stay on the professor's own pages. For ordinary sites we
+    return ``""`` (no path constraint beyond the host).
+    """
+    path = urlparse(url).path
+    marker = path.find("/~")
+    if marker == -1:
+        return ""
+    rest = path.find("/", marker + 2)
+    end = rest + 1 if rest != -1 else len(path)
+    return path[:end]
+
+
 def extract_internal_links(
     html: str,
     base_url: str,
@@ -210,15 +239,20 @@ def extract_internal_links(
     limit: int = 40,
     skip_boilerplate: bool = False,
     prioritize_research: bool = False,
+    same_host: bool = False,
+    path_prefix: str | None = None,
 ) -> list[str]:
     """Links on ``base_url`` that stay within the same site, for recursive crawl.
 
     With ``skip_boilerplate`` we drop generic site-chrome pages (alumni, news,
     contact, ...). With ``prioritize_research`` we order links so research/lab
-    pages are crawled first within the page budget.
+    pages are crawled first within the page budget. ``same_host`` restricts to
+    the exact hostname and ``path_prefix`` to a sub-path (used for tightly
+    scoping a personal homepage crawl).
     """
     soup = BeautifulSoup(html, "lxml")
     base_reg = registrable_host(base_url)
+    base_host = host_of(base_url)
     scored: list[tuple[int, str]] = []
     seen: set[str] = set()
     for anchor in soup.select("a[href]"):
@@ -228,7 +262,11 @@ def extract_internal_links(
         url = _normalize(urljoin(base_url, href))
         if not _is_http(url) or _has_non_html_suffix(url):
             continue
+        if same_host and host_of(url) != base_host:
+            continue
         if same_registrable_domain and registrable_host(url) != base_reg:
+            continue
+        if path_prefix and not urlparse(url).path.startswith(path_prefix):
             continue
         if skip_boilerplate and _is_boilerplate(url):
             continue
