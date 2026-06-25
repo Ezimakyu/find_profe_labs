@@ -1,0 +1,106 @@
+Ivan Thomas Abraham
+| Electrical & Computer Engineering | Illinois
+University of Illinois Urbana-Champaign
+Apply
+Give
+My.ECE
+The Grainger College of Engineering
+Electrical & Computer Engineering
+Search
+Menu
+Ivan Thomas Abraham
+Ivan Thomas Abraham
+Teaching Assistant Professor
+(217) 300-7361
+itabrah2@illinois.edu
+2058 Electrical and Computer Engineering Building
+For More Information
+Homepage
+Education
+Doctor of Philosophy, Electrical & Computer Engineering, University of Illinois, Urbana-Champaign, 2022
+Master of Science, Mechanical Science & Engineering, University of Illinois, Urbana-Champaign, 2017
+Bachelor of Science, Mechanical Engineering, Texas A&M University, 2014
+Academic Positions
+Teaching Assistant Professor, University of Illinois at Urbana-Champaign, Department of Electrical & Computer Engineering, 08/16/2024 - present
+Adjunct Lecturer, University of Illinois at Urbana-Champaign, Department of Electrical & Computer Engineering, 08/15/2023 - 08/15/2024
+Postdoctoral Research Associate, University of Illinois at Urbana-Champaign, Coordinated Science Laboratory, 08/15/2023 -08/15/2024
+Adjunct Lecturer, University of Illinois at Urbana-Champaign, Department of Bioengineering, 01/15/2023 - 05/15/2023
+Postdoctoral Research Associate, University of Illinois System, Discovery Partners Institute, 08/16/2022 - 05/15/2023
+Resident Instruction
+ECE 486, Control Systems (Spring 2026)
+ECE 515, Control System Theory & Design (Spring 2024, Fall 2025)
+ECE 374, Intro. to Algorithms and Models of Computation (Fall 2024, Spring 2025)
+ECE 220, Computer Systems & Programming (Fall 2023, Spring 2024, Fall 2024, Spring 2025, Fall 2025, Spring 2026)
+BIOE 205, Signals & Systems for Bioengineers (Spring 2023)
+Research Areas
+Control
+Robotics, vision, and artificial intelligence
+Signal Processing
+Research Topics
+Artificial Intelligence and Autonomous Systems
+Data/Information Science and Systems
+Neuro-engineering
+Selected Articles in Journals
+Hemodynamic cortical ripples through cyclicity analysis
+. Ivan Abraham, Somayeh Shahsavarani, Benjamin J. Zimmerman, Fatima T. Husain, Yuliy Baryshnikov.
+Network Neuroscience
+8 (4), 1105 - 1128.
+https://doi.org/10.1162/netn_a_00392
+Comparing cyclicity analysis with pre-established functional connectivity methods to identify individuals and subject groups using resting state fMRI
+. S Shahsavarani, IT Abraham, BJ Zimmerman, YM Baryshnikov, FT Husain.
+Frontiers in Computational Neuroscience
+13, 94.
+https://doi.org/10.3389/fncom.2019.00094
+Dissociating tinnitus patients from healthy controls using resting-state cyclicity analysis and clustering
+. BJ Zimmerman, I Abraham, SA Schmidt, Y Baryshnikov, FT Husain.
+Network Neuroscience
+3 (1), 67-89.
+https://doi.org/10.1162/netn_a_00053
+Refereed Conference Papers and Presentations
+Hearing Loss and Tinnitus Accelerate Regional Volumetric Changes in the Aging Brain.
+Shagun Ajmera,
+Ivan Abraham,
+Wenhao Zhang,
+Amber Leaver, Bradley Sutton, Yuliy Baryshnikov, Jonathan Peelle, Fatima Husain.
+49th Annual Midwinter Meeting of The Association for Research in Otolaryngology.
+San Juan, Puerto Rico. February 7-11, 2026.
+Harmonizing resting state functional MRI data to find markers of tinnitus in brain connectivity using deep learning
+Shagun Ajmera
+, Ivan Abraham, Fatima Husain.
+Tinnitus Research Initiative Conference 2024
+. Vancouver, Canada. June 10-12, 2024.
+Exploiting AI architecture to process and harmonize neuroimaging-based brain connectivity patterns in humans with phantom auditory perception
+Shagun Ajmera
+, Ivan Abraham, Fatima Husain.
+Advances and Perspectives in Auditory Neuroscience 2024
+. Chicago, USA. October 4, 2024
+Within-network functional connectivity reduced for auditory & attention networks in the presence of hearing loss.
+Ivan Abraham, Amber Leaver, Brad Sutton, Yuliy Baryshikov, Jonathan Peelle, Fatima Husain.
+2023
+Virtual Conference on Computational Audiology
+June 29-30, 2023.
+Evaluating tinnitus functional connectivity
+Tamanna Dhore, Shagun Ajmera,
+Ivan Abraham, Rafay Khan, Fatima Husain.
+The 9th Annual BRAIN Initiative Meeting
+. Bethesda, MD. June 12-13, 2023.
+Patents
+Automated, Objective Method of Assessing Tinnitus Condition
+. Fatima T. Husain, Yuliy Baryshnikov, Benjamin J. Zimmerman, Ivan T. Abraham.
+US Patent No: 10,959,670
+Other Scholarly Activities
+Reviewer for
+Frontiers in Human Neuroscience.
+Reviewer for
+Frontiers in Computational Neuroscience.
+Reviewer for
+IEEE - Systems, Man & Cybernetics (SMC).
+Improvement Activities
+Enhancing Entrepreneurial Mindset (EM) through AI, Kern Entrepreneurial Engineering Network, June 2025.
+Recent Courses Taught
+BIOE 205 - Signals & Systems in Bioengrg
+CS 374 BL1 (CS 374 BYA, CS 374 BYB, CS 374 BYC, CS 374 BYD, CS 374 BYE, CS 374 BYF, CS 374 BYG, CS 374 BYH, CS 374 CSP, ECE 374 BL1, ECE 374 BLZ, ECE 374 BYA, ECE 374 BYB, ECE 374 BYC, ECE 374 BYD, ECE 374 BYE, ECE 374 BYF, ECE 374 BYG, ECE 374 BYH, ECE 374 CSP, ECE 374 ZJU) - Intro to Algs & Models of Comp
+ECE 220 - Computer Systems & Programming
+ECE 486 - Control Systems
+ECE 515 (ME 540, SE 522) - Control System Theory & Design
+Related News

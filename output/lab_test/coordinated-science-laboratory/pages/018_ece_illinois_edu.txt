@@ -1,0 +1,296 @@
+Ph.D. Degree Information | Electrical & Computer Engineering | Illinois
+University of Illinois Urbana-Champaign
+Apply
+Give
+My.ECE
+The Grainger College of Engineering
+Electrical & Computer Engineering
+Search
+Menu
+Ph.D. Degree Information
+Credit Requirements
+English Proficiency and Teaching Assistantship Requirements
+Admission to Ph.D. Candidacy
+The Doctoral Committee
+The Preliminary Examination
+The Final Examination
+Deposit of the Thesis in the Graduate College
+Time Limitations
+Ph.D. program breadth requirement
+Graduate Study Manual
+Credit Requirements
+Ninety-six hours of credit and a Ph.D. thesis are required (with the exception of students entering with an approved M.S. degree). At least 64 hours must be earned in residence. In addition, the student must take the Departmental Ph.D. Qualifying Examination and be admitted to Ph.D. candidacy, and must pass the Preliminary and Final Examinations for the Ph.D. degree.
+There are three routes to the Ph.D. with each route having different credit requirements. The first route is the traditional M.S./Ph.D program. In this route an MS degree is first earned in ECE before entering the Ph.D program. The second route is for students entering directly into the Ph.D program having already been awarded an approved M.S. degree external to ECE. The third route is called the direct Ph.D. program and does not require an M.S. to enter the Ph.D. program.
+For students first entering the M.S./Ph.D. program, the 96 hours of credit are divided into three stages, consisting of 32 hours generally represented by an M.S. degree or equivalent, 24 hours of coursework beyond the M.S. degree, and a minimum of 40 hours of thesis work for the doctoral thesis. The
+first stage
+of the Ph.D. degree program requires the completion of 32 hours of credit. The 32 hours are represented by an M.S. degree or equivalent. The 24 hours of credit required in the
+second stage
+may include credit in courses taken before admission to Ph.D. candidacy or in courses taken before completion of the M.S. thesis, provided that the credit in such courses has not been included in the 32 hours required in the first stage. All of the coursework hours required must be completed in residence. The 24 hours of coursework are chosen in consultation with the Ph.D. thesis adviser to provide additional background knowledge required for successful completion of the doctoral thesis. During this time, the candidate also pursues a program of background reading, literature search, and research on the Ph.D. thesis topic. The candidate also prepares for the Preliminary Examination for the Ph.D. degree by writing a thesis proposal. During the
+third stage
+, the candidate carries out the research program proposed in the thesis proposal and writes a doctoral thesis requiring a minimum of 40 hours of credit in
+ECE 599
+. General requirements for the thesis may be found in the section titled The Thesis. Continuous registration in
+ECE 599
+(except possibly in summer sessions) is required until all the credit requirements for the Ph.D. degree have been met. Credit in
+ECE 599
+earned before passing the Preliminary Examination may be included in the 40 hours required provided that the credit has not been included in the 32 hours required in the first stage.
+Students admitted to the ECE Graduate Program with M.S. degrees from elsewhere are considered to have completed the first stage of the Ph.D. degree program (equivalent to 32 hours). For students entering the Ph.D program with an approved M.S. degree, 64 hours of credit are required and consists of a minimum of 32 hours of thesis research, and a minimum of 24 hours of coursework. The 24 hours of coursework are chosen in consultation with the Ph.D. thesis adviser to provide additional background knowledge required for successful completion of the doctoral thesis. The additional 8 hours required for the doctoral program may be completed as either thesis or coursework hours. All of the coursework hours required must be completed in residence.
+For students entering the direct Ph.D program without an M.S., 96 hours of credit are required and consists of a minimum of 40 hours of thesis research, 12 hours of three permanent 500-level courses in three different Ph.D breadth requirement areas and a minimum of 36 credit hours in elective courses. The additional 8 hours required for the doctoral program may be completed as either thesis or coursework hours. All of the coursework hours required must be completed in residence.
+For all doctoral students, regardless of path: optionally, up to 4-credit hours of
+ECE 590
+, Seminar, may count towards the elective coursework and up to 8-credit hours of ECE 597, Independent Study, may count towards the elective coursework.
+There are additional specific requirements regarding coursework. One requirement is that the coursework must include three permanent 500 level courses in three different areas. See the section titled
+Ph.D. Breadth Requirement Courses
+for a list of the areas and admissible courses within each area. All Ph.D. breadth requirement courses must be taken at Illinois. Courses taken at Illinois during the first stage of the Ph.D. program, i.e., during the M.S work, may be used to fulfill this breadth requirement. Students are required to achieve a 3.5 GPA in these three courses before being allowed to take their Ph.D. Preliminary exam. Note that this requirement is independent of the 3.25 GPA rule which students must meet to be allowed to take the qualifying examination as part of the Admission to Ph.D. candidacy process.
+English Proficiency and Teaching Assistantship Requirements
+English proficiency and teaching assistantship
+requirements for students admitted to the ECE graduate program in Fall 2017 or later are as follows; these requirements are in addition to the other ECE Ph.D. program requirements.
+Departmental requirement for advancing to ECE Ph.D. Candidacy: Students must provide evidence of spoken English language proficiency, equivalent to that necessary for serving as a Teaching Assistant.
+Departmental requirement for ECE Ph.D.: Completing a Teaching Assistantship for a semester-long course at minimum 25% within 5 years in the ECE graduate program.
+Admission to Ph.D. Candidacy
+Students who seek admission to Ph.D. candidacy must take the Departmental Ph.D. Qualifying Examination. Details of the requirements for admission to Ph.D. candidacy and descriptions of the Qualifying Examination and the admission process may be found in the section titled
+The Oral Qualifying Examination and Admission to Ph.D. Candidacy.
+Students admitted to the ECE graduate program in Fall 2017 or later must also satisfy the English proficiency requirement for advancing to Ph.D. candidacy.
+The Doctoral Committee
+During the final stages of the development of the thesis proposal, the candidate consults with the Ph.D. thesis adviser regarding the proposed membership of the candidate's doctoral committee. The doctoral committee must satisfy the following conditions:
+The committee must include at least four members. At least three committee members must have an appointment or affiliate status in ECE (this includes Research faculty with 0% appointments in ECE). The sum of tenured or tenure-track faculty appointment percentages in ECE must be at least 200% (for example, two 100% time appointments, or one 100% time plus two 50% time appointments). At least three committee members must be members of the Graduate faculty. At least two of the committee members must be tenured.
+The committee chair must be an active Member of the ECE Graduate Faculty, or a member of the Graduate Faculty with Affiliate status in ECE.
+At least one member must have primary research interests in an area different from that of the candidate.
+The Preliminary Examination
+The Preliminary Examination for the Ph.D. degree is an oral examination administered by the candidate's doctoral committee. For students in the M.S./Ph.D. track or students entering with an approved M.S., the examination may be taken no earlier than the semester in which the candidate completes the 24 hours of coursework required in the second stage of the Ph.D. program. For students in the direct Ph.D., the examination may be taken no earlier than the semester in which the candidate completes the 48 hours of required coursework. Ph.D. students are required to take their Prelim Exam within 4 semesters after passing the Qualifying Exam.
+The candidate contacts each potential committee member to request that they serve on the proposed doctoral committee and makes arrangements for a suitable time and place for the Preliminary Examination. The candidate must submit the proposed committee list and information regarding the time and place for the examination using the
+Prelim Exam Signup
+link on the My.ECE web portal at least three weeks prior to the date chosen for the examination. The Graduate College appoints the doctoral committee upon the recommendation of the Department Head.
+The candidate must submit the thesis proposal to the doctoral committee at least one week prior to the Preliminary Examination. The proposal must outline the problem to be studied for the Ph.D. degree, the procedures and methods to be used in attacking the problem, work already completed on the chosen problem, and the additional work proposed to be completed. The proposal also must include a tentative title for the thesis.
+The Preliminary Examination is intended to test the validity of the thesis proposal and the candidate's fitness to carry out the research work proposed. It begins with a short presentation by the candidate, outlining the problem chosen, the procedures and methods to be used, the work already completed, and a proposal for the additional work to be completed for the Ph.D. degree. The committee then questions the candidate regarding the problem, the preliminary results, and the proposed work. The candidate may be asked to clarify matters in the thesis proposal and to defend various aspects of the work already completed or the work being proposed. The committee may suggest alternative methods of attacking the problem or suggest different aspects of the problem as suitable areas for exploration. The committee also may ask questions of a more general nature in order to test the adequacy of the candidate's preparation for the proposed research.
+At the conclusion of the examination, the chairman of the committee announces one of four decisions:
+The candidate passed the Preliminary Examination and may proceed to independent study and research for the doctoral degree.
+The Examination is temporarily adjourned. The candidate must revise the thesis proposal and be examined again within the next six months.
+The candidate failed, but may submit a new thesis proposal and take another Preliminary Examination after completing additional coursework, independent study, or research.
+The candidate failed and will not be admitted to another examination
+The candidate may submit the thesis proposal to the ECE Editorial Services for a nonmandatory, informal editorial review. Because the purpose of the informal editorial review is to prepare for a smoother dissertation writing process, not to polish the proposal for the Preliminary Examination, the proposal may be submitted to the Publications Office any time, before or after the examination.
+The Final Examination
+The Final Examination for the Ph.D. degree is a public oral examination administered by the candidate's doctoral committee. It must take place at least six months (but no later than five years) after the Preliminary Examination.
+The examination begins with a presentation by the candidate outlining the problem chosen, the procedures and methods used, and the results obtained. The committee then questions the candidate regarding the thesis work. The candidate may be asked to clarify matters in the thesis and to defend various aspects of the work. Errors and ambiguities in the thesis may be brought to the candidate's attention. At the conclusion of the examination, the chairman of the committee announces one of five decisions:
+The candidate passed the Final Examination and the thesis is accepted as submitted. The Thesis/Dissertation Approval form is
+signed by the director of research (adviser), all voting committee members who voted to pass the student at the final exam, and the department head
+The candidate passed the Final Examination but the thesis will be accepted and signed by the committee after various specified corrections and revisions have been made. The candidate must make the necessary changes and submit the thesis to the committee members for their signatures.
+The Examination is temporarily adjourned. The candidate must revise the thesis and be examined again within the next six months.
+The candidate failed, but may rewrite the thesis and take another Final Examination after completing additional independent study and research.
+The candidate failed and will not be admitted to another examination.
+Deposit of the Thesis in the Graduate College
+When the dissertation is ready, the candidate submits it to
+ECE Editorial Services
+for format checking and copyediting. Ideally, this submission happens after the
+Thesis/Dissertation Approval
+form has been signed by the committee members. Following format approval, Editorial Services submits the Thesis/Dissertation Approval (RDA) form with adviser/committee member signatures to the Department Head for signature approval and then delivers the completed TDA form to the Graduate College.
+Allow up to 48 hours for obtaining Department Head approval.
+Details of various requirements to be satisfied are given in the section titled
+The Thesis
+. The Ph.D. dissertation must be deposited in the Graduate College no later than one year after passing the Final Examination.
+Time Limitations
+A candidate for the Ph.D. degree must complete all requirements for that degree within seven calendar years after first registration in the Graduate College. However, students who received the M.S. degree from elsewhere must complete all requirements for the Ph.D. degree within six calendar years after first registration in the
+Graduate College
+. Students who receive the M.S. degree from the University of Illinois at Urbana-Champaign and whose studies are interrupted immediately thereafter for a substantial period of time also must complete all requirements for the Ph.D. degree within six calendar years after they resume their studies.
+Ph.D. Program Breadth Requirements Courses
+Course
+BIOMEDICAL IMAGING, BIOENGINEERING, AND ACOUSTICS
+ECE 514
+Advanced Biosensors
+ECE 529
+Light-Matter Interactions
+ECE 537
+Speech Processing Fundamentals
+ECE 545
+Advanced Physical Acoustics
+ECE 564
+Modern Light Microscopy
+ECE 594
+Mathematical Models of Language
+Course
+COMMUNICATIONS
+ECE 556
+Coding Theory
+ECE 559
+Topics in Communications
+ECE 561
+Detection and Estimation Theory
+ECE 562
+Advanced Digital Communications
+ECE 563
+Information Theory
+Course
+CONTROL SYSTEMS
+ECE 515
+Control System Theory & Design
+ECE 517
+Nonlinear & Adaptive Control
+ECE 528
+Analysis of Nonlinear Systems
+ECE 553
+Optimum Control Systems
+ECE 554
+Dynamic System Reliability
+ECE 555
+Control of Stochastic Systems
+ECE 586
+Topics in Decision and Control
+Course
+ELECTROMAGNETICS, OPTICS AND REMOTE SENSING
+ECE 520
+Electromagnetic Waves and Radiating Systems
+ECE 521
+Analytical Foundations of Electromagnetic Theory
+ECE 531
+Theory of Guided Waves
+ECE 540
+Computational Electromagnetics
+ECE 569
+Inverse Problems in Optics
+ECE 570
+Nonlinear Optics
+ECE 571
+Electromagnetic Waves in Inhomogeneous Media
+ECE 577
+Advanced Antenna Theory
+ECE 578
+Adv EM Diffraction & Radiation
+Course
+GENERAL SCIENCES
+ECE 534
+Random Processes
+ECE 543
+Statistical Learning Theory
+ECE 566
+Computational Inference
+ECE 579
+Computational Complexity
+ECE 580
+Optimization by Vector Space Methods
+All 500-level courses in Math/Physics/Chemistry/CS/MatSE, excluding 598, individual study, seminar courses and cross-listed courses that appear in other areas of this table.
+Course
+HARDWARE SYSTEMS
+ECE 511
+Computer Architecture
+ECE 512
+Computer Microarchitecture
+Course
+INTEGRATED CIRCUITS AND SYSTEMS
+ECE 527
+System-On-Chip Design
+ECE 546
+Advanced Signal Integrity
+ECE 552
+Numerical Circuit Analysis
+ECE 560
+VLSI in Signal Processing and Communications
+ECE 581
+Advanced Analog IC Design
+ECE 582
+Physical VLSI Design
+ECE 585
+MOS Device Modeling & Design
+Course
+MICROELECTRONICS AND PHOTONICS
+ECE 510
+Micro and Nanolithography
+ECE 518
+Adv Semiconductor Nanotech
+ECE 523
+Gaseous Electronics and Plasmas
+ECE 532
+Compound Semiconductors and Diode Lasers
+ECE 535
+Theory of Semiconductors and Semiconductor Devices
+ECE 536
+Integrated Optics and Optoelectronics
+ECE 538
+2D Material Electronics and Photonics
+ECE 539
+Advanced Theory of Semiconductors & Devices
+ECE 565
+Energy Dissipation Electronics
+ECE 572
+Quantum Optoelectronics
+ECE 574
+Nanophotonics
+ECE 583
+Semiconductor Nanotech Lab
+Course
+NETWORKING AND DISTRIBUTED COMPUTING
+CS 525
+Advanced Distributed Systems
+CS 538
+Advanced Computer Networks
+ECE 526
+Distributed Algorithms
+ECE 567
+Communication Network Analysis
+Course
+POWER AND ENERGY SYSTEMS
+ECE 530
+Analysis Techniques for Large-Scale Electrical Systems
+ECE 568
+Modeling and Control of Electromechanical Systems
+ECE 573
+Power Systems Operations and Control
+ECE 576
+Power System Dynamics and Stability
+ECE 588
+Electricity Resource Planning
+Course
+RELIABLE AND SECURE COMPUTING SYSTEMS
+ECE 524
+Advanced Computer Security
+ECE 541
+Computer Systems Analysis
+ECE 542
+Design of Fault-Tolerant Digital Systems
+Course
+ROBOTICS AND ARTIFICIAL INTELLIGENCE
+CS 546
+Machine Learning in NLP
+CS 547
+Deep Learning
+ECE 548
+Computer Models of Cognitive Processes
+ECE 549
+Computer Vision
+ECE 550
+Advanced Robotic Planning
+CS 576
+Topics in Automated Deduction
+ECE 589
+Robot Control Theory
+Course
+SIGNAL PROCESSING
+ECE 513
+Vector Space Signal Processing
+ECE 544
+Topics in Signal Processing
+ECE 547
+Topics in Image Processing
+ECE 551
+Digital Signal Processing, II
+ECE 558
+Digital Imaging
+Course
+SOFTWARE SYSTEMS
+CS 511
+Advanced Data Management
+CS 512
+Data Mining Principles
+CS 522
+Programming Language Semantics
+CS 523
+Advanced Operating Systems
+CS 524
+Concurrent Programming Languages
+CS 526
+Advanced Compiler Construction
+ECE 508
+Manycore Parallel Algorithms
+ECE 584
+Embedded System Verification
+Ready to Apply?
+Start Here

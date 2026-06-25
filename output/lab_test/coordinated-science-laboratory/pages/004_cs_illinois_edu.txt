@@ -1,0 +1,186 @@
+Yaoyao Liu
+| Siebel School of Computing and Data Science | Illinois
+University of Illinois Urbana-Champaign
+Alumni
+Corporate
+People
+My.SiebelSchool
+The Grainger College of Engineering
+Siebel School of Computing and Data Science
+Search
+Menu
+Yaoyao Liu
+Yaoyao Liu
+he/him/his
+Assistant Professor, Information Sciences
+(217) 300-0910
+lyy@illinois.edu
+321 Coordinated Science Laboratory
+For More Information
+Homepage
+Google Scholar
+Education
+PhD, Computer Science,
+Max Planck Institute for Informatics
+BS, Electronic Information Engineering,
+Tianjin University
+Biography
+Yaoyao Liu is an assistant professor in the
+School of Information Sciences
+and the
+Coordinated Science Laboratory
+at the
+University of Illinois Urbana-Champaign
+. He is also affiliated with the
+Siebel School of Computing and Data Science
+and the
+Department of Electrical & Computer Engineering
+. Previously, he completed his PhD in computer science at
+Max Planck Institute for Informatics
+and his BS in electronic information engineering at
+Tianjin University
+. His research lies at the intersection of computer vision and machine learning, with a special focus on building intelligent visual systems that are continual and data-efficient. His research interests include continual learning, few-shot learning, semi-supervised learning, generative models, 3D geometry models, and medical imaging.
+Academic Positions
+Assistant Professor,
+School of Information Sciences
+Assistant Professor,
+Coordinated Science Laboratory
+Faculty Affiliate,
+Siebel School of Computing and Data Science
+Faculty Affiliate,
+Department of Electrical & Computer Engineering
+Faculty Affiliate,
+National Center for Supercomputing Applications
+Faculty Affiliate,
+Illinois Informatics Programs
+Other Professional Activities
+Editorial Board Member
+IJCV
+TMLR
+Area Chair
+CVPR
+2024-2026,
+ECCV
+2024-2026,
+NeurIPS
+2024-2025,
+ICML
+2025-2026,
+ICLR
+2024-2026,
+AAAI
+2026,
+AISTATS
+2023-2026,
+UAI
+2023-2026,
+ACM MM
+2024-2025,
+BMVC
+2024-2025.
+Senior Program Committee
+AAAI
+2025,
+IJCAI
+2021.
+Graduate Research Opportunities
+I am actively looking for self-motivated Ph.D. students with interests in computer vision and machine learning. If you are interested, please send me an email. You may see details here:
+https://vision.ischool.illinois.edu/openings/
+Research Interests
+Computer Vision
+Machine Learning
+Medical Image Analysis
+Research Areas
+Artificial Intelligence
+Articles in Conference Proceedings
+Wei Cao, Hao Zhang, Fengrui Tian, Yulun Wu, Yingying Li, Shenlong Wang, Ning Yu,
+Yaoyao Liu
+. "
+FreeOrbit4D: Training-Free Arbitrary Camera Redirection for Monocular Videos via Geometry-Complete 4D Reconstruction
+," Special Interest Group on Computer Graphics and Interactive Techniques Conference (SIGGRAPH Conference Papers), 2026.
+Zichen Tian,
+Yaoyao Liu,
+Qianru Sun. "
+Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning
+," IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
+Ruxiao Duan, Jieneng Chen, Adam Kortylewski, Alan Yuille,
+Yaoyao Liu
+. "
+Prompt-Based Exemplar Super-Compression and Regeneration for Class-Incremental Learning
+," The British Machine Vision Conference (BMVC), 2025.
+Wufei Ma, Guofeng Zhang, Qihao Liu, Guanning Zeng, Adam Kortylewski,
+Yaoyao Liu,
+Alan Yuille. "
+ImageNet3D: Towards General-Purpose Object-Level 3D Understanding
+," Neural Information Processing Systems (NeurIPS), 2024 (Datasets and Benchmarks Track).
+Yuanhao Cai, Zihao Xiao, Yixun Liang, Minghan Qin, Yulun Zhang, Xiaokang Yang,
+Yaoyao Liu
+, Alan Yuille. "
+HDR-GS: Efficient High Dynamic Range Novel View Synthesis at 1000x Speed via Gaussian Splatting
+," Neural Information Processing Systems (NeurIPS), 2024.
+Tom Fischer,
+Yaoyao Liu
+, Artur Jesslen, Noor Ahmed, Prakhar Kaushik, Angtian Wang, Alan Yuille, Adam Kortylewski, Eddy Ilg. "
+iNeMo: Incremental Neural Mesh Models for Robust Class-Incremental Learning
+," European Conference on Computer Vision (ECCV), 2024.
+Wufei Ma*, Qihao Liu*, Jiahao Wang*, Angtian Wang, Xiaoding Yuan, Yi Zhang, Zihao Xiao, Guofeng Zhang, Beijia Lu, Ruxiao Duan, Yongrui Qi, Adam Kortylewski,
+Yaoyao Liu
+, Alan Yuille. "
+Generating Images with 3D Annotations Using Diffusion Models
+," International Conference on Learning Representations (ICLR), 2024 (Spotlight).
+Yaoyao Liu
+, Yingying Li, Bernt Schiele, Qianru Sun. "
+Wakening Past Concepts without Past Data: Class-Incremental Learning from Online Placebos
+," IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024.
+Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille,
+Yaoyao Liu
+, Zongwei Zhou. "
+Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+," International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2023.
+Yaoyao Liu
+, Bernt Schiele, Andrea Vedaldi, Christian Rupprecht. "
+Continual Detection Transformer for Incremental Object Detection
+," IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023.
+Zilin Luo,
+Yaoyao Liu
+, Bernt Schiele, Qianru Sun. "
+Class-Incremental Exemplar Compression for Class-Incremental Learning
+," IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023.
+Yaoyao Liu
+, Yingying Li, Bernt Schiele, Qianru Sun. "
+Online Hyperparameter Optimization for Class-Incremental Learning
+," AAAI Conference on Artificial Intelligence (AAAI), 2023 (Oral Presentation).
+Yaoyao Liu
+, Bernt Schiele, Qianru Sun. "
+RMM: Reinforced Memory Management for Class-Incremental Learning
+," Neural Information Processing Systems (NeurIPS), 2021.
+Yaoyao Liu
+, Bernt Schiele, Qianru Sun. "
+Adaptive Aggregation Networks for Class-Incremental Learning
+," IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.
+Yaoyao Liu
+, Bernt Schiele, Qianru Sun. "
+An Ensemble of Epoch-wise Empirical Bayes for Few-shot Learning
+," European Conference on Computer Vision (ECCV), 2020.
+Yaoyao Liu
+, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun. "
+Mnemonics Training: Multi-Class Incremental Learning without Forgetting
+," IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020 (Oral Presentation).
+Xinzhe Li, Qianru Sun,
+Yaoyao Liu
+, Shibao Zheng, Qin Zhou, Tat-Seng Chua, Bernt Schiele. "
+Learning to Self-Train for Semi-Supervised Few-Shot Classification
+," Neural Information Processing Systems (NeurIPS), 2019.
+Qianru Sun*,
+Yaoyao Liu
+*, Tat-Seng Chua, Bernt Schiele. "
+Meta-Transfer Learning for Few-Shot Learning
+," IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+Recent Courses Taught
+IS 327 - Concepts of Machine Learning
+IS 407 - Introduction to Data Science
+IS 517 - Methods of Data Science
+Related News
+NVIDIA Academic Grant Program awards Yaoyao Liu's AI project
+Illinois researchers find that retraining only small parts of AI models can cut costs and prevent forgetting
+News Notes

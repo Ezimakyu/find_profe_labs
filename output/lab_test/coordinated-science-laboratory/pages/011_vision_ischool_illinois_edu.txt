@@ -1,0 +1,153 @@
+Computer Vision and Machine Learning Group | University of Illinois Urbana-Champaign
+School of Information Sciences
+Computer Vision and Machine Learning Group
+Home
+Publications
+People
+Teaching
+Openings
+Previous
+Next
+The Computer Vision and Machine Learning Group studies a wide range of problems in visual understanding, data-efficient learning, and intelligent perception. Our research addresses fundamental challenges in computer vision, machine learning, and multimodal learning, while also exploring real-world applications across domains such as healthcare and interactive systems. Based in the
+School of Information Sciences
+at the
+University of Illinois Urbana-Champaign
+, our group benefits from close collaborations with the the
+Computer Vision Group
+, the
+Siebel School of Computing and Data Science
+, the
+Department of Electrical and Computer Engineering
+, the
+Coordinated Science Laboratory
+, and the
+National Center for Supercomputing Applications
+Research Areas
+Our research lies at the intersection of
+computer vision
+and
+machine learning
+— with a special focus on building intelligent visual systems that are continual and data-efficient. Our research interests include
+continual learning
+few-shot learning
+semi-supervised learning
+generative models
+3D geometry models
+and
+medical image analysis
+. You may see details
+here
+News
+Jun. 2026
+Three papers are accepted to
+ECCV 2026
+Jun. 2026
+We are honored to receive the
+AMD AI & HPC Cluster Allocation Award
+. Thank you, AMD!
+Jun. 2026
+Wei Cao receievd the Best Paper Award at
+CVPR 2026 Generative Models
+for Computer Vision Workshop
+Jun. 2026
+Yaoyao Liu will give an invited talk at
+CVPR 2026 Video World Models Workshop
+Jun. 2026
+Yaoyao Liu will give an invited talk at
+CVPR 2026 AI-assisted Long Video Creation Workshop
+Jun. 2026
+Yaoyao Liu will give an invited talk at
+CVPR 2026 Long-form Video Understanding, Generation, and Action Workshop
+Jun. 2026
+Yaoyao Liu will give an invited talk at
+CVPR 2026 Video Generative Models Workshop
+Jun. 2026
+Yaoyao Liu is recognized as an
+Outstanding Area Chair
+CVPR 2026
+May 2026
+We are honored to receive the
+Lambda's Research Grant
+. Thank you, Lambda!
+Apr. 2026
+Yaoyao Liu received the
+U of I Facilitating Learning Excellence Award
+Mar. 2026
+Our paper about
+4D reconstrcution
+is accepted to
+SIGGRAPH 2026
+Mar. 2026
+Our paper about
+4D diffusion models
+is accepted to
+TPAMI
+Mar. 2026
+We are honored to receive the
+NVIDIA Academic Grant
+. Thank you, NVIDIA!
+Feb. 2026
+Yaoyao Liu will give a talk on data-efficient learning at
+UC San Diego
+Show more
+Nov. 2025
+Yaoyao Liu is recognized as a
+Top Area Chair
+NeurIPS 2025
+Nov. 2025
+Yaoyao Liu is selected for the
+AAAI-26 New Faculty Highlights Program
+Oct. 2025
+Yaoyao Liu will give a talk at the
+Workshop on Multimodal Continual Learning
+ICCV 2025
+Sep. 2025
+Yaoyao Liu gave invited talks on continual learning and 3D at MSU and UIC.
+Aug. 2025
+Yaoyao Liu will serve as an Editorial Board Member of
+IJCV
+Jul. 2025
+Our paper about
+continual learning
+is accepted to
+BMVC 2025
+Feb. 2025
+Our paper about
+meta-learning
+is accepted to
+CVPR 2025
+Oct. 2024
+Yaoyao Liu received the
+ECVA PhD Award
+Oct. 2024
+Yaoyao Liu gave guest lectures on 3D at UMich and UC Santa Cruz.
+Oct. 2024
+Yaoyao Liu joined the
+University of Illinois
+as an assistant professor.
+Sep. 2024
+Two papers about
+are accepted to
+NeurIPS 2024
+and its D&B track.
+Jul. 2024
+Our paper about
+robust class-incremental learning
+is accepted to
+ECCV 2024
+Jun. 2024
+Yaoyao Liu gave a talk on 3D generative models at
+CVPR 2024 Area Chair Workshop
+Jan. 2024
+Our paper about
+diffusion models
+is accepted to
+ICLR 2024
+School of Information Sciences
+Computer Vision and Machine Learning Group
+614 E. Daniel St. MC-314
+Champaign, IL 61820-7999
+Phone:
+(217) 300-0910
+Email:
+vision@ischool.illinois.edu
